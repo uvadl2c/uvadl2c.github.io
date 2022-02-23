@@ -91,7 +91,7 @@ def build_lectures(index_file,
 				   lecture_template_filename="lecture_template.html",
 				   tutorial_template_filename="tutorial_template.html"):
 
-	with open(json_filename, "r") as f:
+	with open(json_filename, "r", encoding='utf-8') as f:
 		lectures_dict = json.load(f)
 
 	with open(lecture_template_filename, "r") as f:
@@ -214,5 +214,5 @@ if __name__ == '__main__':
 	index_file = build_lectures(index_file)
 	index_file = build_practicals(index_file)
 
-	with open("../index.html", "w") as f:
+	with open("../index.html", "w", encoding='utf-8') as f:
 		f.write(index_file)
