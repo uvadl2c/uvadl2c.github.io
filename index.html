@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>UvA Deep Learning Course</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86672135-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">UvA Deep Learning Course</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#lectures">Lectures</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#old-lectures">Past lectures</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#practicals">Practicals</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#course-links">Links</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>UVA Deep Learning Course</h1>
+                <hr>
+                <p>MSc in Artificial Intelligence for the University of Amsterdam.</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <hr class="light">
+                    <p class="text-faded" style="text-align:justify">Deep learning is primarily a study of multi-layered neural networks, spanning over a great range of model architectures. This course is taught in the MSc program in Artificial Intelligence of the University of Amsterdam. In this course we study the theory of deep learning, namely of modern, multi-layered neural networks trained on big data. The course is taught by Assistant Professor <a href="mailto: x.zhen@uva.nl" style="color: white;">Xiantong Zhen</a>.
+                    The teaching assistants are
+                    <a href='mailto:c.athanasiadis@uva.nl' target='_blank' style='color: white;'>Christos Athanasiadis</a>, <a href='mailto:i.a.auzina@uva.nl' target='_blank' style='color: white;'>Ilze Amanda Auzina</a>, <a href='mailto:l.f.bereska@uva.nl' target='_blank' style='color: white;'>Leonard Bereska</a>, <a href='mailto:jim.boelrijk@gmail.com' target='_blank' style='color: white;'>Jim Boelrijk</a>, <a href='mailto:n.e.butt@uva.nl' target='_blank' style='color: white;'>Natasha Butt</a>, <a href='mailto:m.m.derakhshani@uva.nl' target='_blank' style='color: white;'>Mohammad Mahdi Derakhshani</a>, <a href='mailto:w.v.s.o.vandendool@uva.nl' target='_blank' style='color: white;'>Winfried van den Dool</a>, <a href='mailto:y.du@uva.nl' target='_blank' style='color: white;'>Yingjun Du</a>, <a href='mailto:a.gabel@uva.nl' target='_blank' style='color: white;'>Alex Gabel</a>, <a href='mailto:m.hendriksen@uva.nl' target='_blank' style='color: white;'>Mariya Hendriksen</a>, <a href='mailto:t.f.lieberum@uva.nl' target='_blank' style='color: white;'>Tom Lieberum</a>, <a href='https://phlippe.github.io' target='_blank' style='color: white;'>Phillip Lippe</a>, <a href='mailto:y.liu6@uva.nl' target='_blank' style='color: white;'>Yongtuo Liu</a>, <a href='mailto:j.liu5@uva.nl' target='_blank' style='color: white;'>Jie Liu</a>, <a href='mailto:b.k.miller@uva.nl' target='_blank' style='color: white;'>Ben Miller</a>, <a href='mailto:i.najdenkoska@uva.nl' target='_blank' style='color: white;'>Ivona Najdenkoska</a>, <a href='mailto:s.rastegar2@uva.nl' target='_blank' style='color: white;'>Sarah Rastegar</a>, <a href='mailto:n.rutsch@uva.nl' target='_blank' style='color: white;'>Nadja Rutsch</a>, <a href='mailto:s.salehidehnavi@uva.nl' target='_blank' style='color: white;'>Mohammadreza Salehi</a>, <a href='mailto:j.shen@uva.nl' target='_blank' style='color: white;'>Jiayi Shen</a>, <a href='mailto:t.j.vansonsbeek@uva.nl' target='_blank' style='color: white;'>Tom van Sonsbeek</a>, <a href='mailto:r.valperga@uva.nl' target='_blank' style='color: white;'>Riccardo Valperga</a>, <a href='mailto:h.wang3@uva.nl' target='_blank' style='color: white;'>Haochen Wang</a>, <a href='mailto:z.xiao@uva.nl' target='_blank' style='color: white;'>Zehao Xiao</a>
+                </p>
+                    <a href="mailto: x.zhen@uva.nl"><img class="img-circle" src="images/people/xiantong-zhen.png" hspace="5" width="120" title="Xiantong Zhen"></a>
+                    <a href='mailto:c.athanasiadis@uva.nl'><img class='img-circle' src='../images/people/christos-athanasiadis.jpeg' hspace='5' width='120' alt='Christos Athanasiadis' title='Christos Athanasiadis'></a>
+<a href='mailto:i.a.auzina@uva.nl'><img class='img-circle' src='../images/people/ilze-amanda-auzina.jpg' hspace='5' width='120' alt='Ilze Amanda Auzina' title='Ilze Amanda Auzina'></a>
+<a href='mailto:l.f.bereska@uva.nl'><img class='img-circle' src='../images/people/leonard-bereska.jpg' hspace='5' width='120' alt='Leonard Bereska' title='Leonard Bereska'></a>
+<a href='mailto:jim.boelrijk@gmail.com'><img class='img-circle' src='../images/people/jim-boelrijk.jpg' hspace='5' width='120' alt='Jim Boelrijk' title='Jim Boelrijk'></a></br></br>
+<a href='mailto:n.e.butt@uva.nl'><img class='img-circle' src='../images/people/natasha-butt.jpg' hspace='5' width='120' alt='Natasha Butt' title='Natasha Butt'></a>
+<a href='mailto:m.m.derakhshani@uva.nl'><img class='img-circle' src='../images/people/mohammad-mahdi-derakhshani.jpg' hspace='5' width='120' alt='Mohammad Mahdi Derakhshani' title='Mohammad Mahdi Derakhshani'></a>
+<a href='mailto:w.v.s.o.vandendool@uva.nl'><img class='img-circle' src='../images/people/winfried-van-den-dool.jpg' hspace='5' width='120' alt='Winfried van den Dool' title='Winfried van den Dool'></a>
+<a href='mailto:y.du@uva.nl'><img class='img-circle' src='../images/people/yingjun-du.jpg' hspace='5' width='120' alt='Yingjun Du' title='Yingjun Du'></a>
+<a href='mailto:a.gabel@uva.nl'><img class='img-circle' src='../images/people/alex-gabel.jpeg' hspace='5' width='120' alt='Alex Gabel' title='Alex Gabel'></a></br></br>
+<a href='mailto:m.hendriksen@uva.nl'><img class='img-circle' src='../images/people/mariya-hendriksen.png' hspace='5' width='120' alt='Mariya Hendriksen' title='Mariya Hendriksen'></a>
+<a href='mailto:t.f.lieberum@uva.nl'><img class='img-circle' src='../images/people/tom-lieberum.jpeg' hspace='5' width='120' alt='Tom Lieberum' title='Tom Lieberum'></a>
+<a href='https://phlippe.github.io'><img class='img-circle' src='../images/people/phillip-lippe.jpg' hspace='5' width='120' alt='Phillip Lippe' title='Phillip Lippe'></a>
+<a href='mailto:y.liu6@uva.nl'><img class='img-circle' src='../images/people/yongtuo-liu.jpg' hspace='5' width='120' alt='Yongtuo Liu' title='Yongtuo Liu'></a>
+<a href='mailto:j.liu5@uva.nl'><img class='img-circle' src='../images/people/jie-liu.png' hspace='5' width='120' alt='Jie Liu' title='Jie Liu'></a></br></br>
+<a href='mailto:b.k.miller@uva.nl'><img class='img-circle' src='../images/people/ben-miller.png' hspace='5' width='120' alt='Ben Miller' title='Ben Miller'></a>
+<a href='mailto:i.najdenkoska@uva.nl'><img class='img-circle' src='../images/people/ivona-najdenkoska.jpg' hspace='5' width='120' alt='Ivona Najdenkoska' title='Ivona Najdenkoska'></a>
+<a href='mailto:s.rastegar2@uva.nl'><img class='img-circle' src='../images/people/sarah-rastegar.jpg' hspace='5' width='120' alt='Sarah Rastegar' title='Sarah Rastegar'></a>
+<a href='mailto:n.rutsch@uva.nl'><img class='img-circle' src='../images/people/nadja-rutsch.jpeg' hspace='5' width='120' alt='Nadja Rutsch' title='Nadja Rutsch'></a>
+<a href='mailto:s.salehidehnavi@uva.nl'><img class='img-circle' src='../images/people/mohammadreza-salehi.jpg' hspace='5' width='120' alt='Mohammadreza Salehi' title='Mohammadreza Salehi'></a></br></br>
+<a href='mailto:j.shen@uva.nl'><img class='img-circle' src='../images/people/jiayi-shen.jpg' hspace='5' width='120' alt='Jiayi Shen' title='Jiayi Shen'></a>
+<a href='mailto:t.j.vansonsbeek@uva.nl'><img class='img-circle' src='../images/people/tom-van-sonsbeek.jpg' hspace='5' width='120' alt='Tom van Sonsbeek' title='Tom van Sonsbeek'></a>
+<a href='mailto:r.valperga@uva.nl'><img class='img-circle' src='../images/people/riccardo-valperga.jpeg' hspace='5' width='120' alt='Riccardo Valperga' title='Riccardo Valperga'></a>
+<a href='mailto:h.wang3@uva.nl'><img class='img-circle' src='../images/people/haochen-wang.jpg' hspace='5' width='120' alt='Haochen Wang' title='Haochen Wang'></a>
+<a href='mailto:z.xiao@uva.nl'><img class='img-circle' src='../images/people/zehao-xiao.jpg' hspace='5' width='120' alt='Zehao Xiao' title='Zehao Xiao'></a></br></br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lectures">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Lectures</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+
+            <p><h3>Week 1</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 1: Introduction to Deep Learning</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">November 4, 2021 | 11.00-13.00 | Lecture</p>
+                        <p>This lecture introduces the structure of the Deep Learning course, and gives a short overview of the history and motivation of Deep Learning.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606401'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 1.1</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606402'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 1.2</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606403'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 1.3</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606404'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 1.4</span></a></br>
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tutorial-box" style="margin-bottom: 10px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-desktop text-primary"></span><span class="lecture-title">Tutorial Week 1: Introduction to PyTorch + Working with the Lisa cluster</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">November 4, 2021 | 13.00-15.00 | Tutorial session</p>
+                        <p>This tutorial introduces the practical sessions, the TA organizer team, etc. Afterwards, we will discuss the PyTorch machine learning framework, and introduce you to the basic concepts of Tensors, computation graphs and GPU computation. We will continue with a small hands-on tutorial of building your own, first neural network in PyTorch.</p><p>We also provide a crash-course for working with the Lisa cluster, and how to setup your account for Lisa.</p></p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://youtu.be/oluO8JiC7EA'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 1 (Introduction)</span></a></br>
+            <a href='https://youtu.be/wnKZZgFQY-E'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 2 (PyTorch Basics)</span></a></br>
+            <a href='https://youtu.be/schbjeU5X2g'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 3 (NNs in PyTorch)</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/tutorial_sessions?preview=5576213'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Introduction Slides</span></a></br>
+            <a href='https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial1/Lisa_Cluster.html'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>Lisa Tutorial</span></a></br>
+            <a href='https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>PyTorch tutorial notebook</span></a></br>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 2: Deep Feedforward Networks</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">November 5, 2021 | 11.00-13.00 | Lecture</p>
+                        <p>This lectures introduces basic concepts for Deep Feedforward Networks such linear and nonlinear modules, gradient-based learning and the backpropagation algorithm.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606405'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 2.1</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606406'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 2.2</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606407'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 2.3</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606408'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 2.4</span></a></br>
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 2</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 3: Deep Learning Optimizations I</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">November 11, 2021 | 11.00-13.00 | Lecture</p>
+                        <p>This lecture series discusses advanced optimizers, initialization, normalization and hyperparameter tuning.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5628205'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 3.1</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5628206'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 3.2.1</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5629993'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 3.2.2</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5628207'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 3.3</span></a></br>
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tutorial-box" style="margin-bottom: 10px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-desktop text-primary"></span><span class="lecture-title">Tutorial Week 2: Activation Functions</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">November 11, 2021 | 13.00-15.00 | Tutorial session + TA Q&A</p>
+                        <p>In this tutorial, we will discuss the role of activation functions in a neural network, and take a closer look at the optimization issues a poorly designed activation function can have.</p><p>After the presentation, there will by a TA session for Q&A for assignment 1, lecture content and more.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://youtu.be/3C_m71NDkPs'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 1</span></a></br>
+            <a href='https://youtu.be/GjCfAeHGq9U'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 2</span></a></br>
+            <a href='https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial3/Activation_Functions.html'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>Jupyter notebook</span></a></br>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 4: Deep Learning Optimizations II</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">November 12, 2021 | 11.00-13.00 | Lecture</p>
+                        <p>This lecture series discusses advanced optimizers, initialization, normalization and hyperparameter tuning.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5663691'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 4.1</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5628210'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 4.2</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5628211'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 4.3</span></a></br>
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 3</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 5: Convolutional Neural Networks</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">November 18, 2021 | 11.00-13.00 | Lecture</p>
+                        <p>This lecture series covers convolutional neural networks for image processing.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5674660'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 5.1</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5672737'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 5.2</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5672739'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 5.3</span></a></br>
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tutorial-box" style="margin-bottom: 10px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-desktop text-primary"></span><span class="lecture-title">Tutorial Week 3: Optimization and Initialization</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">November 18, 2020 | 13.00-15.00 | Tutorial session + TA Q&A</p>
+                        <p>In this tutorial, we will discuss the importance of proper parameter initialization in deep neural networks, and how we can find a suitable one for our network. In addition, we will review the optimizers SGD and Adam, and compare them on complex loss surfaces.</p><p>After the presentation, there will by a TA session for Q&A for assignment 1, lecture content and more.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://youtu.be/X5m7bC4xCLY'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 1 (Initialization)</span></a></br>
+            <a href='https://youtu.be/UcRBZbAP9hM'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 2 (Optimization)</span></a></br>
+            <a href='https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial4/Optimization_and_Initialization.html'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>Jupyter notebook</span></a></br>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 6: Modern ConvNets</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">November 19, 2021 | 11.00-13.00 | Lecture</p>
+                        <p>This lecture series covers modern ConvNet architecture.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5680921'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 6.1</span></a></br>
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 4</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 7: Recurrent Neural Networks</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">November 25, 2021 | 11.00-13.00 | Lecture</p>
+                        <p>This lecture series covers Recurrent Neural Networks</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5747083'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 6.1</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5747084'><i class='fa fa fa-file-powerpoint-o text-primary'></i><span class='lecture-document'>Slides 6.2</span></a></br>
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tutorial-box" style="margin-bottom: 10px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-desktop text-primary"></span><span class="lecture-title">Tutorial Week 4: Inception, ResNet and DenseNet</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">November 25, 2020 | 13.00-15.00 | Tutorial session + TA Q&A</p>
+                        <p>In this tutorial, we will implement three popular, modern ConvNet architectures: GoogleNet, ResNet, and DenseNet. We will compare them on the CIFAR10 dataset, and discuss the advantages that made them popular and successful across many tasks.</p><p>After the presentation, there will by a TA session for Q&A for assignment 2, lecture content and more.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://youtu.be/vjSSyGxlczs'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 1 (PyTorch Lightning)</span></a></br>
+            <a href='https://youtu.be/9yRXqYJDHr4'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 2 (Inception and ResNet)</span></a></br>
+            <a href='https://youtu.be/ELEqNwv9vkE'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 3 (DenseNet and comparison)</span></a></br>
+            <a href='https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial5/Inception_ResNet_DenseNet.html'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>Jupyter notebook</span></a></br>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 8: Graph Neural Networks (Guest lecture)</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">November 26, 2021 | 13.00-15.00 | Online Lecture</p>
+                        <p>Details will follow soon.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 5</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 9: Attention and Transformers</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">December 2, 2021 | 11.00-13.00 | Lecture</p>
+                        <p>Details will follow soon.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tutorial-box" style="margin-bottom: 10px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-desktop text-primary"></span><span class="lecture-title">Tutorial Week 5: Graph Neural Networks</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">December 2, 2020 | 13.00-15.00 | Tutorial session + TA Q&A</p>
+                        <p>In this tutorial, we will discuss the implementation of Graph Neural Networks. In the first part of the tutorial, we will implement the GCN and GAT layer ourselves. In the second part, we use PyTorch Geometric to look at node-level, edge-level and graph-level tasks.</p><p>After the presentation, there will by a TA session for Q&A for assignment 2, lecture content and more.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://youtu.be/fK7d56Ly9q8'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 1 (GCN and GAT)</span></a></br>
+            <a href='https://youtu.be/ZCNSUWe4a_Q'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 2 (Experiments)</span></a></br>
+            <a href='https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial7/GNN_overview.html'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>Jupyter notebook</span></a></br>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 10: Generative Adversarial Networks</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">December 3, 2021 | 15.00-17.00 | Lecture</p>
+                        <p>Details will follow soon.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 6</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 11: Variational Autoencoders</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">December 9, 2021 | 11.00-13.00 | Lecture</p>
+                        <p>Details will follow soon.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tutorial-box" style="margin-bottom: 10px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-desktop text-primary"></span><span class="lecture-title">Tutorial Week 6: Transformers and Multi-Head Attention</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">December 9, 2020 | 13.00-15.00 | Tutorial session + TA Q&A</p>
+                        <p>In this tutorial, we will discuss the relatively new breakthrough architecture: Transformers. We will start from the basics of attention and multi-head attention, and build our own Transformer. We will perform experiments on sequence-to-sequence tasks and set anomaly detection.</p><p>After the presentation, there will by a TA session for Q&A for assignment 3, lecture content and more.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://youtu.be/hGZ6wa07Vak'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 1 (What is Attention + MH Attention)</span></a></br>
+            <a href='https://youtu.be/QdTgJ85E6YA'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 2 (Architecture and Training tricks)</span></a></br>
+            <a href='https://youtu.be/e7xvF2yS4Dg'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 3 (Experiments)</span></a></br>
+            <a href='https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial6/Transformers_and_MHAttention.html'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>Jupyter notebook</span></a></br>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 12: Deep Learning Generalization (Guest Lecture)</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">December 10, 2021 | 15.00-17.00 | Online Lecture</p>
+                        <p>Details will follow soon.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 7</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 13: Meta-Learning I</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">December 16, 2021 | 11.00-13.00 | Lecture</p>
+                        <p>Details will follow soon.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tutorial-box" style="margin-bottom: 10px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-desktop text-primary"></span><span class="lecture-title">Tutorial Week 7: Deep Autoencoders</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">December 16, 2020 | 13.00-15.00 | Tutorial session + TA Q&A</p>
+                        <p>In this tutorial, we will discuss deep convolutional autoencoders and their applications. In the practical and lecture, you will see variational autoencoders (VAE), which add a stochastic part to vanilla autoencoders. Both have their advantages and applications, of which we visit image retrieval and compression for the vanilla auotoencoder.</p><p>After the presentation, there will by a TA session for Q&A for assignment 3, lecture content and more.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://youtu.be/E2d8NRYt2e4'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 1 (Building an AE)</span></a></br>
+            <a href='https://youtu.be/3UrX2mTY610'><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'>Recording - Part 2 (Analysis)</span></a></br>
+            <a href='https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial9/AE_CIFAR10.html'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>Jupyter notebook</span></a></br>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Lecture 14: Meta-Learning II</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">December 17, 2021 | 11.00-13.00 | Lecture</p>
+                        <p>Details will follow soon.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="practicals">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Practicals</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+
+            <div class="lecture-box">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-desktop text-primary"></span><span class="lecture-title">Practical 1: MLPs and Backpropagation</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <table><tr><td style="width: 100%; margin: auto;">
+                            <p class="text-muted" style="font-size: 12px">Deadline: November 19, 2021</p>
+                            <p>Multilayer perceptrons and backpropagation</p>
+                            <h4>Documents:</h4>
+                            <div class="lecture-document-list">
+                                <a href='https://canvas.uva.nl/courses/25602/files/folder/Uploaded%20Media?preview=5607220'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>First assignment description</span></a></br>
+            <a href='https://canvas.uva.nl/courses/25602/files/folder/Uploaded%20Media?preview=5610854'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>First assignment ANS Delft</span></a></br>
+                            </div>
+                        </td><td>
+                            <img src="images/nn2.png" alt="" width="300" style="padding-bottom: 10px"></br>
+                            <center class="text-muted" style="font-size: 12px">An example of a neural network.</center>
+                        </td></tr></table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lecture-box">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-desktop text-primary"></span><span class="lecture-title">Practical 2: CNNs, RNNs &amp Graph CNNs</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <table><tr><td style="width: 100%; margin: auto;">
+                            <p class="text-muted" style="font-size: 12px">Deadline: December 3, 2021</p>
+                            <p>Details will follows soon.</p>
+                            <h4>Documents:</h4>
+                            <div class="lecture-document-list">
+                                No documents.
+                            </div>
+                        </td><td>
+                            <img src="images/rnns.jpg" alt="" width="300" style="padding-bottom: 10px"></br>
+                            <center class="text-muted" style="font-size: 12px">RNNs unroll a network over time.</center>
+                        </td></tr></table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lecture-box">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-desktop text-primary"></span><span class="lecture-title">Practical 3: Generative Models</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <table><tr><td style="width: 100%; margin: auto;">
+                            <p class="text-muted" style="font-size: 12px">Deadline: December 17, 2021</p>
+                            <p>Details will follows soon.</p>
+                            <h4>Documents:</h4>
+                            <div class="lecture-document-list">
+                                No documents.
+                            </div>
+                        </td><td>
+                            <img src="images/vae.jpg" alt="" width="300" style="padding-bottom: 10px"></br>
+                            <center class="text-muted" style="font-size: 12px">VAEs model a distribution in latent space.</center>
+                        </td></tr></table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="course-links">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Links</h2>
+                    <hr class="primary">
+                    <p style="text-align:justify; font-size:18px;">Some useful links for the course are the following:
+
+                    <p>
+                    <div align="left">
+
+                    <ul>
+
+                    <li> <a href="https://piazza.com/university_of_amsterdam/fall2021/uvadlc" target="_blank" style="font-size:16px;"> Piazza </a></li>
+
+                    <li> <a href="https://github.com/uvadlc/uvadlc_practicals_2021" target="_blank" style="font-size:16px;"> Assignment GitHub </a></li>
+
+                    <li> <a href="https://uvadlc-notebooks.readthedocs.io/en/latest/" style="font-size:16px;"> Jupyter notebook website</a> </li>
+
+                    <li> <a href="https://github.com/phlippe/uvadlc_notebooks" style="font-size:16px;"> Jupyter notebook GitHub</a> </li>
+
+                    <li> <a href="https://www.youtube.com/playlist?list=PLdlPlO1QhMiAkedeu0aJixfkknLRxk1nA" style="font-size:16px;"> Tutorial recordings</a> </li>
+
+                    <li> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIhwrFSHlDSWGAgCN-RcTKm7Sn7P6bxzIyzIGge6xId1K8DQ/viewform?usp=sf_link" style="font-size:16px;"> Feedback form</a> </li>
+
+                    <li> <a href="https://datanose.nl/#course[99898]" style="font-size:16px;"> Datanose</a> </li>
+
+                    <li> <a href="http://www.deeplearningbook.org/" style="font-size:16px;"> Deep Learning Book, by I. Goodfellow, Y. Bengio and A. Courville</a> </li>
+
+                    </ul>
+
+                    </div>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark" id="old-lectures">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>If you are interested in older versions of the lectures, you can find them below.</h2>
+
+                <!-- <a href="lectures-feb2016.html#" class="btn btn-default btn-xl wow" target="_blank">UVADLC Feb 2016</a> -->
+                <a href="lectures-nov2016.html#" class="btn btn-default btn-xl wow" target="_blank">UVADLC Nov 2016</a>
+                <a href="lectures-nov2017.html#" class="btn btn-default btn-xl wow" target="_blank">UVADLC Nov 2017</a>
+                <a href="lectures-sep2018.html#" class="btn btn-default btn-xl wow" target="_blank">UVADLC Sep 2018</a>
+                <a href="lectures-apr2019.html#" class="btn btn-default btn-xl wow" target="_blank">UVADLC Apr 2019</a>
+                <a href="lectures-nov2019.html#" class="btn btn-default btn-xl wow" target="_blank">UVADLC Nov 2019</a>
+                <a href="lectures-nov2020.html#" class="btn btn-default btn-xl wow" target="_blank">UVADLC Nov 2020</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact us!</h2>
+                    <hr class="primary">
+                    <p class="running-text" style="text-align:justify">
+                    If you have any questions or recommendations for the website or the course, you can always drop us a line!
+                    The knowledge should be free, so feel also free to use any of the material provided here (but please be so kind to cite us).
+                    In case you are a course instuctor and you want the solutions, please send us an email.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-map-marker fa-3x wow bounceIn"></i>
+                    <p><a href="https://goo.gl/maps/HzB8CMdkTDA2">Room C3.229, Science Park 904 1098 XH, Amsterdam, The Netherlands</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:x.zhen@uva.nl">x.zhen@uva.nl</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+    <script src="js/collapsible.js"></script>
+
+</body>
+
+</html>
