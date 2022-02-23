@@ -1,6 +1,6 @@
 [
 	{
-		"type": "lecture",
+		"type": "Modules",
 		"name": "Introduction to Deep Learning",
 		"date": "November 4, 2021 | 11.00-13.00 | Lecture",
 		"desc": "This lecture introduces the structure of the Deep Learning course, and gives a short overview of the history and motivation of Deep Learning.",
