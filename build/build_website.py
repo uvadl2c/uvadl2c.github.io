@@ -3,6 +3,7 @@ import sys
 import json
 import re
 from glob import glob
+import pdb
 
 ICONS = {"pdf": "fa-file-text-o",
 		 "code": "fa-file-text-o",
@@ -105,7 +106,7 @@ def build_lectures(index_file,
 
 	for dict_entry in lectures_dict:
 		if lecture_count % 2 == 0:
-			html_entries.append('<p><h3>Week %i</h3></p>' % (1 + lecture_count // 2))
+			html_entries.append('<p><h3>Module %i</h3></p>' % (1 + lecture_count // 2))
 
 		is_tutorial = (dict_entry["type"] == "tutorial")
 		if is_tutorial:
@@ -114,7 +115,7 @@ def build_lectures(index_file,
 		else:
 			lecture_count += 1
 			entry_html = lecture_template
-			dict_entry["name"] = "Lecture %i: " % (lecture_count) + dict_entry["name"]
+			dict_entry["name"] = "Module %i: " % (lecture_count) + dict_entry["name"]
 			if lecture_count % 2 == 0:
 				dict_entry["style"] = "margin-bottom: 40px;"
 
@@ -184,7 +185,7 @@ def build_TA_list(index_file,
 		TA_pic = DEFAULT_TA_PICTURE
 		TA_pic = TA_pic.replace("<!--$$NAME$$-->", TA["name"])
 		if not "picture" in TA or len(TA["picture"]) == 0:
-			search_str = '../images/people/' + TA['name'].lower().replace(' ','-') + '.*'
+			search_str = '../images/people/' + TA['name'].lower().replace(' ','-') + '.jpg'
 			pos_files = glob(search_str)
 			if len(pos_files) == 0:
 				TA['picture'] = ''
@@ -198,9 +199,10 @@ def build_TA_list(index_file,
 		if (i+2) % 5 == 0: # Every row should only have 5 pictures. First one is lecturer
 			TA_pic = TA_pic + "</br></br>"
 		TA_pic_list.append(TA_pic)
+		
 
 	index_file = index_file.replace("<!--$$TA_PICTURES$$-->", "\n".join(TA_pic_list))
-
+	#pdb.set_trace()
 	return index_file
 
 

@@ -1,23 +1,14 @@
 [
 	{
-		"type": "Modules",
-		"name": "Introduction to Deep Learning",
-		"date": "November 4, 2021 | 11.00-13.00 | Lecture",
-		"desc": "This lecture introduces the structure of the Deep Learning course, and gives a short overview of the history and motivation of Deep Learning.",
+		"type": "Module",
+		"name": " Geometric Deep Learning",
+		"date": "Erik Bekkers",
+		"desc": "...",
 		"documents": [
 
-			{"name": "Slides 1.1",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606401",
-				"type": "powerpoint"},
-			   {"name": "Slides 1.2",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606402",
-				"type": "powerpoint"},
-			   {"name": "Slides 1.3",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606403",
-				"type": "powerpoint"},
-			   {"name": "Slides 1.4",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606404",
-				"type": "powerpoint"}
+			{"name": "",
+				"link": "",
+				"type": ""}
 
 		],
 		"recordings": [
@@ -26,72 +17,39 @@
 
 	{
 		"type": "tutorial",
-		"name": "Introduction to PyTorch + Working with the Lisa cluster",
-		"date": "November 4, 2021 | 13.00-15.00 | Tutorial session",
-		"desc": "This tutorial introduces the practical sessions, the TA organizer team, etc. Afterwards, we will discuss the PyTorch machine learning framework, and introduce you to the basic concepts of Tensors, computation graphs and GPU computation. We will continue with a small hands-on tutorial of building your own, first neural network in PyTorch.</p><p>We also provide a crash-course for working with the Lisa cluster, and how to setup your account for Lisa.</p>",
+		"name": "",
+		"date": "",
+		"desc": ".</p>",
 		"documents": [
-			{"name": "Recording - Part 1 (Introduction)",
-			 "link": "https://youtu.be/oluO8JiC7EA",
-			 "type": "video"},
-			{"name": "Recording - Part 2 (PyTorch Basics)",
-			 "link": "https://youtu.be/wnKZZgFQY-E",
-			 "type": "video"},
-			{"name": "Recording - Part 3 (NNs in PyTorch)",
-			 "link": "https://youtu.be/schbjeU5X2g",
-			 "type": "video"},
-			{"name": "Introduction Slides",
-			 "link": "https://canvas.uva.nl/courses/25602/files/folder/tutorial_sessions?preview=5576213",
-			 "type": "powerpoint"},
-			{"name": "Lisa Tutorial",
-			 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial1/Lisa_Cluster.html",
-			 "type": "notebook"},
-			{"name": "PyTorch tutorial notebook",
-			 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html",
-			 "type": "notebook"}
+			{"name": "",
+				"link": "",
+				"type": ""}
 		]
 	},
 
 	{
-		"type": "lecture",
-		"name": "Deep Feedforward Networks",
-		"date": "November 5, 2021 | 11.00-13.00 | Lecture",
-		"desc": "This lectures introduces basic concepts for Deep Feedforward Networks such linear and nonlinear modules, gradient-based learning and the backpropagation algorithm.",
+		"type": "Module",
+		"name": "Bayesian Deep Learning",
+		"date": "Eric Nalisnick",
+		"desc": "...",
 		"documents": [
-			{"name": "Slides 2.1",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606405",
-				"type": "powerpoint"},
-			   {"name": "Slides 2.2",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606406",
-				"type": "powerpoint"},
-			   {"name": "Slides 2.3",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606407",
-				"type": "powerpoint"},
-			   {"name": "Slides 2.4",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5606408",
-				"type": "powerpoint"}
+			{"name": "",
+				"link": "",
+				"type": ""}
 		],
 		"recordings": [
 		]
 	},
 
 	{
-		"type": "lecture",
-		"name": "Deep Learning Optimizations I",
-		"date": "November 11, 2021 | 11.00-13.00 | Lecture",
-		"desc": "This lecture series discusses advanced optimizers, initialization, normalization and hyperparameter tuning.",
+		"type": "Module",
+		"name": "Deep probabilistic models I",
+		"date": "Wilker Aziz Ferreira",
+		"desc": "...",
 		"documents": [
-			{"name": "Slides 3.1",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5628205",
-				"type": "powerpoint"},
-			   {"name": "Slides 3.2.1",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5628206",
-				"type": "powerpoint"},
-				{"name": "Slides 3.2.2",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5629993",
-				"type": "powerpoint"},
-			   {"name": "Slides 3.3",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5628207",
-				"type": "powerpoint"}
+			{"name": "",
+				"link": "",
+				"type": ""}
 	],
 		"recordings": [
 		]
@@ -99,59 +57,41 @@
 
 	{
 		"type": "tutorial",
-		"name": "Activation Functions",
-		"date": "November 11, 2021 | 13.00-15.00 | Tutorial session + TA Q&A",
-		"desc": "In this tutorial, we will discuss the role of activation functions in a neural network, and take a closer look at the optimization issues a poorly designed activation function can have.</p><p>After the presentation, there will by a TA session for Q&A for assignment 1, lecture content and more.",
+		"name": "...",
+		"date": "...",
+		"desc": "...",
 		"documents": [
-			{"name": "Recording - Part 1",
-			 "link": "https://youtu.be/3C_m71NDkPs",
-			 "type": "video"},
-			{"name": "Recording - Part 2",
-			 "link": "https://youtu.be/GjCfAeHGq9U",
-			 "type": "video"},
-			{"name": "Jupyter notebook",
-			 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial3/Activation_Functions.html",
-			 "type": "notebook"}
+			{"name": "",
+				"link": "",
+				"type": ""}
 		]
 	},
 
 	{
-		"type": "lecture",
-		"name": "Deep Learning Optimizations II",
-		"date": "November 12, 2021 | 11.00-13.00 | Lecture",
-		"desc": "This lecture series discusses advanced optimizers, initialization, normalization and hyperparameter tuning.",
+		"type": "Module",
+		"name": "Deep probabilistic models II",
+		"date": "Wilker Aziz Ferreira",
+		"desc": "...",
 		"documents": [
 
-		{"name": "Slides 4.1",
-			"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5663691",
-			"type": "powerpoint"},
-			{"name": "Slides 4.2",
-			"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5628210",
-			"type": "powerpoint"},
-			{"name": "Slides 4.3",
-			"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5628211",
-			"type": "powerpoint"}
+			{"name": "",
+				"link": "",
+				"type": ""}
 		],
 		"recordings": [
 		]
 	},
 
 	{
-		"type": "lecture",
-		"name": "Convolutional Neural Networks",
-		"date": "November 18, 2021 | 11.00-13.00 | Lecture",
-		"desc": "This lecture series covers convolutional neural networks for image processing.",
+		"type": "Module",
+		"name": "Advanced approximate inference for discrete latent variable models",
+		"date": "Wilker Aziz Ferreira",
+		"desc": "...",
 		"documents": [
 
-			{"name": "Slides 5.1",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5674660",
-				"type": "powerpoint"},
-			   {"name": "Slides 5.2",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5672737",
-				"type": "powerpoint"},
-			   {"name": "Slides 5.3",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5672739",
-				"type": "powerpoint"}
+			{"name": "",
+				"link": "",
+				"type": ""}
 		],
 		"recordings": [
 		]
@@ -159,49 +99,40 @@
 
 	{
 		"type": "tutorial",
-		"name": "Optimization and Initialization",
-		"date": "November 18, 2020 | 13.00-15.00 | Tutorial session + TA Q&A",
-		"desc": "In this tutorial, we will discuss the importance of proper parameter initialization in deep neural networks, and how we can find a suitable one for our network. In addition, we will review the optimizers SGD and Adam, and compare them on complex loss surfaces.</p><p>After the presentation, there will by a TA session for Q&A for assignment 1, lecture content and more.",
+		"name": "",
+		"date": "",
+		"desc": "...",
 		"documents": [
-			{"name": "Recording - Part 1 (Initialization)",
-			 "link": "https://youtu.be/X5m7bC4xCLY",
-			 "type": "video"},
-			{"name": "Recording - Part 2 (Optimization)",
-			 "link": "https://youtu.be/UcRBZbAP9hM",
-			 "type": "video"},
-			{"name": "Jupyter notebook",
-			 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial4/Optimization_and_Initialization.html",
-			 "type": "notebook"}
+			{"name": "",
+				"link": "",
+				"type": ""}
 		]
 	},
 
 	{
-		"type": "lecture",
-		"name": "Modern ConvNets",
-		"date": "November 19, 2021 | 11.00-13.00 | Lecture",
-		"desc": "This lecture series covers modern ConvNet architecture.",
+		"type": "Module",
+		"name": "Causality and Deep Learning",
+		"date": "Sara Magliacane",
+		"desc": "...",
 		"documents": [
-			{"name": "Slides 6.1",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5680921",
-				"type": "powerpoint"}
+			{"name": "",
+				"link": "",
+				"type": ""}
 		],
 		"recordings": [
 		]
 	},
 
 	{
-		"type": "lecture",
-		"name": "Recurrent Neural Networks",
-		"date": "November 25, 2021 | 11.00-13.00 | Lecture",
-		"desc": "This lecture series covers Recurrent Neural Networks",
+		"type": "Module",
+		"name": "High-performant Deep Learning",
+		"date": "Jonas Teuwen",
+		"desc": "...",
 		"documents": [
 
-			{"name": "Slides 6.1",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5747083",
-				"type": "powerpoint"},
-			   {"name": "Slides 6.2",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures?preview=5747084",
-				"type": "powerpoint"}
+			{"name": "",
+				"link": "",
+				"type": ""}
 		],
 		"recordings": [
 		]
@@ -209,34 +140,25 @@
 
 	{
 		"type": "tutorial",
-		"name": "Inception, ResNet and DenseNet",
-		"date": "November 25, 2020 | 13.00-15.00 | Tutorial session + TA Q&A",
-		"desc": "In this tutorial, we will implement three popular, modern ConvNet architectures: GoogleNet, ResNet, and DenseNet. We will compare them on the CIFAR10 dataset, and discuss the advantages that made them popular and successful across many tasks.</p><p>After the presentation, there will by a TA session for Q&A for assignment 2, lecture content and more.",
+		"name": "...",
+		"date": "...",
+		"desc": "...",
 		"documents": [
-			{"name": "Recording - Part 1 (PyTorch Lightning)",
-			 "link": "https://youtu.be/vjSSyGxlczs",
-			 "type": "video"},
-			{"name": "Recording - Part 2 (Inception and ResNet)",
-			 "link": "https://youtu.be/9yRXqYJDHr4",
-			 "type": "video"},
-			{"name": "Recording - Part 3 (DenseNet and comparison)",
-			 "link": "https://youtu.be/ELEqNwv9vkE",
-			 "type": "video"},
-			{"name": "Jupyter notebook",
-			 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial5/Inception_ResNet_DenseNet.html",
-			 "type": "notebook"}
+			{"name": "",
+				"link": "",
+				"type": ""}
 		]
 	},
 
 	{
-		"type": "lecture",
-		"name": "Graph Neural Networks (Guest lecture)",
-		"date": "November 26, 2021 | 13.00-15.00 | Online Lecture",
-		"desc": "Petar Veličković lecture on Graph Neural Networks.",
+		"type": "Module",
+		"name": "Advanced Generative Models",
+		"date": "Efstratios Gavves+Emiel Hogenboom",
+		"desc": "...",
 		"documents": [
-			{"name": "Petar Veličković lecture on GNNs.",
-				"link": "https://canvas.uva.nl/courses/25602/files/folder/2021_files/lectures/Graph%20Neural%20Networks?preview=5762231",
-				"type": "video"}
+			{"name": "",
+				"link": "",
+				"type": ""}
 		],
 		"recordings": [
 			
@@ -244,10 +166,10 @@
 	},
 
 	{
-		"type": "lecture",
-		"name": "Attention and Transformers",
-		"date": "December 2, 2021 | 11.00-13.00 | Lecture",
-		"desc": "Details will follow soon.",
+		"type": "Module",
+		"name": "Neural Network Dynamical Systems",
+		"date": "Efstratios Gavves",
+		"desc": "...",
 		"documents": [
 		],
 		"recordings": [
@@ -256,27 +178,21 @@
 
 	{
 		"type": "tutorial",
-		"name": "Graph Neural Networks",
-		"date": "December 2, 2020 | 13.00-15.00 | Tutorial session + TA Q&A",
-		"desc": "In this tutorial, we will discuss the implementation of Graph Neural Networks. In the first part of the tutorial, we will implement the GCN and GAT layer ourselves. In the second part, we use PyTorch Geometric to look at node-level, edge-level and graph-level tasks.</p><p>After the presentation, there will by a TA session for Q&A for assignment 2, lecture content and more.",
+		"name": "...",
+		"date": "...",
+		"desc": "...",
 		"documents": [
-			{"name": "Recording - Part 1 (GCN and GAT)",
-			 "link": "https://youtu.be/fK7d56Ly9q8",
-			 "type": "video"},
-			{"name": "Recording - Part 2 (Experiments)",
-			 "link": "https://youtu.be/ZCNSUWe4a_Q",
-			 "type": "video"},
-			{"name": "Jupyter notebook",
-			 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial7/GNN_overview.html",
-			 "type": "notebook"}
+			{"name": "",
+			"link": "",
+			"type": ""}
 		]
 	},
 
 	{
-		"type": "lecture",
-		"name": "Generative Adversarial Networks",
-		"date": "December 3, 2021 | 15.00-17.00 | Lecture",
-		"desc": "Details will follow soon.",
+		"type": "Module",
+		"name": "Sampling & Gradient Approximations",
+		"date": "Efstratios Gavves",
+		"desc": "...",
 		"documents": [
 		],
 		"recordings": [
@@ -284,53 +200,10 @@
 	},
 
 	{
-		"type": "lecture",
-		"name": "Variational Autoencoders",
-		"date": "December 9, 2021 | 11.00-13.00 | Lecture",
-		"desc": "Details will follow soon.",
-		"documents": [
-		],
-		"recordings": [
-		]
-	},
-
-	{
-		"type": "tutorial",
-		"name": "Transformers and Multi-Head Attention",
-		"date": "December 9, 2020 | 13.00-15.00 | Tutorial session + TA Q&A",
-		"desc": "In this tutorial, we will discuss the relatively new breakthrough architecture: Transformers. We will start from the basics of attention and multi-head attention, and build our own Transformer. We will perform experiments on sequence-to-sequence tasks and set anomaly detection.</p><p>After the presentation, there will by a TA session for Q&A for assignment 3, lecture content and more.",
-		"documents": [
-			{"name": "Recording - Part 1 (What is Attention + MH Attention)",
-			 "link": "https://youtu.be/hGZ6wa07Vak",
-			 "type": "video"},
-			{"name": "Recording - Part 2 (Architecture and Training tricks)",
-			 "link": "https://youtu.be/QdTgJ85E6YA",
-			 "type": "video"},
-			{"name": "Recording - Part 3 (Experiments)",
-			 "link": "https://youtu.be/e7xvF2yS4Dg",
-			 "type": "video"},
-			{"name": "Jupyter notebook",
-			 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial6/Transformers_and_MHAttention.html",
-			 "type": "notebook"}
-		]
-	},
-
-	{
-		"type": "lecture",
-		"name": "Deep Learning Generalization (Guest Lecture)",
-		"date": "December 10, 2021 | 15.00-17.00 | Online Lecture",
-		"desc": "Details will follow soon.",
-		"documents": [
-		],
-		"recordings": [
-		]
-	},
-
-	{
-		"type": "lecture",
-		"name": "Meta-Learning I",
-		"date": "December 16, 2021 | 11.00-13.00 | Lecture",
-		"desc": "Details will follow soon.",
+		"type": "Module",
+		"name": "",
+		"date": "",
+		"desc": ".",
 		"documents": [
 		],
 		"recordings": [
@@ -339,27 +212,55 @@
 
 	{
 		"type": "tutorial",
-		"name": "Deep Autoencoders",
-		"date": "December 16, 2020 | 13.00-15.00 | Tutorial session + TA Q&A",
-		"desc": "In this tutorial, we will discuss deep convolutional autoencoders and their applications. In the practical and lecture, you will see variational autoencoders (VAE), which add a stochastic part to vanilla autoencoders. Both have their advantages and applications, of which we visit image retrieval and compression for the vanilla auotoencoder.</p><p>After the presentation, there will by a TA session for Q&A for assignment 3, lecture content and more.",
+		"name": "",
+		"date": "",
+		"desc": "...",
 		"documents": [
-			{"name": "Recording - Part 1 (Building an AE)",
-			 "link": "https://youtu.be/E2d8NRYt2e4",
-			 "type": "video"},
-			{"name": "Recording - Part 2 (Analysis)",
-			 "link": "https://youtu.be/3UrX2mTY610",
-			 "type": "video"},
-			{"name": "Jupyter notebook",
-			 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial9/AE_CIFAR10.html",
-			 "type": "notebook"}
+			{"name": "",
+			"link": "",
+			"type": ""}
+		]
+	},
+
+	{
+		"type": "Module",
+		"name": "",
+		"date": "",
+		"desc": "...",
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+	{
+		"type": "Module",
+		"name": "",
+		"date": "",
+		"desc": "...",
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+	{
+		"type": "tutorial",
+		"name": "",
+		"date": "",
+		"desc": "...",
+		"documents": [
+			{"name": "",
+			"link": "",
+			"type": ""}
 		]
 	},
 
 	{
 		"type": "lecture",
-		"name": "Meta-Learning II",
-		"date": "December 17, 2021 | 11.00-13.00 | Lecture",
-		"desc": "Details will follow soon.",
+		"name": "...",
+		"date": "",
+		"desc": ".",
 		"documents": [
 		],
 		"recordings": [
