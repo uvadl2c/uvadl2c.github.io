@@ -1,23 +1,23 @@
 [
 	{
-		"name": "MLPs and Backpropagation",
-		"deadline": "November 19, 2021",
+		"name": "Mini-project topic 1",
+		"deadline": "June ..., 2022",
 		"image": "images/nn2.png",
 		"image_desc": "An example of a neural network.",
-		"desc": "Multilayer perceptrons and backpropagation",
+		"desc": "List of papers for the topic: ....",
 		"documents": [
-			{"name": "First assignment description",
+			{"name": "...",
 			"link": "https://canvas.uva.nl/courses/25602/files/folder/Uploaded%20Media?preview=5607220",
 			"type": "pdf"},
-			{"name": "First assignment ANS Delft",
+			{"name": "...",
 			"link": "https://canvas.uva.nl/courses/25602/files/folder/Uploaded%20Media?preview=5610854",
 			"type": "pdf"}
 		]
 	},
 
 	{
-		"name": "CNNs, RNNs &amp Graph CNNs",
-		"deadline": "December 3, 2021",
+		"name": "Mini-project topic 2",
+		"deadline": "June ..., 2022",
 		"desc": "",
 		"image": "images/rnns.jpg",
 		"image_desc": "RNNs unroll a network over time.",
@@ -26,11 +26,31 @@
 	},
 
 	{
-		"name": "Generative Models",
-		"deadline": "December 17, 2021",
+		"name": "Mini-project topic 3",
+		"deadline": "June ..., 2022",
 		"desc": "",
 		"image": "images/vae.jpg",
-		"image_desc": "VAEs model a distribution in latent space.",
+		"image_desc": "....",
+		"documents": [
+		]
+	},
+
+	{
+		"name": "Mini-project topic 4",
+		"deadline": "June ..., 2022",
+		"desc": "",
+		"image": "images/vae.jpg",
+		"image_desc": "....",
+		"documents": [
+		]
+	},
+
+	{
+		"name": "Mini-project topic 5",
+		"deadline": "June ..., 2022",
+		"desc": "",
+		"image": "images/vae.jpg",
+		"image_desc": "....",
 		"documents": [
 		]
 	}

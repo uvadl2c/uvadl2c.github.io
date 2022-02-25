@@ -105,23 +105,21 @@ def build_lectures(index_file,
 	lecture_count = 0
 
 	for dict_entry in lectures_dict:
-		if lecture_count % 2 == 0:
-			html_entries.append('<p><h3>Module %i</h3></p>' % (1 + lecture_count // 2))
-
+		#if lecture_count % 2 == 0:
+		html_entries.append('<p><h3>Module %i</h3></p>' % (1 + lecture_count))
 		is_tutorial = (dict_entry["type"] == "tutorial")
-		if is_tutorial:
-			entry_html = tutorial_template
-			dict_entry["name"] = "Tutorial Week %i: " % (lecture_count // 2 + 1) + dict_entry["name"]
-		else:
-			lecture_count += 1
-			entry_html = lecture_template
-			dict_entry["name"] = "Module %i: " % (lecture_count) + dict_entry["name"]
-			if lecture_count % 2 == 0:
-				dict_entry["style"] = "margin-bottom: 40px;"
+		# if is_tutorial:
+		# 	entry_html = tutorial_template
+		# 	dict_entry["name"] = "Tutorial Week %i: " % (lecture_count // 2 + 1) + dict_entry["name"]
+		#else:
+		lecture_count += 1
+		entry_html = lecture_template
+		dict_entry["name"] = "Module %i: " % (lecture_count) + dict_entry["name"]
+		#if lecture_count % 2 == 0:
+		dict_entry["style"] = "margin-bottom: 40px;"
 
 		if "image" in dict_entry:
 			assert os.path.isfile("../" + dict_entry["image"]), "Given image path \"%s\" does not point to an existing image." % dict_entry["image"]
-
 		for tag, value in [("NAME", "name"), 
 						   ("DATE", "date"),
 						   ("DESCRIPTION", "desc"),
@@ -194,15 +192,17 @@ def build_TA_list(index_file,
 		if len(TA["picture"]) == 0 or not (os.path.isfile(TA["picture"])):
 			print("Warning: Could not find picture for %s. Using default picture..." % TA["name"])
 			TA["picture"] = DEFAULT_PICTURE_FILENAME
+		
+		TA['picture'] = TA['picture'].replace('../','')
 		TA_pic = TA_pic.replace("<!--$$IMAGE$$-->", TA["picture"])
 		TA_pic = TA_pic.replace("<!--$$LINK$$-->", TA["link"])
+		
 		if (i+2) % 5 == 0: # Every row should only have 5 pictures. First one is lecturer
 			TA_pic = TA_pic + "</br></br>"
 		TA_pic_list.append(TA_pic)
 		
 
 	index_file = index_file.replace("<!--$$TA_PICTURES$$-->", "\n".join(TA_pic_list))
-	pdb.set_trace()
 	return index_file
 
 

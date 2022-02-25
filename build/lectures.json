@@ -1,12 +1,18 @@
 [
 	{
 		"type": "Module",
-		"name": " Geometric Deep Learning",
+		"name": "Geometric Deep Learning",
 		"date": "Erik Bekkers",
 		"desc": "...",
 		"documents": [
 
-			{"name": "",
+			{"name": "Group equivariant DL (regular g-convs).",
+				"link": "",
+				"type": ""},
+			{"name": "Group Equivariant DL (steerable g-convs).",
+				"link": "",
+				"type": ""},
+			{"name": "Equivariant graph neural networks.",
 				"link": "",
 				"type": ""}
 
@@ -16,24 +22,12 @@
 	},
 
 	{
-		"type": "tutorial",
-		"name": "",
-		"date": "",
-		"desc": ".</p>",
-		"documents": [
-			{"name": "",
-				"link": "",
-				"type": ""}
-		]
-	},
-
-	{
 		"type": "Module",
 		"name": "Bayesian Deep Learning",
 		"date": "Eric Nalisnick",
 		"desc": "...",
 		"documents": [
-			{"name": "",
+			{"name": "Bayes NN basics: motivation, priors, posterior inference (VI---Bayes by backprop, moment prop---and MCMC---scalable HMC), infinite limits",
 				"link": "",
 				"type": ""}
 		],
@@ -47,7 +41,10 @@
 		"date": "Wilker Aziz Ferreira",
 		"desc": "...",
 		"documents": [
-			{"name": "",
+			{"name": "NN parameterisation of joint distributions over observed variables",
+				"link": "",
+				"type": ""},
+			{"name": "Tractable deep latent variable models",
 				"link": "",
 				"type": ""}
 	],
@@ -55,15 +52,19 @@
 		]
 	},
 
+	
+
 	{
-		"type": "tutorial",
-		"name": "...",
-		"date": "...",
+		"type": "Module",
+		"name": "Bayesian Deep Learning",
+		"date": "Eric Nalisnick",
 		"desc": "...",
 		"documents": [
 			{"name": "",
 				"link": "",
 				"type": ""}
+		],
+		"recordings": [
 		]
 	},
 
@@ -97,17 +98,6 @@
 		]
 	},
 
-	{
-		"type": "tutorial",
-		"name": "",
-		"date": "",
-		"desc": "...",
-		"documents": [
-			{"name": "",
-				"link": "",
-				"type": ""}
-		]
-	},
 
 	{
 		"type": "Module",
@@ -138,17 +128,6 @@
 		]
 	},
 
-	{
-		"type": "tutorial",
-		"name": "...",
-		"date": "...",
-		"desc": "...",
-		"documents": [
-			{"name": "",
-				"link": "",
-				"type": ""}
-		]
-	},
 
 	{
 		"type": "Module",
@@ -176,91 +155,12 @@
 		]
 	},
 
-	{
-		"type": "tutorial",
-		"name": "...",
-		"date": "...",
-		"desc": "...",
-		"documents": [
-			{"name": "",
-			"link": "",
-			"type": ""}
-		]
-	},
 
 	{
 		"type": "Module",
 		"name": "Sampling & Gradient Approximations",
 		"date": "Efstratios Gavves",
 		"desc": "...",
-		"documents": [
-		],
-		"recordings": [
-		]
-	},
-
-	{
-		"type": "Module",
-		"name": "",
-		"date": "",
-		"desc": ".",
-		"documents": [
-		],
-		"recordings": [
-		]
-	},
-
-	{
-		"type": "tutorial",
-		"name": "",
-		"date": "",
-		"desc": "...",
-		"documents": [
-			{"name": "",
-			"link": "",
-			"type": ""}
-		]
-	},
-
-	{
-		"type": "Module",
-		"name": "",
-		"date": "",
-		"desc": "...",
-		"documents": [
-		],
-		"recordings": [
-		]
-	},
-
-	{
-		"type": "Module",
-		"name": "",
-		"date": "",
-		"desc": "...",
-		"documents": [
-		],
-		"recordings": [
-		]
-	},
-
-	{
-		"type": "tutorial",
-		"name": "",
-		"date": "",
-		"desc": "...",
-		"documents": [
-			{"name": "",
-			"link": "",
-			"type": ""}
-		]
-	},
-
-	{
-		"type": "lecture",
-		"name": "...",
-		"date": "",
-		"desc": ".",
 		"documents": [
 		],
 		"recordings": [
