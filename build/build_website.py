@@ -102,47 +102,53 @@ def build_lectures(index_file,
 		tutorial_template = f.read()
 
 	html_entries = []
-	lecture_count = 0
+	
+	module_count = 0
 
 	for dict_entry in lectures_dict:
 		#if lecture_count % 2 == 0:
-		html_entries.append('<p><h3>Module %i</h3></p>' % (1 + lecture_count))
+		#pdb.set_trace()
+		html_entries.append('<p><h3>Module %i: ' % (1 + module_count)+ "%s</h3></p>" % dict_entry["name"])
 		is_tutorial = (dict_entry["type"] == "tutorial")
-		# if is_tutorial:
-		# 	entry_html = tutorial_template
-		# 	dict_entry["name"] = "Tutorial Week %i: " % (lecture_count // 2 + 1) + dict_entry["name"]
-		#else:
-		lecture_count += 1
+
+		module_count += 1
 		entry_html = lecture_template
-		dict_entry["name"] = "Module %i: " % (lecture_count) + dict_entry["name"]
-		#if lecture_count % 2 == 0:
-		dict_entry["style"] = "margin-bottom: 40px;"
+		lecture_count = 1
+		for item in dict_entry["documents"]:
+			
+			
+			dict_entry["name"] = "Lecture on %s" % item["name"]
 
-		if "image" in dict_entry:
-			assert os.path.isfile("../" + dict_entry["image"]), "Given image path \"%s\" does not point to an existing image." % dict_entry["image"]
-		for tag, value in [("NAME", "name"), 
-						   ("DATE", "date"),
-						   ("DESCRIPTION", "desc"),
-						   ("IMAGE", "image"),
-						   ("STYLE", "style")]:
-			if ("<!--$$%s$$-->" % tag) in entry_html:
-				if not value in dict_entry:
-					dict_entry[value] = ''
-				entry_html = entry_html.replace("<!--$$%s$$-->" % tag, dict_entry[value])
+			lecture_count += 1
+			
+			#if lecture_count % 2 == 0:
+			dict_entry["style"] = "margin-bottom: 40px;"
 
-		if "documents" in dict_entry:
-			document_text = _create_document_list(dict_entry["documents"])
-		else:
-			document_text = "Documents will be added soon."
-		entry_html = entry_html.replace("<!--$$DOCUMENTS$$-->", document_text)
-		if not is_tutorial:
-			if "recordings" in dict_entry:
-				recordings_text = _create_recording_list(dict_entry["recordings"])
-			else:
-				recordings_text = "Recordings will be added soon."
-			entry_html = entry_html.replace("<!--$$RECORDINGS$$-->", recordings_text)
+			if "image" in dict_entry:
+				assert os.path.isfile("../" + dict_entry["image"]), "Given image path \"%s\" does not point to an existing image." % dict_entry["image"]
+			for tag, value in [("NAME", "name"), 
+							("DATE", "date"),
+							("DESCRIPTION", "desc"),
+							("IMAGE", "image"),
+							("STYLE", "style")]:
+				if ("<!--$$%s$$-->" % tag) in entry_html:
+					if not value in dict_entry:
+						dict_entry[value] = ''
+					entry_html = entry_html.replace("<!--$$%s$$-->" % tag, dict_entry[value])\
 
-		html_entries.append(entry_html)
+			# if "documents" in dict_entry:
+			# 	document_text = _create_document_list(dict_entry["documents"])
+			# else:
+			# 	document_text = "Documents will be added soon."
+			# entry_html = entry_html.replace("<!--$$DOCUMENTS$$-->", document_text)
+			# if not is_tutorial:
+			# 	if "recordings" in dict_entry:
+			# 		recordings_text = _create_recording_list(dict_entry["recordings"])
+			# 	else:
+			# 		recordings_text = "Recordings will be added soon."
+			# 	entry_html = entry_html.replace("<!--$$RECORDINGS$$-->", recordings_text)
+
+			html_entries.append(entry_html)
 
 	html_entries = "\n\n".join(html_entries)
 	offset = re.findall(r" *<!--\$\$LECTURES\$\$-->", index_file)[0].split("<!--")[0]
