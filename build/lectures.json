@@ -3,7 +3,7 @@
 		"type": "Lecture",
 		"name": "Geometric Deep Learning",
 		"date": "Erik Bekkers",
-		"desc": "...",
+		"desc": "This module covers the topic of geometric deep learning [1], touching upon all its five G’s (Grids, Groups, Graphs, Geodesics, and Gauges) but with a strong focus on group equivariant deep learning. The impact that CNNs made in fields such as computer vision, computational chemistry and physics, can largely be attributed to the fact that convolutions allow for weight sharing, geometric stability, and a dramatic decrease in learnable parameters by leveraging symmetries in data and architecture design. These enabling properties arise from the equivariance property of convolutions. That is, if the input image is translated, the output of a convolution is translated accordingly, which in turn means that local information does not get lost in the neural network upon an input transformation (it is just shifted to a different location). With group equivariant deep learning we can hard-code stability and weight sharing over transformations beyond just translations. E.g., it allows for sharing of weights (representing complex patterns/representations) over poses and symmetries represented by transformations such as translation + rotation + scaling.",
 		"documents": [
 
 			{"name": "Group equivariant DL (regular g-convs).",
