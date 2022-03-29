@@ -87,12 +87,69 @@ def build_practicals(index_file,
 	return index_file
 
 
+# def build_lectures(index_file,
+# 				   json_filename="lectures.json",
+# 				   lecture_template_filename="lecture_template.html",
+# 				   tutorial_template_filename="tutorial_template.html"):
+
+# 	with open(json_filename, "r", encoding='utf-8') as f:
+# 		lectures_dict = json.load(f)
+
+# 	with open(lecture_template_filename, "r") as f:
+# 		lecture_template = f.read()
+
+# 	with open(tutorial_template_filename, "r") as f:
+# 		tutorial_template = f.read()
+
+# 	html_entries = []
+	
+# 	module_count = 0
+
+# 	for dict_entry in lectures_dict:
+# 		#if lecture_count % 2 == 0:
+# 		#pdb.set_trace()
+# 		html_entries.append('<p><h3>Module %i: ' % (1 + module_count)+ "%s</h3></p>" % dict_entry["name"])
+		
+# 		html_entries.append('<p>' "%s</p>" % dict_entry["desc"])
+
+# 		is_tutorial = (dict_entry["type"] == "tutorial")
+
+# 		module_count += 1
+# 		entry_html = lecture_template
+# 		lecture_count = 1
+# 		for item in dict_entry["documents"]:
+			
+# 			dict_entry["style"] = "margin-bottom: 40px;"
+# 			dict_entry["name"] = "Lecture on %s" % item["name"]
+# 			lecture_count += 1
+			
+# 			pdb.set_trace()
+# 			if "image" in dict_entry:
+# 				assert os.path.isfile("../" + dict_entry["image"]), "Given image path \"%s\" does not point to an existing image." % dict_entry["image"]
+# 			for tag, value in [("NAME", "name"), 
+# 							("DATE", "date"),
+# 							("IMAGE", "image"),
+# 							("STYLE", "style")]:
+# 				if ("<!--$$%s$$-->" % tag) in entry_html:
+# 					if not value in dict_entry:
+# 						dict_entry[value] = ''
+# 					entry_html = entry_html.replace("<!--$$%s$$-->" % tag, dict_entry[value])
+# 			html_entries.append(entry_html)
+
+# 	html_entries = "\n\n".join(html_entries)
+# 	offset = re.findall(r" *<!--\$\$LECTURES\$\$-->", index_file)[0].split("<!--")[0]
+# 	html_entries = html_entries.replace("\n", "\n" + offset)
+
+# 	index_file = index_file.replace("<!--$$LECTURES$$-->", html_entries)
+
+# 	return index_file
+
 def build_lectures(index_file,
 				   json_filename="lectures.json",
 				   lecture_template_filename="lecture_template.html",
 				   tutorial_template_filename="tutorial_template.html"):
 
-	with open(json_filename, "r", encoding='utf-8') as f:
+	with open(json_filename, "r") as f:
 		lectures_dict = json.load(f)
 
 	with open(lecture_template_filename, "r") as f:
@@ -102,53 +159,49 @@ def build_lectures(index_file,
 		tutorial_template = f.read()
 
 	html_entries = []
-	
-	module_count = 0
+	lecture_count = 1
 
 	for dict_entry in lectures_dict:
-		#if lecture_count % 2 == 0:
-		#pdb.set_trace()
-		html_entries.append('<p><h3>Module %i: ' % (1 + module_count)+ "%s</h3></p>" % dict_entry["name"])
+
+		html_entries.append('<p><h3>Module %i</h3></p>' % lecture_count)
+
 		is_tutorial = (dict_entry["type"] == "tutorial")
-
-		module_count += 1
-		entry_html = lecture_template
-		lecture_count = 1
-		for item in dict_entry["documents"]:
-			
-			
-			dict_entry["name"] = "Lecture on %s" % item["name"]
-
+		if is_tutorial:
+			entry_html = tutorial_template
+			dict_entry["name"] = "Tutorial Week %i: " % (lecture_count // 2 + 1) + dict_entry["name"]
+		else:
 			lecture_count += 1
-			
-			#if lecture_count % 2 == 0:
-			dict_entry["style"] = "margin-bottom: 40px;"
+			entry_html = lecture_template
+			dict_entry["name"] =  dict_entry["name"]
+			if lecture_count % 2 == 0:
+				dict_entry["style"] = "margin-bottom: 40px;"
 
-			if "image" in dict_entry:
-				assert os.path.isfile("../" + dict_entry["image"]), "Given image path \"%s\" does not point to an existing image." % dict_entry["image"]
-			for tag, value in [("NAME", "name"), 
-							("DATE", "date"),
-							("DESCRIPTION", "desc"),
-							("IMAGE", "image"),
-							("STYLE", "style")]:
-				if ("<!--$$%s$$-->" % tag) in entry_html:
-					if not value in dict_entry:
-						dict_entry[value] = ''
-					entry_html = entry_html.replace("<!--$$%s$$-->" % tag, dict_entry[value])\
+		if "image" in dict_entry:
+			assert os.path.isfile("../" + dict_entry["image"]), "Given image path \"%s\" does not point to an existing image." % dict_entry["image"]
 
-			# if "documents" in dict_entry:
-			# 	document_text = _create_document_list(dict_entry["documents"])
-			# else:
-			# 	document_text = "Documents will be added soon."
-			# entry_html = entry_html.replace("<!--$$DOCUMENTS$$-->", document_text)
-			# if not is_tutorial:
-			# 	if "recordings" in dict_entry:
-			# 		recordings_text = _create_recording_list(dict_entry["recordings"])
-			# 	else:
-			# 		recordings_text = "Recordings will be added soon."
-			# 	entry_html = entry_html.replace("<!--$$RECORDINGS$$-->", recordings_text)
+		for tag, value in [("NAME", "name"), 
+						   ("DATE", "date"),
+						   ("DESCRIPTION", "desc"),
+						   ("IMAGE", "image"),
+						   ("STYLE", "style")]:
+			if ("<!--$$%s$$-->" % tag) in entry_html:
+				if not value in dict_entry:
+					dict_entry[value] = ''
+				entry_html = entry_html.replace("<!--$$%s$$-->" % tag, dict_entry[value])
 
-			html_entries.append(entry_html)
+		if "documents" in dict_entry:
+			document_text = _create_document_list(dict_entry["documents"])
+		else:
+			document_text = "Documents will be added soon."
+		entry_html = entry_html.replace("<!--$$DOCUMENTS$$-->", document_text)
+		if not is_tutorial:
+			if "recordings" in dict_entry:
+				recordings_text = _create_recording_list(dict_entry["recordings"])
+			else:
+				recordings_text = "Recordings will be added soon."
+			entry_html = entry_html.replace("<!--$$RECORDINGS$$-->", recordings_text)
+
+		html_entries.append(entry_html)
 
 	html_entries = "\n\n".join(html_entries)
 	offset = re.findall(r" *<!--\$\$LECTURES\$\$-->", index_file)[0].split("<!--")[0]
@@ -157,7 +210,6 @@ def build_lectures(index_file,
 	index_file = index_file.replace("<!--$$LECTURES$$-->", html_entries)
 
 	return index_file
-
 
 def build_TA_list(index_file,
 				  json_filename="TAs.json"):

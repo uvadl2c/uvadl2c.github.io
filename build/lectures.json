@@ -3,7 +3,7 @@
 		"type": "Lecture",
 		"name": "Geometric Deep Learning",
 		"date": "Erik Bekkers",
-		"desc": "This module covers the topic of geometric deep learning [1], touching upon all its five G’s (Grids, Groups, Graphs, Geodesics, and Gauges) but with a strong focus on group equivariant deep learning. The impact that CNNs made in fields such as computer vision, computational chemistry and physics, can largely be attributed to the fact that convolutions allow for weight sharing, geometric stability, and a dramatic decrease in learnable parameters by leveraging symmetries in data and architecture design. These enabling properties arise from the equivariance property of convolutions. That is, if the input image is translated, the output of a convolution is translated accordingly, which in turn means that local information does not get lost in the neural network upon an input transformation (it is just shifted to a different location). With group equivariant deep learning we can hard-code stability and weight sharing over transformations beyond just translations. E.g., it allows for sharing of weights (representing complex patterns/representations) over poses and symmetries represented by transformations such as translation + rotation + scaling.",
+		"desc": "This module covers the topic of geometric deep learning, touching upon all its five G’s (Grids, Groups, Graphs, Geodesics, and Gauges) but with a strong focus on group equivariant deep learning. The impact that CNNs made in fields such as computer vision, computational chemistry and physics, can largely be attributed to the fact that convolutions allow for weight sharing, geometric stability, and a dramatic decrease in learnable parameters by leveraging symmetries in data and architecture design. These enabling properties arise from the equivariance property of convolutions. That is, if the input image is translated, the output of a convolution is translated accordingly, which in turn means that local information does not get lost in the neural network upon an input transformation (it is just shifted to a different location). With group equivariant deep learning we can hard-code stability and weight sharing over transformations beyond just translations. E.g., it allows for sharing of weights (representing complex patterns/representations) over poses and symmetries represented by transformations such as translation + rotation + scaling.",
 		"documents": [
 
 			{"name": "Group equivariant DL (regular g-convs).",
@@ -27,7 +27,10 @@
 		"date": "Eric Nalisnick",
 		"desc": "...",
 		"documents": [
-			{"name": "Bayes NN basics: motivation, priors, posterior inference (VI---Bayes by backprop, moment prop---and MCMC---scalable HMC), infinite limits",
+			{"name": "Bayes NN basics: motivation, priors, posterior inference, infinite limits",
+				"link": "",
+				"type": ""},
+			{"name": "Research frontiers.",
 				"link": "",
 				"type": ""}
 		],
@@ -52,22 +55,6 @@
 		]
 	},
 
-	
-
-	{
-		"type": "Module",
-		"name": "Bayesian Deep Learning",
-		"date": "Eric Nalisnick",
-		"desc": "...",
-		"documents": [
-			{"name": "",
-				"link": "",
-				"type": ""}
-		],
-		"recordings": [
-		]
-	},
-
 	{
 		"type": "Module",
 		"name": "Deep probabilistic models II",
@@ -75,9 +62,13 @@
 		"desc": "...",
 		"documents": [
 
-			{"name": "",
+			{"name": "Variational inference for deep discrete latent variable models. Variational inference for deep discrete latent variable models.",
+				"link": "",
+				"type": ""},
+			{"name": "Variational inference for deep continuous latent variable models (e.g., VAEs), reparameterised gradients beyond Gaussian (e.g., path derivatives, ADVI, implicit reparameterisation).",
 				"link": "",
 				"type": ""}
+
 		],
 		"recordings": [
 		]
@@ -90,9 +81,13 @@
 		"desc": "...",
 		"documents": [
 
-			{"name": "",
+			{"name": "Variance reduction (e.g., control variates, Rao-Blackwell).",
+				"link": "",
+				"type": ""},
+			{"name": "Proxy gradients (e.g., continuous relaxations, sparse parameterisation of inference models).",
 				"link": "",
 				"type": ""}
+
 		],
 		"recordings": [
 		]
@@ -105,7 +100,10 @@
 		"date": "Sara Magliacane",
 		"desc": "...",
 		"documents": [
-			{"name": "",
+			{"name": "DL for causality (i.e. intro to causality, causal discovery, NOTEARS, DAG-GNN, etc).",
+				"link": "",
+				"type": ""},
+			{"name": "Causality for ML/DL (i.e. causality for transfer learning/domain adapatation/RL, causal representation learning).",
 				"link": "",
 				"type": ""}
 		],
@@ -116,13 +114,23 @@
 	{
 		"type": "Module",
 		"name": "High-performant Deep Learning",
-		"date": "Jonas Teuwen",
+		"date": "Jonas Teuwen and Eric Marcus",
 		"desc": "...",
 		"documents": [
 
-			{"name": "",
+			{"name": "Fast data loading.",
+				"link": "",
+				"type": ""},
+			{"name": "MultiGPU programming.",
+				"link": "",
+				"type": ""},
+			{"name": "Large scale hyperparameter search (cluster based).",
+				"link": "",
+				"type": ""},
+			{"name": "Advanced topics in large models (that don’t fit single devices).",
 				"link": "",
 				"type": ""}
+
 		],
 		"recordings": [
 		]
@@ -135,12 +143,28 @@
 		"date": "Efstratios Gavves+Emiel Hogenboom",
 		"desc": "...",
 		"documents": [
-			{"name": "",
+
+			{"name": "Variational autoencoders.",
+				"link": "",
+				"type": ""},
+			{"name": "Normalizing flows.",
+				"link": "",
+				"type": ""},
+			{"name": "Energy-based models.",
+				"link": "",
+				"type": ""},
+			{"name": "Modern energy-based models.",
+				"link": "",
+				"type": ""},
+			{"name": "Score-based matching.",
+				"link": "",
+				"type": ""},
+			{"name": "Diffusion models.",
 				"link": "",
 				"type": ""}
+
 		],
 		"recordings": [
-			
 		]
 	},
 
@@ -150,6 +174,14 @@
 		"date": "Efstratios Gavves",
 		"desc": "...",
 		"documents": [
+
+			{"name": "Dynamical systems in neural networks.",
+				"link": "",
+				"type": ""},
+			{"name": "Dynamical systems for neural networks.",
+				"link": "",
+				"type": ""}
+
 		],
 		"recordings": [
 		]
@@ -162,6 +194,39 @@
 		"date": "Efstratios Gavves",
 		"desc": "...",
 		"documents": [
+
+			{"name": "Deep sampling, variance reduction.",
+				"link": "",
+				"type": ""},
+			{"name": "Gumbel, straight-through, Harmonic analysis.",
+				"link": "",
+				"type": ""},
+			{"name": "Sampling structures.",
+				"link": "",
+				"type": ""}
+
+		],
+		"recordings": [
+		]
+	},
+
+	{
+		"type": "Module",
+		"name": "Neural Information Retrieval",
+		"date": "Andrew Yates",
+		"desc": "Neural Information Retrieval is the application of deep learning models to ranking tasks, such as ranking documents by their relevance to a given query. After briefly introducing IR basics, this module will cover the three families of models commonly used for this task and their trade-offs.",
+		"documents": [
+
+			{"name": "NN parameterisation of joint distributions over observed variables",
+				"link": "",
+				"type": ""},
+			{"name": "Tractable deep latent variable models.",
+				"link": "",
+				"type": ""},
+			{"name": "Equivariant graph neural networks.",
+				"link": "",
+				"type": ""}
+
 		],
 		"recordings": [
 		]
