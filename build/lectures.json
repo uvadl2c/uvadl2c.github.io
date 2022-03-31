@@ -81,8 +81,8 @@
 		"desc": "In this module you learn to view data as a byproduct of probabilistic experiments. You will parameterise joint probability distributions over observed random variables and perform parameter estimation by regularised gradient-based maximum likelihood estimation. ",
 		"documents": [
 			{"name": "NN parameterisation of joint distributions over observed variables",
-				"link": "",
-				"type": ""},
+				"link": "https://canvas.uva.nl/courses/28689/pages/nn-parameterisation-of-joint-distributions?module_item_id=1243065",
+				"type": "Canvas"},
 			{"name": "Tractable deep latent variable models",
 				"link": "",
 				"type": ""}
@@ -95,14 +95,17 @@
 		"type": "Module",
 		"name": "Deep probabilistic models II",
 		"date": "Wilker Aziz Ferreira",
-		"desc": "...",
+		"desc": "In this session you learn to model complex data along with unobserved discrete random variables. Examples you are probably already familiar with include mixture models, factor models, and HMMs. You will learn how to approximate intractable inference using stochastic variational methods and derive efficient gradient estimators for parameter estimation via backpropagation.",
 		"documents": [
 
-			{"name": "Variational inference for deep discrete latent variable models. Variational inference for deep discrete latent variable models.",
-				"link": "",
+			{"name": "Fundamentals of variational inference.",
+				"link": "https://canvas.uva.nl/courses/28689/pages/fundamentals-of-variational-inference?module_item_id=1243071",
+				"type": ""},
+			{	"name": "Variational inference for deep discrete latent variable models. Variational inference for deep discrete latent variable models.",
+				"link": "https://canvas.uva.nl/courses/28689/pages/variational-inference-for-deep-discrete-latent-variable-models?module_item_id=1243067",
 				"type": ""},
 			{"name": "Variational inference for deep continuous latent variable models (e.g., VAEs), reparameterised gradients beyond Gaussian (e.g., path derivatives, ADVI, implicit reparameterisation).",
-				"link": "",
+				"link": "https://canvas.uva.nl/courses/28689/pages/variational-inference-for-deep-continuous-latent-variable-models?module_item_id=1243068",
 				"type": ""}
 
 		],
@@ -118,7 +121,7 @@
 		"documents": [
 
 			{"name": "Variance reduction (e.g., control variates, Rao-Blackwell).",
-				"link": "",
+				"link": "https://canvas.uva.nl/courses/28689/pages/variance-reduction-proxy-gradients-and-mixed-random-variables?module_item_id=1243069",
 				"type": ""},
 			{"name": "Proxy gradients (e.g., continuous relaxations, sparse parameterisation of inference models).",
 				"link": "",
