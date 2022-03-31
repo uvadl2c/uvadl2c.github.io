@@ -95,7 +95,7 @@
 		"type": "Module",
 		"name": "Deep probabilistic models II",
 		"date": "Wilker Aziz Ferreira",
-		"desc": "In this session you learn to model complex data along with unobserved discrete random variables. Examples you are probably already familiar with include mixture models, factor models, and HMMs. You will learn how to approximate intractable inference using stochastic variational methods and derive efficient gradient estimators for parameter estimation via backpropagation.",
+		"desc": "Week 2-3 <br> </br> In this session you learn to model complex data along with unobserved discrete random variables. Examples you are probably already familiar with include mixture models, factor models, and HMMs. You will learn how to approximate intractable inference using stochastic variational methods and derive efficient gradient estimators for parameter estimation via backpropagation.",
 		"documents": [
 
 			{"name": "Fundamentals of variational inference.",
@@ -117,7 +117,7 @@
 		"type": "Module",
 		"name": "Advanced approximate inference for discrete latent variable models",
 		"date": "Wilker Aziz Ferreira",
-		"desc": "In this session you will learn about techniques to reduce variance in gradient estimation for models with discrete unobserved random variables. We will look into: control variates, Rao-Blackwellisation, continuous relaxations and proxy gradients, sparse projections and mixed random variables.",
+		"desc": "Week 4 <br> </br> In this session you will learn about techniques to reduce variance in gradient estimation for models with discrete unobserved random variables. We will look into: control variates, Rao-Blackwellisation, continuous relaxations and proxy gradients, sparse projections and mixed random variables.",
 		"documents": [
 
 			{"name": "Variance reduction (e.g., control variates, Rao-Blackwell).",
