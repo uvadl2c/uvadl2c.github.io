@@ -177,7 +177,7 @@
 		"type": "Module",
 		"name": "Advanced Generative Models",
 		"date": "Efstratios Gavves+Emiel Hogenboom",
-		"desc": "...",
+		"desc": "In this module we will study generative models beyond variational autoencoders: normalizing flows, energy-based models like scored-matching neural networks and diffusion models, Hopfield networks, and so forth.",
 		"documents": [
 
 			{"name": "Variational autoencoders.",
@@ -208,7 +208,7 @@
 		"type": "Module",
 		"name": "Neural Network Dynamical Systems",
 		"date": "Efstratios Gavves",
-		"desc": "...",
+		"desc": "In this module we will study the interface and overlap between neural networks, dynamical systems, ordinary/partial/stochastic differential equations, and physics-based neural networks. We will study how and where dynamical systems be found in neural networks with implicit functions and neural ODEs. We will also see how neural networks can be used to model dynamical systems like Navier-Stokes with physics-informed neural networks, as well as with Fourier-inspired architectures and autoregressive neural networks.",
 		"documents": [
 
 			{"name": "Dynamical systems in neural networks.",
@@ -228,7 +228,7 @@
 		"type": "Module",
 		"name": "Sampling & Gradient Approximations",
 		"date": "Efstratios Gavves",
-		"desc": "...",
+		"desc": "In this module we will study how one can integrate complex structure into neural networks. We will start with a quick introduction to Monte-Carlo simulation for neural networks. We will discuss Gumbel-Softmax  for differentiable models and the Gumbel-Argmax trick for sampling from categorical distributions, as well as then the Gumbel-Straight-Through variation. We will continue with subset sampling with Gumbel-Topk relaxations, sampling graphs in latent spaces in relational inference with GNN encoder/decode, as well as asampling latent permutations with Gumbel-Sinkhorn. Last, we will discuss about how discrete and continuous sampling connects to analysis of functions from mathematics.",
 		"documents": [
 
 			{"name": "Deep sampling, variance reduction.",
