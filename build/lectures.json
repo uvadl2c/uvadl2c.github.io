@@ -157,18 +157,25 @@
 			{"name": "Fast data loading.",
 				"link": "",
 				"type": ""},
-			{"name": "MultiGPU programming.",
-				"link": "",
-				"type": ""},
-			{"name": "Large scale hyperparameter search (cluster based).",
-				"link": "",
-				"type": ""},
+			{"name": "Lecture on multiGPU programming.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/High-performant%20DL?preview=6468874",
+				"type": "pdf"},
+			{"name": "Lecture large scale hyperparameter search (cluster based).",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/High-performant%20DL?preview=6468873",
+				"type": "pdf"},
 			{"name": "Advanced topics in large models (that don’t fit single devices).",
 				"link": "",
 				"type": ""}
 
 		],
 		"recordings": [
+
+			{"name": "Lecture on multi gpu.",
+				"link": "https://www.youtube.com/watch?v=-FgkyGiG4No",
+				"type": "video"},
+			{"name": "Lecture on hyperparameter.",
+				"link": "https://www.youtube.com/watch?v=FhaHLo-PZKE",
+				"type": "video"}
 		]
 	},
 
