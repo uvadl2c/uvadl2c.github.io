@@ -177,7 +177,7 @@
 		"type": "Module",
 		"name": "Advanced Generative Models",
 		"date": "Efstratios Gavves+Emiel Hogenboom",
-		"desc": "In this module we will study generative models beyond variational autoencoders: normalizing flows, energy-based models like scored-matching neural networks and diffusion models, Hopfield networks, and so forth.",
+		"desc": "Week 1 <br></br> In this module we will study generative models beyond variational autoencoders: normalizing flows, energy-based models like scored-matching neural networks and diffusion models, Hopfield networks, and so forth.",
 		"documents": [
 
 			{"name": "Variational autoencoders.",
