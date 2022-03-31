@@ -137,7 +137,7 @@
 		"type": "Module",
 		"name": "Causality and Deep Learning",
 		"date": "Sara Magliacane",
-		"desc": "This module will focus on the connections between causality and deep learning. We will start by introducing the basic concepts in causality (e.g. causal graphs, d-separations, interventions). Then we will focus on how can DL help causality, specifically for the task of causal discovery (learning the causal graph from data), which will be also the main topic of the tutorial. Finally we will discuss how can causality (or ideas from causality research) help DL and RL, focusing in particular on dealing with distribution shifts.",
+		"desc": "Week 4 <br></br> This module will focus on the connections between causality and deep learning. We will start by introducing the basic concepts in causality (e.g. causal graphs, d-separations, interventions). Then we will focus on how can DL help causality, specifically for the task of causal discovery (learning the causal graph from data), which will be also the main topic of the tutorial. Finally we will discuss how can causality (or ideas from causality research) help DL and RL, focusing in particular on dealing with distribution shifts.",
 		"documents": [
 			{"name": "DL for causality (i.e. intro to causality, causal discovery, NOTEARS, DAG-GNN, etc).",
 				"link": "",
