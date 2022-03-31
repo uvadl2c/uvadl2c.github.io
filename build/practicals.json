@@ -1,35 +1,35 @@
 [
 	{
 		"name": "Mini-project topic 1",
-		"deadline": "June ..., 2022",
-		"image": "images/nn2.png",
-		"image_desc": "An example of a neural network.",
-		"desc": "List of papers for the topic: ....",
+		"deadline": "April ..., 2022",
+		"image": "",
+		"image_desc": ".",
+		"desc": "TBA",
 		"documents": [
 			{"name": "...",
-			"link": "https://canvas.uva.nl/courses/25602/files/folder/Uploaded%20Media?preview=5607220",
+			"link": "...",
 			"type": "pdf"},
 			{"name": "...",
-			"link": "https://canvas.uva.nl/courses/25602/files/folder/Uploaded%20Media?preview=5610854",
+			"link": "...",
 			"type": "pdf"}
 		]
 	},
 
 	{
 		"name": "Mini-project topic 2",
-		"deadline": "June ..., 2022",
-		"desc": "",
-		"image": "images/rnns.jpg",
-		"image_desc": "RNNs unroll a network over time.",
+		"deadline": "April ..., 2022",
+		"desc": "TBA",
+		"image": "...",
+		"image_desc": "...",
 		"documents": [
 		]
 	},
 
 	{
 		"name": "Mini-project topic 3",
-		"deadline": "June ..., 2022",
-		"desc": "",
-		"image": "images/vae.jpg",
+		"deadline": "April ..., 2022",
+		"desc": "TBA",
+		"image": "...",
 		"image_desc": "....",
 		"documents": [
 		]
@@ -37,9 +37,9 @@
 
 	{
 		"name": "Mini-project topic 4",
-		"deadline": "June ..., 2022",
-		"desc": "",
-		"image": "images/vae.jpg",
+		"deadline": "April ..., 2022",
+		"desc": "TBA",
+		"image": "...",
 		"image_desc": "....",
 		"documents": [
 		]
@@ -47,9 +47,9 @@
 
 	{
 		"name": "Mini-project topic 5",
-		"deadline": "June ..., 2022",
-		"desc": "",
-		"image": "images/vae.jpg",
+		"deadline": "April ..., 2022",
+		"desc": "TBA",
+		"image": "...",
 		"image_desc": "....",
 		"documents": [
 		]

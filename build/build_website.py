@@ -58,15 +58,16 @@ def build_practicals(index_file,
 	for index, practical in enumerate(practicals_dict):
 		practical_html = practical_template[:]
 		practical["name"] = "Practical %i: " % (index+1) + practical["name"]
-		assert os.path.isfile("../" + practical["image"]), "Given image path \"%s\" does not point to an existing image." % practical["image"]
+		#assert os.path.isfile("../" + practical["image"]), "Given image path \"%s\" does not point to an existing image." % practical["image"]
 		if len(practical['desc']) == 0:
 			practical['desc'] = 'Details will follows soon.'
 
 		for tag, value in [("NAME", "name"), 
 						   ("DEADLINE", "deadline"),
 						   ("DESCRIPTION", "desc"),
-						   ("IMAGE", "image"),
-						   ("IMAGE_DESC", "image_desc")]:
+						   #("IMAGE", "image"),
+						   #("IMAGE_DESC", "image_desc")
+						   ]:
 			assert value in practical, "Practical entries require the value \"%s\" that could not be found in the following entry:\n%s" % (value, str(practical))
 			practical_html = practical_html.replace("<!--$$%s$$-->" % tag, practical[value])
 
