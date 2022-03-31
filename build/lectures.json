@@ -33,6 +33,27 @@
 
 		],
 		"recordings": [
+			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.1: Introduction.",
+				"link": "https://www.youtube.com/watch?v=z2OEyUgSH2c&list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM&index=1",
+				"type": "video"},
+			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.2: Group theory (product, inverse, representations).",
+				"link": "https://youtu.be/F0OxOCZwm1Q?list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM",
+				"type": "video"},
+			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.3: Regular group convolutional neural networks.",
+				"link": "https://youtu.be/cWG_1IzI0uI?list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM",
+				"type": "video"},
+			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.4: Example.",
+				"link": "https://youtu.be/X3gP1voalDE?list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM",
+				"type": "video"},
+			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.5: A Brief History of G-CNNs.",
+				"link": "https://youtu.be/kTvow5-eCCQ?list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM",
+				"type": "video"},
+			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.6: Group theory (Homogeneous/quotient spaces).",
+				"link": "https://youtu.be/mntjPJYxwTI?list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM",
+				"type": "video"},
+			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.7: Group convolutions are all you need.",
+				"link": "https://youtu.be/erlCaoj6sTg?list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM",
+				"type": "video"}
 		]
 	},
 
