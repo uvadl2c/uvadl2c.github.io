@@ -82,7 +82,7 @@
 		"name": "Module 3: Deep probabilistic models I",
 		"date": "<b>Wilker Aziz Ferreira</b>",
 		"credit": "1 pts",
-		"desc": "<b>Week 1</b> <br> </br> <b>Credits: 1pts</b> <br></br> In this module you learn to view data as a byproduct of probabilistic experiments. You will parameterise joint probability distributions over observed random variables and perform parameter estimation by regularised gradient-based maximum likelihood estimation. <br></br> The Q&A session for this module will take place at 6th of April.",
+		"desc": "<b>Week 1</b> <br> </br>  <b>Credits: 1pts</b> <br></br> https://vitutorial.github.io/ <br> </br> In this module you learn to view data as a byproduct of probabilistic experiments. You will parameterise joint probability distributions over observed random variables and perform parameter estimation by regularised gradient-based maximum likelihood estimation. <br></br> The Q&A session for this module will take place at 6th of April.",
 		"documents": [
 			{"name": "NN parameterisation of joint distributions over observed variables",
 				"link": "https://canvas.uva.nl/courses/28689/pages/nn-parameterisation-of-joint-distributions?module_item_id=1243065",
@@ -100,7 +100,7 @@
 		"name": "Module 4: Deep probabilistic models II",
 		"date": "<b>Wilker Aziz Ferreira</b>",
 		"credit": "2 pts",
-		"desc": "<b>Week 2-3 </b><br> </br> <b>Credits: 2pts</b> <br></br> In this session you learn to model complex data along with unobserved discrete random variables. Examples you are probably already familiar with include mixture models, factor models, and HMMs. You will learn how to approximate intractable inference using stochastic variational methods and derive efficient gradient estimators for parameter estimation via backpropagation.",
+		"desc": "<b>Week 2-3 </b><br> </br>  <b>Credits: 2pts</b> <br></br> https://vitutorial.github.io/ <br> </br> In this session you learn to model complex data along with unobserved discrete random variables. Examples you are probably already familiar with include mixture models, factor models, and HMMs. You will learn how to approximate intractable inference using stochastic variational methods and derive efficient gradient estimators for parameter estimation via backpropagation.",
 		"documents": [
 
 			{"name": "Fundamentals of variational inference.",
@@ -123,7 +123,7 @@
 		"name": "Module 5: Advanced approximate inference for discrete latent variable models",
 		"date": "<b>Wilker Aziz Ferreira</b>",
 		"credit": "1 pts",
-		"desc": "<b>Week 4</b> <br> </br> <b>Credits: 1pts </b><br></br> In this session you will learn about techniques to reduce variance in gradient estimation for models with discrete unobserved random variables. We will look into: control variates, Rao-Blackwellisation, continuous relaxations and proxy gradients, sparse projections and mixed random variables.",
+		"desc": "<b>Week 4</b> <br> </br> <b>Credits: 1pts </b><br></br> https://vitutorial.github.io/ <br> </br> In this session you will learn about techniques to reduce variance in gradient estimation for models with discrete unobserved random variables. We will look into: control variates, Rao-Blackwellisation, continuous relaxations and proxy gradients, sparse projections and mixed random variables.",
 		"documents": [
 
 			{"name": "Variance reduction (e.g., control variates, Rao-Blackwell).",
