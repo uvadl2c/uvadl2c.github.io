@@ -164,7 +164,7 @@ def build_lectures(index_file,
 
 	for dict_entry in lectures_dict:
 
-		html_entries.append('<p><h3>Module %i</h3></p>' % lecture_count)
+		#html_entries.append('<p><h3>Module %i</h3></p>' % lecture_count)
 
 		is_tutorial = (dict_entry["type"] == "tutorial")
 		if is_tutorial:
