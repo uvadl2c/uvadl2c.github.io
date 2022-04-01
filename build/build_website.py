@@ -182,7 +182,8 @@ def build_lectures(index_file,
 
 		for tag, value in [("NAME", "name"), 
 						   ("DATE", "date"),
-						   ("DESCRIPTION", "desc"),
+						   ("CREDIT", "credit"),
+						   ("DESCRIPTION", "desc"),	   
 						   ("IMAGE", "image"),
 						   ("STYLE", "style")]:
 			if ("<!--$$%s$$-->" % tag) in entry_html:
