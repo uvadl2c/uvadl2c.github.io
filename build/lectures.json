@@ -92,6 +92,18 @@
 				"type": ""}
 	],
 		"recordings": [
+			{"name": "Lecture 1: Deep probabilistic models I - Lecture 1.1.",
+				"link": "https://surfdrive.surf.nl/files/index.php/s/1Bq2ImpGElGwePL#/files_mediaviewer/probdl1-2022-1-of-2.mp4",
+				"type": "video"},
+			{"name": "Lecture 1: Deep probabilistic models I - Lecture 1.2.",
+				"link": "https://surfdrive.surf.nl/files/index.php/s/1Bq2ImpGElGwePL#/files_mediaviewer/probdl1-2022-2-of-2.mp4",
+				"type": "video"},
+			{"name": "Lecture 1: Deep probabilistic models I - Lecture 1.3.",
+				"link": "https://surfdrive.surf.nl/files/index.php/s/1Bq2ImpGElGwePL#/files_mediaviewer/probdl2-2022-3-of-3.mov",
+				"type": "video"},
+			{"name": "Lecture 1: GDeep probabilistic models I - Lecture 1.4.",
+				"link": "https://surfdrive.surf.nl/files/index.php/s/1Bq2ImpGElGwePL#/files_mediaviewer/probld2-2022-1-of-3.mp4",
+				"type": "video"}
 		]
 	},
 
