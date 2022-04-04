@@ -85,11 +85,11 @@
 		"desc": "<b>Credits: 1pts</b> <br></br> https://vitutorial.github.io/ <br> </br> In this module you learn to view data as a byproduct of probabilistic experiments. You will parameterise joint probability distributions over observed random variables and perform parameter estimation by regularised gradient-based maximum likelihood estimation. <br></br> The Q&A session for this module will take place at 6th of April.",
 		"documents": [
 			{"name": "NN parameterisation of joint distributions over observed variables",
-				"link": "https://canvas.uva.nl/courses/28689/pages/nn-parameterisation-of-joint-distributions?module_item_id=1243065",
-				"type": "Canvas"},
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20I?preview=6488166",
+				"type": "pdf"},
 			{"name": "Tractable deep latent variable models",
-				"link": "",
-				"type": ""}
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20I?preview=6488165",
+				"type": "pdf"}
 	],
 		"recordings": [
 			{"name": "Lecture 1: Deep probabilistic models I - Lecture 1.1.",
@@ -102,6 +102,9 @@
 				"link": "https://surfdrive.surf.nl/files/index.php/s/1Bq2ImpGElGwePL#/files_mediaviewer/probdl2-2022-3-of-3.mov",
 				"type": "video"},
 			{"name": "Lecture 1: GDeep probabilistic models I - Lecture 1.4.",
+				"link": "https://surfdrive.surf.nl/files/index.php/s/1Bq2ImpGElGwePL#/files_mediaviewer/probld2-2022-1-of-3.mp4",
+				"type": "video"},
+			{"name": "Lecture 1: Deep probabilistic models I - Lecture 1.5.",
 				"link": "https://surfdrive.surf.nl/files/index.php/s/1Bq2ImpGElGwePL#/files_mediaviewer/probld2-2022-1-of-3.mp4",
 				"type": "video"}
 		]
