@@ -215,15 +215,54 @@
 		"desc": "<b>Credits: 1pts</b> <br></br> In this module we will study generative models beyond variational autoencoders: normalizing flows, energy-based models like scored-matching neural networks and diffusion models, Hopfield networks, and so forth.",
 		"documents": [
 
-			{"name": "Variational autoencoders.",
-				"link": "",
-				"type": ""},
-			{"name": "Normalizing flows.",
-				"link": "",
-				"type": ""},
-			{"name": "Energy-based models.",
-				"link": "",
-				"type": ""},
+			{"name": "Variational autoencoders part A",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Variational%20autoencoders?preview=6491032",
+				"type": "pdf"},
+			{"name": "Variational autoencoders part B",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Variational%20autoencoders?preview=6491031",
+				"type": "pdf"},
+			{"name": "Variational autoencoders part C",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Variational%20autoencoders?preview=6491026",
+				"type": "pdf"},
+			{"name": "Variational autoencoders part D",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Variational%20autoencoders?preview=6491035",
+				"type": "pdf"},
+
+
+			{"name": "Normalizing flows part A.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Normalizing%20flows%20and%20autoregressive%20models?preview=6491018",
+				"type": "pdf"},
+			{"name": "Normalizing flows part B.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Normalizing%20flows%20and%20autoregressive%20models?preview=6491022",
+				"type": "pdf"},
+			{"name": "Normalizing flows part C.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Normalizing%20flows%20and%20autoregressive%20models?preview=6491013",
+				"type": "pdf"},
+			{"name": "Normalizing flows part D.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Normalizing%20flows%20and%20autoregressive%20models?preview=6491021",
+				"type": "pdf"},
+			{"name": "Normalizing flows part E.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Normalizing%20flows%20and%20autoregressive%20models?preview=6491024",
+				"type": "pdf"},
+
+
+			{"name": "Early energy-based models part A.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Early%20energy-based%20models?preview=6491007",
+				"type": "pdf"},
+			{"name": "Early energy-based models part B.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Early%20energy-based%20models?preview=6491002",
+				"type": "pdf"},
+			{"name": "Early energy-based models part C.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Early%20energy-based%20models?preview=6491007",
+				"type": "pdf"},
+			{"name": "Early energy-based models part D.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Early%20energy-based%20models?preview=6491001",
+				"type": "pdf"},
+			{"name": "Early energy-based models part E.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Advanced%20Generative%20%26%20Energy-based%20Models/Early%20energy-based%20models?preview=6490999",
+				"type": "pdf"},
+			
+
 			{"name": "Modern energy-based models.",
 				"link": "",
 				"type": ""},
@@ -236,7 +275,33 @@
 
 		],
 		"recordings": [
-		]
+
+			{"name": "Variational autoencoders part A.",
+				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/ccf523ee0ac64e1b9d2816412ccf4cc31d",
+				"type": "video"},
+			{"name": "Variational autoencoders part B.",
+				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/22f8a43121fa42008d49328e716d15b61d",
+				"type": "video"},
+			{"name": "Variational autoencoders part C.",
+				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/e5e5ba8724a14e859a3bc2df5d0f9f371d",
+				"type": "video"},
+			{"name": "Variational autoencoders part D.",
+				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/80e5c42b90cf440c83eb2008d29d6fb31d",
+				"type": "video"},
+
+			{"name": "Normilizing flows A.",
+				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/7a8a1a81812143b3a6fbcb05a55633761d",
+				"type": "video"},
+			{"name": "Normilizing flows B.",
+				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/9a84aa83b0b84f8ebdc60538882e5bb51d",
+				"type": "video"},
+
+			{"name": "Early energy based models.",
+				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/023d72c9febf4591a671d0955a2b53511d",
+				"type": "video"}
+
+
+]
 	},
 
 	{
