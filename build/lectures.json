@@ -82,30 +82,18 @@
 		"name": "Module 3: Deep probabilistic models I (Week 1)",
 		"date": "<b>Wilker Aziz Ferreira</b>",
 		"credit": "1 pts",
-		"desc": "<b>Credits: 1pts</b> <br></br> https://vitutorial.github.io/ <br> </br> In this module you learn to view data as a byproduct of probabilistic experiments. You will parameterise joint probability distributions over observed random variables and perform parameter estimation by regularised gradient-based maximum likelihood estimation. <br></br> The Q&A session for this module will take place at 6th of April.",
+		"desc": "<b>Credits: 1pts</b> <br></br> In this module you learn to view data as a byproduct of probabilistic experiments. You will parameterise joint probability distributions over observed random variables and perform parameter estimation by regularised gradient-based maximum likelihood estimation. <br></br> The Q&A session for this module will take place at 6th of April.",
 		"documents": [
 			{"name": "NN parameterisation of joint distributions over observed variables",
 				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20I?preview=6488166",
-				"type": "pdf"},
-			{"name": "Tractable deep latent variable models",
-				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20I?preview=6488165",
 				"type": "pdf"}
 	],
 		"recordings": [
-			{"name": "Lecture 1: Deep probabilistic models I - Lecture 1.1.",
+			{"name": "Deep probabilistic models I - Lecture 1.1.",
 				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/57053ad80d2847888ef9aefcba2574a61d",
 				"type": "video"},
-			{"name": "Lecture 1: Deep probabilistic models I - Lecture 1.2.",
+			{"name": "Deep probabilistic models I - Lecture 1.2.",
 				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/a30fffc800524283809bd69b27a11a351d",
-				"type": "video"},
-			{"name": "Lecture 1: Deep probabilistic models I - Lecture 1.3.",
-				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/1846886c57834477adc2eb403b64b3481d",
-				"type": "video"},
-			{"name": "Lecture 1: GDeep probabilistic models I - Lecture 1.4.",
-				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/6000b98c8a1944c5979cc0ae11690bd61d",
-				"type": "video"},
-			{"name": "Lecture 1: Deep probabilistic models I - Lecture 1.5.",
-				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/aa13f3fd4c064f29b0fcb4e43c05c0cc1d",
 				"type": "video"}
 		]
 	},
@@ -115,7 +103,7 @@
 		"name": "Module 4: Deep probabilistic models II (Week 2-3)",
 		"date": "<b>Wilker Aziz Ferreira</b>",
 		"credit": "2 pts",
-		"desc": "<b>Credits: 2pts</b> <br></br> https://vitutorial.github.io/ <br> </br> In this session you learn to model complex data along with unobserved discrete random variables. Examples you are probably already familiar with include mixture models, factor models, and HMMs. You will learn how to approximate intractable inference using stochastic variational methods and derive efficient gradient estimators for parameter estimation via backpropagation.",
+		"desc": "<b>Credits: 2pts</b> <br></br> In this session you learn to model complex data along with unobserved discrete random variables. Examples you are probably already familiar with include mixture models, factor models, and HMMs. You will learn how to approximate intractable inference using stochastic variational methods and derive efficient gradient estimators for parameter estimation via backpropagation.",
 		"documents": [
 
 			{"name": "Fundamentals of variational inference.",
@@ -126,10 +114,23 @@
 				"type": ""},
 			{"name": "Variational inference for deep continuous latent variable models (e.g., VAEs), reparameterised gradients beyond Gaussian (e.g., path derivatives, ADVI, implicit reparameterisation).",
 				"link": "https://canvas.uva.nl/courses/28689/pages/variational-inference-for-deep-continuous-latent-variable-models?module_item_id=1243068",
-				"type": ""}
+				"type": ""},
+			{"name": "Slides for Deep probabilistic models II",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20I?preview=6488165",
+				"type": "pdf"}
 
 		],
 		"recordings": [
+
+			{"name": "Lecture 1: Deep probabilistic models I - Lecture 1.3.",
+				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/1846886c57834477adc2eb403b64b3481d",
+				"type": "video"},
+			{"name": "Lecture 1: GDeep probabilistic models I - Lecture 1.4.",
+				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/6000b98c8a1944c5979cc0ae11690bd61d",
+				"type": "video"},
+			{"name": "Lecture 1: Deep probabilistic models I - Lecture 1.5.",
+				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/aa13f3fd4c064f29b0fcb4e43c05c0cc1d",
+				"type": "video"}
 		]
 	},
 
