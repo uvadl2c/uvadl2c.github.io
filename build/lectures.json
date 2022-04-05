@@ -82,7 +82,7 @@
 		"name": "Module 3: Deep probabilistic models I (Week 1)",
 		"date": "<b>Wilker Aziz Ferreira</b>",
 		"credit": "1 pts",
-		"desc": "<b>Credits: 1pts</b> <br></br> 100% of the materials for this module are published. <br></br>In this module you learn to view data as a byproduct of probabilistic experiments. You will parameterise joint probability distributions over observed random variables and perform parameter estimation by regularised gradient-based maximum likelihood estimation. <br></br> The Q&A session for this module will take place at 6th of April.",
+		"desc": "<b>Credits: 1pts</b><br></br> Add your questions for the Q&A: https://www.dory.app/c/f97ceccf/a8a8baab_dl2---probdl1 <br></br> 100% of the materials for this module are published. <br></br>In this module you learn to view data as a byproduct of probabilistic experiments. You will parameterise joint probability distributions over observed random variables and perform parameter estimation by regularised gradient-based maximum likelihood estimation. <br></br> The Q&A session for this module will take place at 6th of April.",
 		"documents": [
 			{"name": "NN parameterisation of joint distributions over observed variables",
 				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20I?preview=6488166",
