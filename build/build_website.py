@@ -33,7 +33,7 @@ def _create_recording_list(recording_dict):
 	recording_list = []
 	for rec_num, record in enumerate(recording_dict):
 		record_html = DEFAULT_RECORDING
-		record["name"] = "Part %i: " % (rec_num+1) + record["name"]
+		record["name"] =  record["name"]
 		record_html = record_html.replace("<!--$$NAME$$-->", record["name"] + (" (link TBA)" if len(record["link"])==0 else ""))
 		record_html = record_html.replace("<!--$$LINK$$-->", ("href='%s'"%record["link"]) if len(record["link"])>0 else "")
 		recording_list.append(record_html)
