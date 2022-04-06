@@ -370,7 +370,7 @@
 
 	{
 		"type": "Module",
-		"name": "Module 12: Neural Information Retrieval (Week: 3 )",
+		"name": "Module 12: Neural Information Retrieval (Week: 3)",
 		"date": "<b>Andrew Yates</b>",
 		"credit": "1 pts",
 		"desc": "<b> Credits: 1pts </b><br></br>  The materials for this module will be added soon! <br></br>  Neural Information Retrieval is the application of deep learning models to ranking tasks, such as ranking documents by their relevance to a given query. After briefly introducing IR basics, this module will cover the three families of models commonly used for this task and their trade-offs.",
