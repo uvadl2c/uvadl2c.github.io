@@ -11,7 +11,16 @@
 			
 			{"name": "GDL - Steerable CNNs",
 			"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Geometric_deep_learning/tutorial2_steerable_cnns.html",
+			"type": "link"},
+
+			{"name": "EquivariantGraph_tutorial",
+			"link": "https://colab.research.google.com/drive/1_INZ8cnQ1sotd8FEhD1-K4JIOYtMzJO7?usp=sharing",
+			"type": "link"},
+
+			{"name": "EquivariantGraph_tutorial.ipynb (without solutions)",
+			"link": "https://colab.research.google.com/drive/1_INZ8cnQ1sotd8FEhD1-K4JIOYtMzJO7?usp=sharing",
 			"type": "link"}
+
 		]
 	},
 
