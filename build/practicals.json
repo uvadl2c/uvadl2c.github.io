@@ -42,7 +42,7 @@
 		"image": "...",
 		"image_desc": "....",
 		"documents": [
-			{"name": "DPM1 - Deep Probabilistic Models I",
+			{"name": "DPM2 - Deep Probabilistic Models II",
 				"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/deep_probabilistic_models_I/tutorial_1.html",
 				"type": "link"}
 		]
