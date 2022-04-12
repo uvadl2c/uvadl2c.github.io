@@ -78,6 +78,9 @@
 		"documents": [
 			{"name": "Energy-based Models",
 			"link": "https://colab.research.google.com/drive/1ynZQKEC4_C9Xs4hhlyqOSKxqOTBJiTFE?usp=sharing",
+			"type": "link"},
+			{"name": "Normilizing flows",
+			"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Advanced_Generative_Models/Normalizing_flows/advancednormflow.html",
 			"type": "link"}
 		]
 	}
