@@ -21,6 +21,13 @@
 		"image": "...",
 		"image_desc": "...",
 		"documents": [
+
+			{"name": "Tutorial 1: Bayesian NNs with Pyro (with solutions)",
+				"link": "https://colab.research.google.com/drive/1D8I1Cc0690IKs3ye8dyoXen7r_gftirI?usp=sharing",
+				"type": "link"},
+			{"name": "Tutorial 1: Bayesian NNs with Pyro (without solutions)",
+				"link": "https://colab.research.google.com/drive/15NcA71SOPuOL67yBtosO0jmtVXanFaOX#scrollTo=U2aP1KBC6x2V",
+				"type": "link"}
 		]
 	},
 
