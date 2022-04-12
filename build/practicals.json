@@ -1,24 +1,23 @@
 [
 	{
-		"name": "Mini-project topic 1",
-		"deadline": "April ..., 2022",
+		"name": "Geometric deep learning",
 		"image": "",
 		"image_desc": ".",
-		"desc": "TBA",
+		"desc": " This module covers the topic of geometric deep learning, touching upon all its five G's (Grids, Groups, Graphs, Geodesics, and Gauges) but with a strong focus on group equivariant deep learning. The impact that CNNs made in fields such as computer vision, computational chemistry and physics, can largely be attributed to the fact that convolutions allow for weight sharing, geometric stability, and a dramatic decrease in learnable parameters by leveraging symmetries in data and architecture design. These enabling properties arise from the equivariance property of convolutions. That is, if the input image is translated, the output of a convolution is translated accordingly, which in turn means that local information does not get lost in the neural network upon an input transformation (it is just shifted to a different location). With group equivariant deep learning we can hard-code stability and weight sharing over transformations beyond just translations. E.g., it allows for sharing of weights (representing complex patterns/representations) over poses and symmetries represented by transformations such as translation + rotation + scaling. This module is split into 4 lectures: <ul><li> <b>Lecture 1 (Wednesday 6th of April on-site Q&A)</b>: Regular group convolutional neural networks (G-CNNs). In this lecture we cover the basics of group convolutional NNs and show how to leverage symmetries in data and practical problems.</li>  <li> <b>Lecture 2 (Tuesday 12th of April on-site Q&A)</b>: Steerable G-CNNs. In this lecture we introduce a very general class of G-CNNs that allows to handle (rotational) symmetries in a flexible and powerful way. These methods are at the core of the most successful methods to handle 3D data such as atomic point clouds, but are also at the core of gauge equivariant methods that are applicable to arbitrary Riemannian manifolds (e.g. 2D shapes embedded in 3D space).</li> <li> <b>Lecture 3 (Tuesday 19th of April on-site Q&A)</b>: Equivariant graph NNs. Many problems in computational chemistry and computational physics are now-a-days solved via graph NNs. The SotA in these domains derive their effectives from the geometric structure and symmetries presented by the data and underlying physics. In this lecture we go over some of the state-of-the-art in geometric graph NNs, discussing several instances of the equivariant message passing paradigm. </li> <li> <b>Lecture 4 (Tuesday 26th of April on-site Q&A)</b>: Geometric latent space models. In this last lecture we take a step back from the group equivariance paradigm and look at what other types of geometric structure can be leveraged in neural networks. We will discuss some models that are based on non-Euclidean latent spaces and go over the required geometric tools to handle them.</li> </ul>",
 		"documents": [
-			{"name": "...",
-			"link": "...",
-			"type": "pdf"},
-			{"name": "...",
-			"link": "...",
-			"type": "pdf"}
+			{"name": "Regular Group Convolutions",
+			"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Geometric_deep_learning/tutorial1_regular_group_convolutions.html",
+			"type": "link"},
+			
+			{"name": "GDL - Steerable CNNs",
+			"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Geometric_deep_learning/tutorial2_steerable_cnns.html",
+			"type": "link"}
 		]
 	},
 
 	{
-		"name": "Mini-project topic 2",
-		"deadline": "April ..., 2022",
-		"desc": "TBA",
+		"name": "Bayesian deep learning",
+		"desc": "Usually we train neural networks (NNs) by way of point estimation.  After running gradient descent, each weight is represented by a particular value.  In this module, we consider giving NNs a Bayesian treatment.  We start by specifying a probability distribution for each weight---p(W)---and the goal of training is to obtain the posterior distribution p(W | D), where D denotes the training data, via Bayes rule.  The Bayesian approach provides natural mechanisms for model selection, complexity control, incorporating prior knowledge, uncertainty quantification, and online learning.  Yet, Bayesian inference is computationally demanding, and much of the module will focus on scalable methods for estimating the posterior distribution.",
 		"image": "...",
 		"image_desc": "...",
 		"documents": [
@@ -26,32 +25,53 @@
 	},
 
 	{
-		"name": "Mini-project topic 3",
-		"deadline": "April ..., 2022",
-		"desc": "TBA",
+		"name": "Deep probabilistic models I",
+		"desc": "In this module you learn to view data as a byproduct of probabilistic experiments. You will parameterise joint probability distributions over observed random variables and perform parameter estimation by regularised gradient-based maximum likelihood estimation",
 		"image": "...",
 		"image_desc": "....",
 		"documents": [
+			{"name": "DPM1 - Deep Probabilistic Models I",
+				"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/deep_probabilistic_models_I/tutorial_1.html",
+				"type": "link"}
 		]
 	},
 
 	{
-		"name": "Mini-project topic 4",
-		"deadline": "April ..., 2022",
-		"desc": "TBA",
+		"name": "Deep probabilistic models II",
+		"desc": "In this session you learn to model complex data along with unobserved discrete random variables. Examples you are probably already familiar with include mixture models, factor models, and HMMs. You will learn how to approximate intractable inference using stochastic variational methods and derive efficient gradient estimators for parameter estimation via backpropagation.",
 		"image": "...",
 		"image_desc": "....",
 		"documents": [
+			{"name": "DPM1 - Deep Probabilistic Models I",
+				"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/deep_probabilistic_models_I/tutorial_1.html",
+				"type": "link"}
 		]
 	},
 
 	{
-		"name": "Mini-project topic 5",
-		"deadline": "April ..., 2022",
-		"desc": "TBA",
+		"name": "High-performant Deep Learning",
+		"desc": "In the high performance module, we will investigate how to use scale up your deep learning performance. By the end of this course you will be able to run your projects on (super)computers with large efficiency and minimal human intervention. We will also discuss how to track the performance of your jobs and find possible bottlenecks. The topics include: <ul> <li> Multi-GPU training: understand how to effectively distribute models and data over any amount of GPUs </li> <li>  Large scale hyperparameter tuning: launch grid or automated Bayesian searches on any number of nodes with a 'flip of a switch', and follow the results live from your laptop.",
 		"image": "...",
 		"image_desc": "....",
 		"documents": [
+			{"name": "Introduction to HyperParameter Tuning",
+			"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/High-performant_DL/hyperparameter_search/hpdlhyperparam.html",
+			"type": "link"},
+
+			{"name": "Introduction to Multi GPU Programming",
+			"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/High-performant_DL/Multi_GPU/hpdlmultigpu.html",
+			"type": "link"}
+		]
+	},
+	{
+		"name": "Advanced generative models",
+		"desc": " In this module we will study generative models beyond variational autoencoders: normalizing flows, energy-based models like scored-matching neural networks and diffusion models, Hopfield networks, and so forth.",
+		"image": "...",
+		"image_desc": "....",
+		"documents": [
+			{"name": "Energy-based Models",
+			"link": "https://colab.research.google.com/drive/1ynZQKEC4_C9Xs4hhlyqOSKxqOTBJiTFE?usp=sharing",
+			"type": "link"}
 		]
 	}
 ]
