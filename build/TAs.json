@@ -11,6 +11,11 @@
 		"mail": "i.a.auzina@uva.nl"
 	},
 
+	{
+		"name": "Miltos Kofinas",
+		"website": "",
+		"mail": "m.kofinas@uva.nl"
+	},
 
 	{
 		"name": "Haochen Wang",
@@ -103,12 +108,8 @@
 		"name": "Sharvaree Vadgama",
 		"website": "",
 		"mail": "sharvaree.vadgama@gmail.com"
-	},
-	{
-		"name": "Miltos Kofinas",
-		"website": "",
-		"mail": "m.kofinas@uva.nl"
 	}
+	
 
 
 ]
