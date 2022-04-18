@@ -92,5 +92,15 @@
 			"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Advanced_Generative_Models/Normalizing_flows/advancednormflow.html",
 			"type": "link"}
 		]
+	},
+
+	{
+		"name": " Neural Information Retrieval",
+		"desc": "  The materials for this module will be added soon! <br></br>  Neural Information Retrieval is the application of deep learning models to ranking tasks, such as ranking documents by their relevance to a given query. After briefly introducing IR basics, this module will cover the three families of models commonly used for this task and their trade-offs.",
+		"documents": [
+			{"name": "Tutorial",
+			"link": "https://colab.research.google.com/drive/11Tco2NSDf-9zv3OsjKx_PXDiyYbLI3pA?usp=sharing",
+			"type": "link"}
+		]
 	}
 ]
