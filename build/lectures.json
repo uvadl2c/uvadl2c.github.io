@@ -376,8 +376,18 @@
 			{"name": "Early energy based models part 3.",
 				"link": "https://www.youtube.com/watch?v=a_pAaMXfphw",
 				"type": "video"},
-			{"name": "Early energy based models part 4.",
+			{"name": "Early energy based models part 4.<br></br>",
 				"link": "https://www.youtube.com/watch?v=tzFcSeZo9J4",
+				"type": "video"},
+
+			{"name": "score matching and diffusion generative models part 1.",
+				"link": "https://www.youtube.com/watch?v=-xr1DFlqARI",
+				"type": "video"},
+			{"name": "score matching and diffusion generative models part 3.",
+				"link": "https://www.youtube.com/watch?v=kJ38rkVETu0",
+				"type": "video"},
+			{"name": "score matching and diffusion generative models part 4.",
+				"link": "https://www.youtube.com/watch?v=PiLN6ZBYreg",
 				"type": "video"}
 
 
