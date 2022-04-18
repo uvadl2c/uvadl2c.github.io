@@ -318,15 +318,21 @@
 				"type": "pdf"},
 			
 
-			{"name": "Modern energy-based models.",
-				"link": "",
-				"type": ""},
-			{"name": "Score-based matching.",
-				"link": "",
-				"type": ""},
-			{"name": "Diffusion models.",
-				"link": "",
-				"type": ""}
+			{"name": "Score-matching & Diffusion Generative Models.",
+				"link": "lectures/Advanced Generative & Energy-based Models/modern-based-models/lecture 4 - all slides.pdf",
+				"type": "pdf"},
+			{"name": "Score-matching & Diffusion Generative Models - Part 1.",
+				"link": "lectures/Advanced Generative & Energy-based Models/modern-based-models/lecture 4.1.pdf",
+				"type": "pdf"},
+			{"name": "Score-matching & Diffusion Generative Models - Part 2.",
+				"link": "lectures/Advanced Generative & Energy-based Models/modern-based-models/lecture 4.2.pdf",
+				"type": "pdf"},
+			{"name": "Score-matching & Diffusion Generative Models - Part 3.",
+				"link": "lectures/Advanced Generative & Energy-based Models/modern-based-models/lecture 4.3.pdf",
+				"type": "pdf"},
+			{"name": "Score-matching & Diffusion Generative Models - Part 4.<br></br>",
+				"link": "lectures/Advanced Generative & Energy-based Models/modern-based-models/lecture 4.4.pdf",
+				"type": "pdf"}
 
 		],
 		"recordings": [
