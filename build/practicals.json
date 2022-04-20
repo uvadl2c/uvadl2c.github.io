@@ -25,6 +25,9 @@
 		"recordings": [
 			{"name": "Q&A session for Geometric Deep learning Tutorial 2.",
 				"link": "https://www.youtube.com/watch?v=lGzY5m91_es&list=PLJ2Aod97Uj8JQX48cBwAjhabxhLu8Etht&index=2",
+				"type": "video"},
+			{"name": "Geometric Deep learning -regular gcnns tutorial.",
+				"link": "https://www.youtube.com/watch?v=KRX-2GQ2fL0&list=PLJ2Aod97Uj8JQX48cBwAjhabxhLu8Etht&index=3&ab_channel=DeepLearningII",
 				"type": "video"}
 		]
 	},
@@ -96,6 +99,9 @@
 			"type": "link"}
 		],
 		"recordings": [
+			{"name": "High Performance Computing Tutorial.",
+				"link": "https://www.youtube.com/watch?v=ZZFoCuiTbC4&list=PLJ2Aod97Uj8JQX48cBwAjhabxhLu8Etht&ab_channel=DeepLearningII",
+				"type": "video"}
 		]
 	},
 	{
