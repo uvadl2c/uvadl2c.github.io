@@ -42,7 +42,7 @@
 				"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Bayesian_Neural_Networks/Complete_DLII_BNN_2_2.html",
 				"type": "link"},
 			{"name":  "Tutorial 2: Comparing to Non-Bayesian Methods for Uncertainty (without solutions)",
-				"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Bayesian_Neural_Networks/Complete_DLII_BNN_2_2.html",
+				"link": "https://colab.research.google.com/github/phlippe/uvadlc_notebooks/blob/master/docs/tutorial_notebooks/DL2/Bayesian_Neural_Networks/Student_DLII_BNN_2_2.ipynb",
 				"type": "link"}
 		]
 	},
