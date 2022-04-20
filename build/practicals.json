@@ -36,6 +36,10 @@
 				"type": "link"},
 			{"name": "Tutorial 1: Bayesian NNs with Pyro (without solutions)",
 				"link": "https://colab.research.google.com/drive/15NcA71SOPuOL67yBtosO0jmtVXanFaOX#scrollTo=U2aP1KBC6x2V",
+				"type": "link"},
+
+			{"name": "Tutorial 2",
+				"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Bayesian_Neural_Networks/Complete_DLII_BNN_2_2.html",
 				"type": "link"}
 		]
 	},
