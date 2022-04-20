@@ -102,5 +102,15 @@
 			"link": "https://colab.research.google.com/drive/11Tco2NSDf-9zv3OsjKx_PXDiyYbLI3pA?usp=sharing",
 			"type": "link"}
 		]
+	},
+
+	{
+		"name": " Bayesian Deep Learning",
+		"desc": "   Usually we train neural networks (NNs) by way of point estimation.  After running gradient descent, each weight is represented by a particular value.  In this module, we consider giving NNs a Bayesian treatment.  We start by specifying a probability distribution for each weight---p(W)---and the goal of training is to obtain the posterior distribution p(W | D), where D denotes the training data, via Bayes rule.  The Bayesian approach provides natural mechanisms for model selection, complexity control, incorporating prior knowledge, uncertainty quantification, and online learning.  Yet, Bayesian inference is computationally demanding, and much of the module will focus on scalable methods for estimating the posterior distribution.",
+		"documents": [
+			{"name": "Tutorial",
+			"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Bayesian_Neural_Networks/Complete_DLII_BNN_2_2.html",
+			"type": "link"}
+		]
 	}
 ]
