@@ -61,6 +61,8 @@
 			{"name": "DPM1 - Deep Probabilistic Models I",
 				"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/deep_probabilistic_models_I/tutorial_1.html",
 				"type": "link"}
+		],
+		"recordings": [
 		]
 	},
 
@@ -73,7 +75,10 @@
 			{"name": "DPM2 - Deep Probabilistic Models II",
 				"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/deep_probabilistic_models_II/tutorial_2a.html",
 				"type": "link"}
+		],
+		"recordings": [
 		]
+		
 	},
 
 	{
@@ -89,6 +94,8 @@
 			{"name": "Introduction to Multi GPU Programming",
 			"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/High-performant_DL/Multi_GPU/hpdlmultigpu.html",
 			"type": "link"}
+		],
+		"recordings": [
 		]
 	},
 	{
@@ -103,6 +110,8 @@
 			{"name": "Normilizing flows",
 			"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Advanced_Generative_Models/Normalizing_flows/advancednormflow.html",
 			"type": "link"}
+		],
+		"recordings": [
 		]
 	},
 
@@ -113,6 +122,8 @@
 			{"name": "Tutorial",
 			"link": "https://colab.research.google.com/drive/11Tco2NSDf-9zv3OsjKx_PXDiyYbLI3pA?usp=sharing",
 			"type": "link"}
+		],
+		"recordings": [
 		]
 	}
 ]
