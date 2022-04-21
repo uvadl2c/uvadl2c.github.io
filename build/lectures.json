@@ -54,9 +54,24 @@
 			{"name": "2.7) Derivation of Harmonic nets from regular g-convs.",
 				"link": "lectures/Geometric deep learning/Lecture_2_7.pdf",
 				"type": "pdf"},
-			{"name": "2) Complete slides ",
+			{"name": "2) Complete slides <br></br>",
 				"link": "lectures/Geometric deep learning/Lecture_2_Complete.pdf",
+				"type": "pdf"},
+
+			{"name": "3.1) Motivation for SE(3) equivariant graph NNs.",
+				"link": "lectures/Geometric deep learning/Lecture_3_1.pdf",
+				"type": "pdf"},
+			{"name": "3.2) Equivariant message passing as non-linear convolution.",
+				"link": "lectures/Geometric deep learning/Lecture_3_2.pdf",
+				"type": "pdf"},
+
+			{"name": "3.3) Tensor products as conditional linear layers.",
+				"link": "lectures/Geometric deep learning/Lecture_3_3.pdf",
+				"type": "pdf"},
+			{"name": "3.4) Group Theory (SO(3) irreps, Wigner-D, Clebsch-Gordan).<br></br>",
+				"link": "lectures/Geometric deep learning/Lecture_3_4.pdf",
 				"type": "pdf"}
+
 
 		],
 		"recordings": [
@@ -102,6 +117,20 @@
 				"type": "video"},
 			{"name": "Lecture 2.7: Derivation of Harmonic Networks from Regular G-Convs <br></br>.",
 				"link": "https://youtu.be/EBzqL1OXigM?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd",
+				"type": "video"},
+
+			{"name": "3.1) Motivation for SE(3) equivariant graph NNs.",
+				"link": "https://youtu.be/kly4xvYbb8o?list=PLJ2Aod97Uj8Lu1ILU_wX2ohlhfOp6UEBp",
+				"type": "video"},
+			{"name": "3.2) Equivariant message passing as non-linear convolution.",
+				"link": "https://youtu.be/o-KcYASwUco?list=PLJ2Aod97Uj8Lu1ILU_wX2ohlhfOp6UEBp",
+				"type": "video"},
+
+			{"name": "3.3) Tensor products as conditional linear layers.",
+				"link": "https://youtu.be/04hNKKyj_V4?list=PLJ2Aod97Uj8Lu1ILU_wX2ohlhfOp6UEBp",
+				"type": "video"},
+			{"name": "3.4) Group Theory (SO(3) irreps, Wigner-D, Clebsch-Gordan).<br></br>",
+				"link": "https://youtu.be/cB4zsnLnZfo?list=PLJ2Aod97Uj8Lu1ILU_wX2ohlhfOp6UEBp",
 				"type": "video"}
 		]
 	},
