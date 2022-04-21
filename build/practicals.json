@@ -122,7 +122,7 @@
 	},
 
 	{
-		"name": "Neural Network Dynamical Systems (Week: 3)",
+		"name": "Neural Network Dynamical Systems",
 		"desc": "The materials for this module will be added soon! <br></br> In this module we will study the interface and overlap between neural networks, dynamical systems, ordinary/partial/stochastic differential equations, and physics-based neural networks. We will study how and where dynamical systems be found in neural networks with implicit functions and neural ODEs. We will also see how neural networks can be used to model dynamical systems like Navier-Stokes with physics-informed neural networks, as well as with Fourier-inspired architectures and autoregressive neural networks.",
 		"documents": [
 
