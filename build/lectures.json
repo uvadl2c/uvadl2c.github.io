@@ -186,7 +186,7 @@
 		"name": "Module 4: Deep probabilistic models II (Week 2-3)",
 		"date": "<b>Wilker Aziz Ferreira</b>",
 		"credit": "2 pts",
-		"desc": "<b>Credits: 2pts</b> <br></br> 50% of the materials for this module are published <br></br> In this session you learn to model complex data along with unobserved discrete random variables. Examples you are probably already familiar with include mixture models, factor models, and HMMs. You will learn how to approximate intractable inference using stochastic variational methods and derive efficient gradient estimators for parameter estimation via backpropagation.",
+		"desc": "<b>Credits: 2pts</b> <br></br> In this session you learn to model complex data along with unobserved discrete random variables. Examples you are probably already familiar with include mixture models, factor models, and HMMs. You will learn how to approximate intractable inference using stochastic variational methods and derive efficient gradient estimators for parameter estimation via backpropagation.",
 		"documents": [
 
 			{"name": "Fundamentals of variational inference.",
@@ -200,7 +200,13 @@
 				"type": ""},
 			{"name": "Slides for Deep probabilistic models II",
 				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20I?preview=6488165",
-				"type": "pdf"}
+				"type": "pdf"},
+			{"name": "Lecture 2: Deep Continuous Latent Variable Models.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20II?preview=6565085",
+				"type": "video"},
+			{"name": "Lecture 2: Automatic Differentiation Variational Inference.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20II?preview=6565084",
+				"type": "video"}
 
 		],
 		"recordings": [
@@ -213,13 +219,8 @@
 				"type": "video"},
 			{"name": "Lecture 1: Deep probabilistic models II - Lecture 1.5.",
 				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/6000b98c8a1944c5979cc0ae11690bd61d",
-				"type": "video"},
-			{"name": "Lecture 2: Deep Continuous Latent Variable Models.",
-				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20II?preview=6565085",
-				"type": "video"},
-			{"name": "Lecture 2: Automatic Differentiation Variational Inference.",
-				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20II?preview=6565084",
 				"type": "video"}
+			
 		]
 	},
 
