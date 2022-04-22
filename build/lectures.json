@@ -68,7 +68,7 @@
 			{"name": "3.3) Tensor products as conditional linear layers.",
 				"link": "lectures/Geometric deep learning/Lecture_3_3.pdf",
 				"type": "pdf"},
-			{"name": "3.4) Group Theory (SO(3) irreps, Wigner-D, Clebsch-Gordan).<br></br>",
+			{"name": "3.4) Group Theory (SO(3) irreps, Wigner-D, Clebsch-Gordan).",
 				"link": "lectures/Geometric deep learning/Lecture_3_4.pdf",
 				"type": "pdf"}
 
@@ -129,7 +129,7 @@
 			{"name": "3.3) Tensor products as conditional linear layers.",
 				"link": "https://youtu.be/04hNKKyj_V4?list=PLJ2Aod97Uj8Lu1ILU_wX2ohlhfOp6UEBp",
 				"type": "video"},
-			{"name": "3.4) Group Theory (SO(3) irreps, Wigner-D, Clebsch-Gordan).<br></br>",
+			{"name": "3.4) Group Theory (SO(3) irreps, Wigner-D, Clebsch-Gordan).",
 				"link": "https://youtu.be/cB4zsnLnZfo?list=PLJ2Aod97Uj8Lu1ILU_wX2ohlhfOp6UEBp",
 				"type": "video"}
 		]
