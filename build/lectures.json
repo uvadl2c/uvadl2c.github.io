@@ -213,6 +213,12 @@
 				"type": "video"},
 			{"name": "Lecture 1: Deep probabilistic models II - Lecture 1.5.",
 				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/6000b98c8a1944c5979cc0ae11690bd61d",
+				"type": "video"},
+			{"name": "Lecture 2: Deep Continuous Latent Variable Models.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20II?preview=6565085",
+				"type": "video"},
+			{"name": "Lecture 2: Automatic Differentiation Variational Inference.",
+				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20II?preview=6565084",
 				"type": "video"}
 		]
 	},
