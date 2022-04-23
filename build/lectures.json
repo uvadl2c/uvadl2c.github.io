@@ -482,12 +482,12 @@
 		"name": "Module 12: Neural Information Retrieval (Week: 3)",
 		"date": "<b>Andrew Yates</b>",
 		"credit": "1 pts",
-		"desc": "<b> Credits: 1pts </b><br></br>Pretrained Transformers for Text Ranking: BERT and Beyond: https://arxiv.org/abs/2010.06467  <br></br>  Neural Information Retrieval is the application of deep learning models to ranking tasks, such as ranking documents by their relevance to a given query. After briefly introducing IR basics, this module will cover the three families of models commonly used for this task and their trade-offs.",
+		"desc": "<b> Credits: 1pts </b><br></br> Neural Information Retrieval is the application of deep learning models to ranking tasks, such as ranking documents by their relevance to a given query. After briefly introducing IR basics, this module will cover the three families of models commonly used for this task and their trade-offs.",
 		"documents": [
 
-			{"name": "",
-				"link": "",
-				"type": ""}
+			{"name": "Pretrained Transformers for Text Ranking: BERT and Beyond",
+				"link": "https://arxiv.org/abs/2010.06467",
+				"type": "pdf"}
 
 		],
 		"recordings": [
