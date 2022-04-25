@@ -239,11 +239,15 @@
 				"link": "https://canvas.uva.nl/courses/28689/pages/variance-reduction-proxy-gradients-and-mixed-random-variables?module_item_id=1243069",
 				"type": ""},
 			{"name": "Proxy gradients (e.g., continuous relaxations, sparse parameterisation of inference models).",
-				"link": "",
-				"type": ""}
+				"link": "https://canvas.uva.nl/courses/28689/pages/variance-reduction-proxy-gradients-and-mixed-random-variables",
+				"type": "link"}
 
 		],
 		"recordings": [
+
+			{"name": "Proxy gradients (e.g., continuous relaxations, sparse parameterisation of inference models).",
+				"link": "https://canvas.uva.nl/courses/28689/pages/variance-reduction-proxy-gradients-and-mixed-random-variables",
+				"type": "video"}
 		]
 	},
 
