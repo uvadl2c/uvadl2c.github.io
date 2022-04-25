@@ -19,7 +19,12 @@
 
 			{"name": "Equivariant graph tutorial (without solutions)",
 			"link": "https://colab.research.google.com/drive/1_INZ8cnQ1sotd8FEhD1-K4JIOYtMzJO7?usp=sharing",
-			"type": "link"}
+			"type": "link"},
+			
+			{"name": "Geometric Latent Spaces Tutorial",
+				"link": "https://colab.research.google.com/drive/1XB35GhYkbo_vjc6SnA8Usko0tdpzgSIa?usp=sharing",
+				"type": "link"}
+			
 
 		],
 		"recordings": [
