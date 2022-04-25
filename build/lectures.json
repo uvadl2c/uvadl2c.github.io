@@ -287,7 +287,7 @@
 			{"name": "Lecture large scale hyperparameter search (cluster based).",
 				"link": "lectures/High-performant DL/dl_course_hyperparam.pdf",
 				"type": "pdf"},
-			{"name": "Advanced topics in large models (that don’t fit single devices).",
+			{"name": "Advanced topics in large models (that don't fit single devices).",
 				"link": "",
 				"type": ""}
 
