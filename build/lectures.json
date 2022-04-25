@@ -462,6 +462,16 @@
 
 		],
 		"recordings": [
+
+			{"name": "Differential equations in neural networks part 1.",
+				"link": "https://www.youtube.com/watch?v=SfxXj5ABUPs&list=PLJ2Aod97Uj8K331mzvAFjwDhwaGH_pqfq&index=2",
+				"type": "video"},
+			{"name": "Differential equations in neural networks part 2.",
+				"link": "https://www.youtube.com/watch?v=T-EHdDjdW_4&list=PLJ2Aod97Uj8K331mzvAFjwDhwaGH_pqfq&index=1",
+				"type": "video"},
+			{"name": "Differential equations in neural networks part 3.",
+				"link": "https://www.youtube.com/watch?v=_ZGqNzj2zII&list=PLJ2Aod97Uj8K331mzvAFjwDhwaGH_pqfq&index=3",
+				"type": "video"}
 		]
 	},
 
