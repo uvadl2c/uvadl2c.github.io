@@ -70,6 +70,9 @@
 				"type": "pdf"},
 			{"name": "3.4) Group Theory (SO(3) irreps, Wigner-D, Clebsch-Gordan).",
 				"link": "lectures/Geometric deep learning/Lecture_3_4.pdf",
+				"type": "pdf"},
+			{"name": "3.5) 3D Steerable (graph) convolutions.",
+				"link": "lectures/Geometric deep learning/Lecture_3_5.pdf",
 				"type": "pdf"}
 
 
@@ -441,12 +444,21 @@
 		"desc": "<b>Credits: 1pts </b><br></br>  The materials for this module will be added soon! <br></br> In this module we will study the interface and overlap between neural networks, dynamical systems, ordinary/partial/stochastic differential equations, and physics-based neural networks. We will study how and where dynamical systems be found in neural networks with implicit functions and neural ODEs. We will also see how neural networks can be used to model dynamical systems like Navier-Stokes with physics-informed neural networks, as well as with Fourier-inspired architectures and autoregressive neural networks.",
 		"documents": [
 
-			{"name": "Dynamical systems in neural networks.",
-				"link": "",
-				"type": ""},
-			{"name": "Dynamical systems for neural networks.",
-				"link": "",
-				"type": ""}
+			{"name": "Dynamical systems in neural networks part 1.",
+				"link": "lectures/neural_network_dynamical/Differential equations in neural networks - part 1.pdf",
+				"type": "pdf"},
+			{"name": "Dynamical systems for neural networks part 2.",
+				"link": "lectures/neural_network_dynamical/Differential equations in neural networks - part 2.pdf",
+				"type": "pdf"},
+			{"name": "Dynamical systems for neural networks part 3.",
+				"link": "lectures/neural_network_dynamical/Differential equations in neural networks - part 3.pdf",
+				"type": "pdf"},
+			{"name": "Dynamical systems for neural networks part 4.",
+				"link": "lectures/neural_network_dynamical/Differential equations in neural networks - part 4.pdf",
+				"type": "pdf"},
+			{"name": "Dynamical systems for neural networks part 5.",
+				"link": "lectures/neural_network_dynamical/Differential equations in neural networks - part 5.pdf",
+				"type": "pdf"}
 
 		],
 		"recordings": [
