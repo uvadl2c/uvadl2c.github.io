@@ -73,8 +73,13 @@
 				"type": "pdf"},
 			{"name": "3.5) 3D Steerable (graph) convolutions.",
 				"link": "lectures/Geometric deep learning/Lecture_3_5.pdf",
+				"type": "pdf"},
+			{"name": "3.6) Regular (as opposed to steerable) equivariant graph NNs.",
+				"link": "lectures/Geometric deep learning/Lecture_3_6.pdf",
+				"type": "pdf"},
+			{"name": "3.7) Gauge equivariant graph NNs.",
+				"link": "lectures/Geometric deep learning/Lecture_3_7.pdf",
 				"type": "pdf"}
-
 
 		],
 		"recordings": [
