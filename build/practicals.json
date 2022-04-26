@@ -89,6 +89,19 @@
 		
 	},
 
+
+	{
+		"name": "Advanced approximate inference for discrete latent variable models",
+		"desc": " In this session you will learn about techniques to reduce variance in gradient estimation for models with discrete unobserved random variables. We will look into: control variates, Rao-Blackwellisation, continuous relaxations and proxy gradients, sparse projections and mixed random variables.",
+		"image": "...",
+		"image_desc": "....",
+		"documents": [
+		],
+		"recordings": [
+		]
+		
+	},
+
 	{
 		"name": " Causality and Deep Learning",
 		"desc": "This module will focus on the connections between causality and deep learning. We will start by introducing the basic concepts in causality (e.g. causal graphs, d-separations, interventions). Then we will focus on how can DL help causality, specifically for the task of causal discovery (learning the causal graph from data), which will be also the main topic of the tutorial. Finally we will discuss how can causality (or ideas from causality research) help DL and RL, focusing in particular on dealing with distribution shifts.",
