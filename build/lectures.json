@@ -273,12 +273,21 @@
 		"credit": "1 pts",
 		"desc": "<b>Credits: 1pts</b> <br></br> 100% of the materials is available! Note that the slides will be published soon! <br></br> This module will focus on the connections between causality and deep learning. We will start by introducing the basic concepts in causality (e.g. causal graphs, d-separations, interventions). Then we will focus on how can DL help causality, specifically for the task of causal discovery (learning the causal graph from data), which will be also the main topic of the tutorial. Finally we will discuss how can causality (or ideas from causality research) help DL and RL, focusing in particular on dealing with distribution shifts.",
 		"documents": [
-			{"name": "DL for causality (i.e. intro to causality, causal discovery, NOTEARS, DAG-GNN, etc).",
-				"link": "",
-				"type": ""},
-			{"name": "Causality for ML/DL (i.e. causality for transfer learning/domain adapatation/RL, causal representation learning).",
-				"link": "",
-				"type": ""}
+			{"name": "Introduction to causality.",
+				"link": "lectures/Causality and Deep Learning/1.1 Introduction to causality.pdf",
+				"type": "pdf"},
+			{"name": "Graphical models.",
+				"link": "lectures/Causality and Deep Learning/1.2 Graphical models.pdf",
+				"type": "pdf"},
+			{"name": "Causal graphs.",
+				"link": "lectures/Causality and Deep Learning/1.3 Causal graphs.pdf",
+				"type": "pdf"},
+			{"name": "Neural causal discovery.",
+				"link": "lectures/Causality and Deep Learning/2.2 Neural causal discovery.pdf",
+				"type": "pdf"},
+			{"name": "Causality inspired ML.",
+				"link": "lectures/Causality and Deep Learning/2.3 Causality inspired ML .pdf",
+				"type": "pdf"}
 		],
 		"recordings": [
 
