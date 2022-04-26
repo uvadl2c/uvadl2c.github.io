@@ -90,6 +90,18 @@
 	},
 
 	{
+		"name": " Causality and Deep Learning",
+		"desc": "This module will focus on the connections between causality and deep learning. We will start by introducing the basic concepts in causality (e.g. causal graphs, d-separations, interventions). Then we will focus on how can DL help causality, specifically for the task of causal discovery (learning the causal graph from data), which will be also the main topic of the tutorial. Finally we will discuss how can causality (or ideas from causality research) help DL and RL, focusing in particular on dealing with distribution shifts.",
+		"documents": [
+			{"name": "GES Algorithm for Causal Discovery.",
+				"link": "https://colab.research.google.com/drive/1Jr1GJx0fQE5TgBdRU5S98k5A2RkMMN2A#scrollTo=jAwrUk82K5i6",
+				"type": ""}
+		],
+		"recordings": [
+		]
+	},
+
+	{
 		"name": "High-performant Deep Learning",
 		"desc": "In the high performance module, we will investigate how to use scale up your deep learning performance. By the end of this course you will be able to run your projects on (super)computers with large efficiency and minimal human intervention. We will also discuss how to track the performance of your jobs and find possible bottlenecks. The topics include: <ul> <li> Multi-GPU training: understand how to effectively distribute models and data over any amount of GPUs </li> <li>  Large scale hyperparameter tuning: launch grid or automated Bayesian searches on any number of nodes with a 'flip of a switch', and follow the results live from your laptop.",
 		"image": "...",
