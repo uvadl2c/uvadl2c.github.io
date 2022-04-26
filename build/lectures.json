@@ -139,6 +139,15 @@
 				"type": "video"},
 			{"name": "3.4) Group Theory (SO(3) irreps, Wigner-D, Clebsch-Gordan).",
 				"link": "https://youtu.be/cB4zsnLnZfo?list=PLJ2Aod97Uj8Lu1ILU_wX2ohlhfOp6UEBp",
+				"type": "video"},
+			{"name": "3.5) Literature survey (3D Steerable graph NNs).",
+				"link": "https://www.youtube.com/watch?v=CIoXyqDfeok&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=19",
+				"type": "video"},
+			{"name": "3.6)Literature survey (Regular equivariant graph NNs).",
+				"link": "https://www.youtube.com/watch?v=PbLRvOri_KM&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=20",
+				"type": "video"},
+			{"name": "3.7) Gauge equivariant graph NNs.",
+				"link": "https://www.youtube.com/watch?v=NAeYGsz4kMA&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=21",
 				"type": "video"}
 		]
 	},
