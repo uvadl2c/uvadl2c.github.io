@@ -185,15 +185,15 @@
 		"desc": "<b>Credits: 1pts</b><br></br> Add your questions for the Q&A: https://www.dory.app/c/f97ceccf/a8a8baab_dl2---probdl1 <br></br> 100% of the materials for this module are published. <br></br>In this module you learn to view data as a byproduct of probabilistic experiments. You will parameterise joint probability distributions over observed random variables and perform parameter estimation by regularised gradient-based maximum likelihood estimation. <br></br> The Q&A session for this module will take place at 6th of April.",
 		"documents": [
 			{"name": "NN parameterisation of joint distributions over observed variables",
-				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20I?preview=6488166",
+				"link": "lectures/Deep probabilistic models I/probdl1.pdf",
 				"type": "pdf"}
 	],
 		"recordings": [
 			{"name": "Deep probabilistic models I - Lecture 1.1.",
-				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/57053ad80d2847888ef9aefcba2574a61d",
+				"link": "https://www.youtube.com/watch?v=UQGH6O0GaTc",
 				"type": "video"},
 			{"name": "Deep probabilistic models I - Lecture 1.2.",
-				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/a30fffc800524283809bd69b27a11a351d",
+				"link": "https://www.youtube.com/watch?v=U3PwqPczO_Y",
 				"type": "video"}
 		]
 	},
@@ -208,34 +208,40 @@
 
 			{"name": "Fundamentals of variational inference.",
 				"link": "https://canvas.uva.nl/courses/28689/pages/fundamentals-of-variational-inference?module_item_id=1243071",
-				"type": ""},
+				"type": "Canvas information"},
 			{	"name": "Variational inference for deep discrete latent variable models. Variational inference for deep discrete latent variable models.",
 				"link": "https://canvas.uva.nl/courses/28689/pages/variational-inference-for-deep-discrete-latent-variable-models?module_item_id=1243067",
-				"type": ""},
+				"type": "Canvas information"},
 			{"name": "Variational inference for deep continuous latent variable models (e.g., VAEs), reparameterised gradients beyond Gaussian (e.g., path derivatives, ADVI, implicit reparameterisation).",
 				"link": "https://canvas.uva.nl/courses/28689/pages/variational-inference-for-deep-continuous-latent-variable-models?module_item_id=1243068",
-				"type": ""},
+				"type": "Canvas information"},
 			{"name": "Slides for Deep probabilistic models II",
-				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20I?preview=6488165",
+				"link": "lectures/Deep probabilistic models II/probdl2a.pdf",
 				"type": "pdf"},
 			{"name": "Lecture 2: Deep Continuous Latent Variable Models.",
-				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20II?preview=6565085",
+				"link": "lectures/Deep probabilistic models II/probdl2b.pdf",
 				"type": "pdf"},
 			{"name": "Lecture 2: Automatic Differentiation Variational Inference.",
-				"link": "https://canvas.uva.nl/courses/28689/files/folder/lectures/Deep%20probabilistic%20models%20II?preview=6565084",
+				"link": "lectures/Deep probabilistic models II/probdl2b-appendix.pdf",
 				"type": "pdf"}
 
 		],
 		"recordings": [
 
-			{"name": "Lecture 1: Deep probabilistic models II - Lecture 1.3.",
-				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/aa13f3fd4c064f29b0fcb4e43c05c0cc1d",
+			{"name": "Lecture 1: Deep probabilistic models II - Lecture 1.1.",
+				"link": "https://www.youtube.com/watch?v=A9UMkFs6y_k",
 				"type": "video"},
-			{"name": "Lecture 1: Deep probabilistic models II - Lecture 1.4.",
-				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/1846886c57834477adc2eb403b64b3481d",
+			{"name": "Lecture 2: Deep probabilistic models II - Lecture 1.2.",
+				"link": "https://www.youtube.com/watch?v=zeV7-AXSf04",
 				"type": "video"},
-			{"name": "Lecture 1: Deep probabilistic models II - Lecture 1.5.",
-				"link": "https://webcolleges.uva.nl/Mediasite/MyMediasite/presentations/6000b98c8a1944c5979cc0ae11690bd61d",
+			{"name": "Lecture 3: Deep probabilistic models II - Lecture 1.3.",
+				"link": "https://www.youtube.com/watch?v=3oFwGlgTBz0",
+				"type": "video"},
+			{"name": "Lecture 4: Deep probabilistic models II - Lecture 1.4.",
+				"link": "https://www.youtube.com/watch?v=RmTpzLvHvS8",
+				"type": "video"},
+			{"name": "Lecture 5: Deep probabilistic models II - Lecture 1.5.",
+				"link": "https://www.youtube.com/watch?v=9J1xQ6uztjE",
 				"type": "video"}
 			
 		]
@@ -254,13 +260,16 @@
 				"type": ""},
 			{"name": "Proxy gradients (e.g., continuous relaxations, sparse parameterisation of inference models).",
 				"link": "https://canvas.uva.nl/courses/28689/pages/variance-reduction-proxy-gradients-and-mixed-random-variables",
-				"type": "link"}
+				"type": "link"},
+				{"name": "Slides: Proxy gradients (e.g., continuous relaxations, sparse parameterisation of inference models).",
+					"link": "lectures/Advanced approximate inference for discrete latent variable models/probdl3.pdf",
+					"type": "pdf"}
 
 		],
 		"recordings": [
 
 			{"name": "Module 5 record.",
-				"link": "https://surfdrive.surf.nl/files/index.php/s/1Bq2ImpGElGwePL#/files_mediaviewer/Module5.mp4",
+				"link": "https://www.youtube.com/watch?v=0zk0fwd6-8U",
 				"type": "video"}
 		]
 	},
