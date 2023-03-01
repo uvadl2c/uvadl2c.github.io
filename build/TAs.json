@@ -6,22 +6,11 @@
 	},
 
 	{
-		"name": "Ilze Amanda Auzina",
-		"website": "",
-		"mail": "i.a.auzina@uva.nl"
-	},
-
-	{
 		"name": "Miltos Kofinas",
 		"website": "",
 		"mail": "m.kofinas@uva.nl"
 	},
 
-	{
-		"name": "Haochen Wang",
-		"website": "",
-		"mail": "h.wang3@uva.nl"
-	},
 	{
 		"name": "Riccardo Valperga",
 		"website": "",
@@ -47,19 +36,6 @@
 		"mail": "d.m.knigge@uva.nl"
 	},
 
-
-	{
-		"name": "Gabriele Cesa",
-		"website": "",
-		"mail": "g.cesa@uva.nl"
-	},
-
-	{
-		"name": "Adeel Pervez",
-		"website": "",
-		"mail": "a.a.pervez@uva.nl"
-	},
-
 	{
 		"name": "Cyril Hsu",
 		"website": "",
@@ -73,43 +49,9 @@
 	},
 
 	{
-		"name": "Frederik Nolte",
-		"website": "",
-		"mail": "f.p.nolte@uva.nl"
-	},
-
-	{
-		"name": "Yongtuo Liu",
-		"website": "",
-		"mail": "y.liu6@uva.nl"
-	},
-	{
-		"name": "Thong Nguyen",
-		"website": "",
-		"mail": "t.nguyen2@uva.nl"
-	},
-
-	{
-		"name": "Evgenii Egorov",
-		"website": "",
-		"mail": "e.egorov@uva.nl"
-	},
-	{
-		"name": "Rob Hesselink",
-		"website": "",
-		"mail": "r.d.hesselink@uva.nl"
-	},
-	{
 		"name": "Putri Linden",
 		"website": "",
 		"mail": "p.a.vanderlinden@uva.nl"
-	},
-	{
-		"name": "Sharvaree Vadgama",
-		"website": "",
-		"mail": "sharvaree.vadgama@gmail.com"
 	}
-	
-
 
 ]
