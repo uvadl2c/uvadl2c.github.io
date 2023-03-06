@@ -1,534 +1,86 @@
 [
 	{
 		"type": "Lecture",
-		"name": "Module 1: Geometric Deep Learning (Week 2-4)",
+		"name": "Module 1: Group equivariant deep learning",
 		"date": "<b>Erik Bekkers </b>",
-		"credit": "2 pts",
-		"desc": "<b>Credits: 2pts</b> <br></br> 100% of the materials for this course are available. <br></br> This module covers the topic of geometric deep learning, touching upon all its five G's (Grids, Groups, Graphs, Geodesics, and Gauges) but with a strong focus on group equivariant deep learning. The impact that CNNs made in fields such as computer vision, computational chemistry and physics, can largely be attributed to the fact that convolutions allow for weight sharing, geometric stability, and a dramatic decrease in learnable parameters by leveraging symmetries in data and architecture design. These enabling properties arise from the equivariance property of convolutions. That is, if the input image is translated, the output of a convolution is translated accordingly, which in turn means that local information does not get lost in the neural network upon an input transformation (it is just shifted to a different location). With group equivariant deep learning we can hard-code stability and weight sharing over transformations beyond just translations. E.g., it allows for sharing of weights (representing complex patterns/representations) over poses and symmetries represented by transformations such as translation + rotation + scaling. This module is split into 4 lectures: <ul><li> <b>Lecture 1 (Wednesday 6th of April on-site Q&A)</b>: Regular group convolutional neural networks (G-CNNs). In this lecture we cover the basics of group convolutional NNs and show how to leverage symmetries in data and practical problems.</li>  <li> <b>Lecture 2 (Tuesday 12th of April on-site Q&A)</b>: Steerable G-CNNs. In this lecture we introduce a very general class of G-CNNs that allows to handle (rotational) symmetries in a flexible and powerful way. These methods are at the core of the most successful methods to handle 3D data such as atomic point clouds, but are also at the core of gauge equivariant methods that are applicable to arbitrary Riemannian manifolds (e.g. 2D shapes embedded in 3D space).</li> <li> <b>Lecture 3 (Tuesday 19th of April on-site Q&A)</b>: Equivariant graph NNs. Many problems in computational chemistry and computational physics are now-a-days solved via graph NNs. The SotA in these domains derive their effectives from the geometric structure and symmetries presented by the data and underlying physics. In this lecture we go over some of the state-of-the-art in geometric graph NNs, discussing several instances of the equivariant message passing paradigm. </li> <li> <b>Lecture 4 (Tuesday 26th of April on-site Q&A)</b>: Geometric latent space models. In this last lecture we take a step back from the group equivariance paradigm and look at what other types of geometric structure can be leveraged in neural networks. We will discuss some models that are based on non-Euclidean latent spaces and go over the required geometric tools to handle them.</li> </ul>",
+		"credit": "2 credits",
+		"desc": "<b>Credits: 2pts</b> <br></br> This module covers the topic of geometric deep learning, touching upon all its five G's (Grids, Groups, Graphs, Geodesics, and Gauges) but with a strong focus on group equivariant deep learning. The impact that CNNs made in fields such as computer vision, computational chemistry and physics, can largely be attributed to the fact that convolutions allow for weight sharing, geometric stability, and a dramatic decrease in learnable parameters by leveraging symmetries in data and architecture design. These enabling properties arise from the equivariance property of convolutions. That is, if the input image is translated, the output of a convolution is translated accordingly, which in turn means that local information does not get lost in the neural network upon an input transformation (it is just shifted to a different location). With group equivariant deep learning we can hard-code stability and weight sharing over transformations beyond just translations. E.g., it allows for sharing of weights (representing complex patterns/representations) over poses and symmetries represented by transformations such as translation + rotation + scaling. This module is split into 4 lectures: <ul><li> <b>Lecture 1 (Wednesday 6th of April on-site Q&A)</b>: Regular group convolutional neural networks (G-CNNs). In this lecture we cover the basics of group convolutional NNs and show how to leverage symmetries in data and practical problems.</li>  <li> <b>Lecture 2 (Tuesday 12th of April on-site Q&A)</b>: Steerable G-CNNs. In this lecture we introduce a very general class of G-CNNs that allows to handle (rotational) symmetries in a flexible and powerful way. These methods are at the core of the most successful methods to handle 3D data such as atomic point clouds, but are also at the core of gauge equivariant methods that are applicable to arbitrary Riemannian manifolds (e.g. 2D shapes embedded in 3D space).</li> <li> <b>Lecture 3 (Tuesday 19th of April on-site Q&A)</b>: Equivariant graph NNs. Many problems in computational chemistry and computational physics are now-a-days solved via graph NNs. The SotA in these domains derive their effectives from the geometric structure and symmetries presented by the data and underlying physics. In this lecture we go over some of the state-of-the-art in geometric graph NNs, discussing several instances of the equivariant message passing paradigm. </li> <li> <b>Lecture 4 (Tuesday 26th of April on-site Q&A)</b>: Geometric latent space models. In this last lecture we take a step back from the group equivariance paradigm and look at what other types of geometric structure can be leveraged in neural networks. We will discuss some models that are based on non-Euclidean latent spaces and go over the required geometric tools to handle them.</li> </ul>",
 		"documents": [
-
-			{"name": "Lecture 1: Group equivariant DL (regular g-convs).",
-				"live": "Tuesday 12th of April",
-				"link": "lectures/Geometric deep learning/Lecture_1_Complete.pdf",
-				"type": "pdf"},
-			{"name": "1.1) Introduction.",
-				"link": "lectures/Geometric deep learning/Lecture_1_1_Motivation.pdf",
-				"type": "pdf"},
-			{"name": "1.2) Group theory | The basics.",
-				"link": "lectures/Geometric deep learning/Lecture_1_2_GroupTheory.pdf",
-				"type": "pdf"},
-			{"name": "1.3) Regular group convolutions | Template matching viewpoint.",
-				"link": "lectures/Geometric deep learning/Lecture_1_3_RegularGroupConvolutions.pdf",
-				"type": "pdf"},
-			{"name": "1.4) Equivariant NN Example | With histopathology images.",
-				"link": "lectures/Geometric deep learning/Lecture_1_4_Example.pdf",
-				"type": "pdf"},
-			{"name": "1.5) A brief history of G-CNNs.",
-				"link": "lectures/Geometric deep learning/Lecture_1_5_History.pdf",
-				"type": "pdf"},
-			{"name": "1.6) Group Theory, Homogeneous/quotient spaces.",
-				"link": "lectures/Geometric deep learning/Lecture_1_6_GroupTheory.pdf",
-				"type": "pdf"},
-			{"name": "1.7) Group convolutions are all you need! <br></br>",
-				"link": "lectures/Geometric deep learning/Lecture_1_7_GConvsAreAllYouNeed.pdf",
-				"type": "pdf"},
-
-			{"name": "2.1) - Steerable kernels/basis functions.",
-				"link": "lectures/Geometric deep learning/Lecture_2_1.pdf",
-				"type": "pdf"},
-			{"name": "2.2) Revisiting regular G-convs with steerable kernels.",
-				"link": "lectures/Geometric deep learning/Lecture_2_2.pdf",
-				"type": "pdf"},
-			{"name": "2.3) Group Theory | Irreducible representations and Fourier transformation.",
-				"link": "lectures/Geometric deep learning/Lecture_2_3.pdf",
-				"type": "pdf"},
-			{"name": "2.4) Induced representations and feature fields",
-				"link": "lectures/Geometric deep learning/Lecture_2_4.pdf",
-				"type": "pdf"},
-			{"name": "2.5) Steerable group convolutions.",
-				"link": "lectures/Geometric deep learning/Lecture_2_5.pdf",
-				"type": "pdf"},
-			{"name": "2.6) Activation functions for steerable G-CNNs.",
-				"link": "lectures/Geometric deep learning/Lecture_2_6.pdf",
-				"type": "pdf"},
-			{"name": "2.7) Derivation of Harmonic nets from regular g-convs.",
-				"link": "lectures/Geometric deep learning/Lecture_2_7.pdf",
-				"type": "pdf"},
-			{"name": "2) Complete slides <br></br>",
-				"link": "lectures/Geometric deep learning/Lecture_2_Complete.pdf",
-				"type": "pdf"},
-
-			{"name": "3.1) Motivation for SE(3) equivariant graph NNs.",
-				"link": "lectures/Geometric deep learning/Lecture_3_1.pdf",
-				"type": "pdf"},
-			{"name": "3.2) Equivariant message passing as non-linear convolution.",
-				"link": "lectures/Geometric deep learning/Lecture_3_2.pdf",
-				"type": "pdf"},
-
-			{"name": "3.3) Tensor products as conditional linear layers.",
-				"link": "lectures/Geometric deep learning/Lecture_3_3.pdf",
-				"type": "pdf"},
-			{"name": "3.4) Group Theory (SO(3) irreps, Wigner-D, Clebsch-Gordan).",
-				"link": "lectures/Geometric deep learning/Lecture_3_4.pdf",
-				"type": "pdf"},
-			{"name": "3.5) 3D Steerable (graph) convolutions.",
-				"link": "lectures/Geometric deep learning/Lecture_3_5.pdf",
-				"type": "pdf"},
-			{"name": "3.6) Regular (as opposed to steerable) equivariant graph NNs.",
-				"link": "lectures/Geometric deep learning/Lecture_3_6.pdf",
-				"type": "pdf"},
-			{"name": "3.7) Gauge equivariant graph NNs.",
-				"link": "lectures/Geometric deep learning/Lecture_3_7.pdf",
-				"type": "pdf"}
 
 		],
 		"recordings": [
-			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.1: Introduction.",
-				"link": "https://www.youtube.com/watch?v=z2OEyUgSH2c&list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM&index=1",
-				"type": "video"},
-			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.2: Group theory (product, inverse, representations).",
-				"link": "https://youtu.be/F0OxOCZwm1Q?list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM",
-				"type": "video"},
-			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.3: Regular group convolutional neural networks.",
-				"link": "https://youtu.be/cWG_1IzI0uI?list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM",
-				"type": "video"},
-			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.4: Example.",
-				"link": "https://youtu.be/X3gP1voalDE?list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM",
-				"type": "video"},
-			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.5: A Brief History of G-CNNs.",
-				"link": "https://youtu.be/kTvow5-eCCQ?list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM",
-				"type": "video"},
-			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.6: Group theory (Homogeneous/quotient spaces).",
-				"link": "https://youtu.be/mntjPJYxwTI?list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM",
-				"type": "video"},
-			{"name": "Lecture 1: Group Equivariant Deep Learning - Lecture 1.7: Group convolutions are all you need <br></br>.",
-				"link": "https://youtu.be/erlCaoj6sTg?list=PLJ2Aod97Uj8IH7sT4NpM2MOpPeq0H2_lM",
-				"type": "video"},
 
-			{"name": "Lecture 2.1: Steerable kernels/basis functions.",
-				"link": "https://youtu.be/Lm5vZRtGysc?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd",
-				"type": "video"},
-			{"name": "Lecture 2.2: Revisiting Regular G-Convs with Steerable Kernels.",
-				"link": "https://youtu.be/OHFwsEglmrE?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd",
-				"type": "video"},
-			{"name": " Lecture 2.3: Group Theory (Irreducible representations, Fourier).",
-				"link": "https://youtu.be/qnqcLumE3vg?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd",
-				"type": "video"},
-			{"name": "Lecture 2.4: Group Theory (Induced representation, feature fields).",
-				"link": "https://youtu.be/lkXO0Zi65Uc?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd",
-				"type": "video"},
-			{"name": " Lecture 2.5: Steerable group convolutions.",
-				"link": "https://youtu.be/sDpdtKHgDbE?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd",
-				"type": "video"},
-			{"name": "Lecture 2.6: Activation Functions for Steerable G-CNNs.",
-				"link": "https://youtu.be/b8K6adf_zY0?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd",
-				"type": "video"},
-			{"name": "Lecture 2.7: Derivation of Harmonic Networks from Regular G-Convs <br></br>.",
-				"link": "https://youtu.be/EBzqL1OXigM?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd",
-				"type": "video"},
-
-			{"name": "3.1) Motivation for SE(3) equivariant graph NNs.",
-				"link": "https://youtu.be/kly4xvYbb8o?list=PLJ2Aod97Uj8Lu1ILU_wX2ohlhfOp6UEBp",
-				"type": "video"},
-			{"name": "3.2) Equivariant message passing as non-linear convolution.",
-				"link": "https://youtu.be/o-KcYASwUco?list=PLJ2Aod97Uj8Lu1ILU_wX2ohlhfOp6UEBp",
-				"type": "video"},
-
-			{"name": "3.3) Tensor products as conditional linear layers.",
-				"link": "https://youtu.be/04hNKKyj_V4?list=PLJ2Aod97Uj8Lu1ILU_wX2ohlhfOp6UEBp",
-				"type": "video"},
-			{"name": "3.4) Group Theory (SO(3) irreps, Wigner-D, Clebsch-Gordan).",
-				"link": "https://youtu.be/cB4zsnLnZfo?list=PLJ2Aod97Uj8Lu1ILU_wX2ohlhfOp6UEBp",
-				"type": "video"},
-			{"name": "3.5) Literature survey (3D Steerable graph NNs).",
-				"link": "https://www.youtube.com/watch?v=CIoXyqDfeok&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=19",
-				"type": "video"},
-			{"name": "3.6)Literature survey (Regular equivariant graph NNs).",
-				"link": "https://www.youtube.com/watch?v=PbLRvOri_KM&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=20",
-				"type": "video"},
-			{"name": "3.7) Gauge equivariant graph NNs.",
-				"link": "https://www.youtube.com/watch?v=NAeYGsz4kMA&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=21",
-				"type": "video"}
 		]
 	},
 
 	{
 		"type": "Lecture",
-		"name": "Module 2: Bayesian Deep Learning (Week 2)",
+		"name": "Module 2: Bayesian Deep Learning",
 		"date": "<b> Eric Nalisnick </b>",
-		"credit": "1 pts",
+		"credit": "1 credit",
 		"desc": "<b>Credits: 1pts </b><br></br> Usually we train neural networks (NNs) by way of point estimation.  After running gradient descent, each weight is represented by a particular value.  In this module, we consider giving NNs a Bayesian treatment.  We start by specifying a probability distribution for each weight---p(W)---and the goal of training is to obtain the posterior distribution p(W | D), where D denotes the training data, via Bayes rule.  The Bayesian approach provides natural mechanisms for model selection, complexity control, incorporating prior knowledge, uncertainty quantification, and online learning.  Yet, Bayesian inference is computationally demanding, and much of the module will focus on scalable methods for estimating the posterior distribution.",
 		"documents": [
-			{"name": "Slides for the module.",
-				"link": "lectures/Bayesian Deep Learning/DL2_BNN_module.pdf",
-				"type": ""}
+
 		],
 		"recordings": [
 
-			{"name": "Bayesian NNs: Motivation and Model Definition.",
-				"link": "https://youtu.be/ij2FVxLQuEI?list=PLJ2Aod97Uj8IQKziu0BK2s83cPN3_OHyr",
-				"type": "video"},
-			{"name": "Bayesian NNs: Priors.",
-				"link": "https://youtu.be/QMLf_McAKWY?list=PLJ2Aod97Uj8IQKziu0BK2s83cPN3_OHyr",
-				"type": "video"},
-			{"name": "Bayesian NNs: Posterior Inference.",
-				"link": "https://youtu.be/nm4kx21PuyI?list=PLJ2Aod97Uj8IQKziu0BK2s83cPN3_OHyr",
-				"type": "video"}
 		]
 	},
 
 	{
 		"type": "Lecture",
-		"name": "Module 3: Deep probabilistic models I (Week 1)",
+		"name": "Module 3: Deep probabilistic models I",
 		"date": "<b>Wilker Aziz Ferreira</b>",
-		"credit": "1 pts",
+		"credit": "1 credit",
 		"desc": "<b>Credits: 1pts</b><br></br> Add your questions for the Q&A: https://www.dory.app/c/f97ceccf/a8a8baab_dl2---probdl1 <br></br> 100% of the materials for this module are published. <br></br>In this module you learn to view data as a byproduct of probabilistic experiments. You will parameterise joint probability distributions over observed random variables and perform parameter estimation by regularised gradient-based maximum likelihood estimation. <br></br> The Q&A session for this module will take place at 6th of April.",
 		"documents": [
-			{"name": "NN parameterisation of joint distributions over observed variables",
-				"link": "lectures/Deep probabilistic models I/probdl1.pdf",
-				"type": "pdf"}
+
 	],
 		"recordings": [
-			{"name": "Deep probabilistic models I - Lecture 1.1.",
-				"link": "https://www.youtube.com/watch?v=UQGH6O0GaTc",
-				"type": "video"},
-			{"name": "Deep probabilistic models I - Lecture 1.2.",
-				"link": "https://www.youtube.com/watch?v=U3PwqPczO_Y",
-				"type": "video"}
-		]
-	},
 
-	{
-		"type": "Module",
-		"name": "Module 4: Deep probabilistic models II (Week 2-3)",
-		"date": "<b>Wilker Aziz Ferreira</b>",
-		"credit": "2 pts",
-		"desc": "<b>Credits: 2pts</b> <br></br> In this session you learn to model complex data along with unobserved discrete random variables. Examples you are probably already familiar with include mixture models, factor models, and HMMs. You will learn how to approximate intractable inference using stochastic variational methods and derive efficient gradient estimators for parameter estimation via backpropagation.",
-		"documents": [
-
-			{"name": "Fundamentals of variational inference.",
-				"link": "https://canvas.uva.nl/courses/28689/pages/fundamentals-of-variational-inference?module_item_id=1243071",
-				"type": "Canvas information"},
-			{	"name": "Variational inference for deep discrete latent variable models. Variational inference for deep discrete latent variable models.",
-				"link": "https://canvas.uva.nl/courses/28689/pages/variational-inference-for-deep-discrete-latent-variable-models?module_item_id=1243067",
-				"type": "Canvas information"},
-			{"name": "Variational inference for deep continuous latent variable models (e.g., VAEs), reparameterised gradients beyond Gaussian (e.g., path derivatives, ADVI, implicit reparameterisation).",
-				"link": "https://canvas.uva.nl/courses/28689/pages/variational-inference-for-deep-continuous-latent-variable-models?module_item_id=1243068",
-				"type": "Canvas information"},
-			{"name": "Slides for Deep probabilistic models II",
-				"link": "lectures/Deep probabilistic models II/probdl2a.pdf",
-				"type": "pdf"},
-			{"name": "Lecture 2: Deep Continuous Latent Variable Models.",
-				"link": "lectures/Deep probabilistic models II/probdl2b.pdf",
-				"type": "pdf"},
-			{"name": "Lecture 2: Automatic Differentiation Variational Inference.",
-				"link": "lectures/Deep probabilistic models II/probdl2b-appendix.pdf",
-				"type": "pdf"}
-
-		],
-		"recordings": [
-
-			{"name": "Lecture 1: Deep probabilistic models II - Lecture 1.1.",
-				"link": "https://www.youtube.com/watch?v=A9UMkFs6y_k",
-				"type": "video"},
-			{"name": "Lecture 2: Deep probabilistic models II - Lecture 1.2.",
-				"link": "https://www.youtube.com/watch?v=zeV7-AXSf04",
-				"type": "video"},
-			{"name": "Lecture 3: Deep probabilistic models II - Lecture 1.3.",
-				"link": "https://www.youtube.com/watch?v=3oFwGlgTBz0",
-				"type": "video"},
-			{"name": "Lecture 4: Deep probabilistic models II - Lecture 1.4.",
-				"link": "https://www.youtube.com/watch?v=RmTpzLvHvS8",
-				"type": "video"},
-			{"name": "Lecture 5: Deep probabilistic models II - Lecture 1.5.",
-				"link": "https://www.youtube.com/watch?v=9J1xQ6uztjE",
-				"type": "video"}
-			
-		]
-	},
-
-	{
-		"type": "Module",
-		"name": "Module 5: Advanced approximate inference for discrete latent variable models (Week 4)",
-		"date": "<b>Wilker Aziz Ferreira</b>",
-		"credit": "1 pts",
-		"desc": "<b>Credits: 1pts </b><br></br> In this session you will learn about techniques to reduce variance in gradient estimation for models with discrete unobserved random variables. We will look into: control variates, Rao-Blackwellisation, continuous relaxations and proxy gradients, sparse projections and mixed random variables.",
-		"documents": [
-
-			{"name": "Variance reduction (e.g., control variates, Rao-Blackwell).",
-				"link": "https://canvas.uva.nl/courses/28689/pages/variance-reduction-proxy-gradients-and-mixed-random-variables?module_item_id=1243069",
-				"type": ""},
-			{"name": "Proxy gradients (e.g., continuous relaxations, sparse parameterisation of inference models).",
-				"link": "https://canvas.uva.nl/courses/28689/pages/variance-reduction-proxy-gradients-and-mixed-random-variables",
-				"type": "link"},
-				{"name": "Slides: Proxy gradients (e.g., continuous relaxations, sparse parameterisation of inference models).",
-					"link": "lectures/Advanced approximate inference for discrete latent variable models/probdl3.pdf",
-					"type": "pdf"}
-
-		],
-		"recordings": [
-
-			{"name": "Module 5 record.",
-				"link": "https://www.youtube.com/watch?v=0zk0fwd6-8U",
-				"type": "video"}
 		]
 	},
 
 
 	{
 		"type": "Module",
-		"name": "Module 6: Causality and Deep Learning (Week 4)",
+		"name": "Module 4: Causality and causal representation learning",
 		"date": "<b>Sara Magliacane</b>",
-		"credit": "1 pts",
-		"desc": "<b>Credits: 1pts</b> <br></br> 100% of the materials is available! <br></br> This module will focus on the connections between causality and deep learning. We will start by introducing the basic concepts in causality (e.g. causal graphs, d-separations, interventions). Then we will focus on how can DL help causality, specifically for the task of causal discovery (learning the causal graph from data), which will be also the main topic of the tutorial. Finally we will discuss how can causality (or ideas from causality research) help DL and RL, focusing in particular on dealing with distribution shifts.",
+		"credit": "1 credit",
+		"desc": "<b>Credits: 1pts</b> <br></br> This module will focus on the connections between causality and deep learning. We will start by introducing the basic concepts in causality (e.g. causal graphs, d-separations, interventions). Then we will focus on how can DL help causality, specifically for the task of causal discovery (learning the causal graph from data), which will be also the main topic of the tutorial. Finally we will discuss how can causality (or ideas from causality research) help DL and RL, focusing in particular on dealing with distribution shifts.",
 		"documents": [
-			{"name": "Introduction to causality.",
-				"link": "lectures/Causality and Deep Learning/1.1 Introduction to causality.pdf",
-				"type": "pdf"},
-			{"name": "Graphical models.",
-				"link": "lectures/Causality and Deep Learning/1.2 Graphical models.pdf",
-				"type": "pdf"},
-			{"name": "Causal graphs.",
-				"link": "lectures/Causality and Deep Learning/1.3 Causal graphs.pdf",
-				"type": "pdf"},
-			{"name": "Neural causal discovery.",
-				"link": "lectures/Causality and Deep Learning/2.2 Neural causal discovery.pdf",
-				"type": "pdf"},
-			{"name": "Causality inspired ML.",
-				"link": "lectures/Causality and Deep Learning/2.3 Causality inspired ML .pdf",
-				"type": "pdf"}
-		],
-		"recordings": [
-
-			{"name": "Causality and Deep Learning (Week 4).",
-				"link": "https://video.uva.nl/playlist/details/0_ugmka7uv",
-				"type": "cideos"}
-		]
-	},
-
-	{
-		"type": "Module",
-		"name": "Module 7: High-performant Deep Learning (Week 2 & 4)",
-		"date": "<b>Eric Marcus</b>",
-		"credit": "2 pts",
-		"desc": "<b>Credits: 2pts</b> <br></br> In the high performance module, we will investigate how to use scale up your deep learning performance. By the end of this course you will be able to run your projects on (super)computers with large efficiency and minimal human intervention. We will also discuss how to track the performance of your jobs and find possible bottlenecks. The topics include: <ul> <li> Multi-GPU training: understand how to effectively distribute models and data over any amount of GPUs </li> <li>  Large scale hyperparameter tuning: launch grid or automated Bayesian searches on any number of nodes with a 'flip of a switch', and follow the results live from your laptop. </li> </ul>",
-		"documents": [
-
-			{"name": "Fast data loading.",
-				"link": "",
-				"type": ""},
-			{"name": "Lecture on multiGPU programming.",
-				"link": "lectures/High-performant DL/dl_course_multi_gpu.pdf",
-				"type": "pdf"},
-			{"name": "Lecture large scale hyperparameter search (cluster based).",
-				"link": "lectures/High-performant DL/dl_course_hyperparam.pdf",
-				"type": "pdf"},
-			{"name": "Advanced topics in large models (that don't fit single devices).",
-				"link": "",
-				"type": ""}
 
 		],
 		"recordings": [
 
-			{"name": "Module 8: Lecture on multi gpu.",
-				"link": "https://www.youtube.com/watch?v=fvucCkjqrR0",
-				"type": "video"},
-			{"name": "Lecture on hyperparameter.",
-				"link": "https://www.youtube.com/watch?v=tV4EFq5tY4g",
-				"type": "video"}
 		]
 	},
 
 
 	{
 		"type": "Module",
-		"name": "Module 9: Advanced Generative Models (Week 1-2)",
+		"name": "Module 5: Diffusion and Advanced Generative Models",
 		"date": "<b>Efstratios Gavves</b>",
-		"credit": "2 pts",
-		"desc": "<b>Credits: 2pts</b> <br></br> 100% of this module's materials are available. <br></br> In this module we will study generative models beyond variational autoencoders: normalizing flows, energy-based models like scored-matching neural networks and diffusion models, Hopfield networks, and so forth.",
-		"documents": [
-
-			{"name": "Variational autoencoders part 1",
-				"link": "lectures/Advanced Generative & Energy-based Models/Variational autoencoders/lecture 9.1.pdf",
-				"type": "pdf"},
-			{"name": "Variational autoencoders part 2",
-				"link": "lectures/Advanced Generative & Energy-based Models/Variational autoencoders/lecture 9.2.pdf",
-				"type": "pdf"},
-			{"name": "Variational autoencoders part 3",
-				"link": "lectures/Advanced Generative & Energy-based Models/Variational autoencoders/lecture 9.3.pdf",
-				"type": "pdf"},
-			{"name": "Variational autoencoders part 4<br></br>",
-				"link": "lectures/Advanced Generative & Energy-based Models/Variational autoencoders/lecture 9.4.pdf",
-				"type": "pdf"},
-
-
-			{"name": "Normalizing flows part 1.",
-				"link": "lectures/Advanced Generative & Energy-based Models/Normalizing flows and autoregressive models/lecture 11.1.pdf",
-				"type": "pdf"},
-			{"name": "Normalizing flows part 2.",
-				"link": "lectures/Advanced Generative & Energy-based Models/Normalizing flows and autoregressive models/lecture 11.2.pdf",
-				"type": "pdf"},
-			{"name": "Normalizing flows part 3.",
-				"link": "lectures/Advanced Generative & Energy-based Models/Normalizing flows and autoregressive models/lecture 11.3.pdf",
-				"type": "pdf"},
-			{"name": "Normalizing flows part 4.",
-				"link": "lectures/Advanced Generative & Energy-based Models/Normalizing flows and autoregressive models/lecture 11.4.pdf",
-				"type": "pdf"},
-			{"name": "Normalizing flows part 5.  <br></br>",
-				"link": "lectures/Advanced Generative & Energy-based Models/Normalizing flows and autoregressive models/lecture 11.5.pdf",
-				"type": "pdf"},
-
-
-			{"name": "Early energy-based models part 1.",
-				"link": "lectures/Advanced Generative & Energy-based Models/Early energy-based models/lecture 8.1.pdf",
-				"type": "pdf"},
-			{"name": "Early energy-based models part 2.",
-				"link": "lectures/Advanced Generative & Energy-based Models/Early energy-based models/lecture 8.2.pdf",
-				"type": "pdf"},
-			{"name": "Early energy-based models part 3.",
-				"link": "lectures/Advanced Generative & Energy-based Models/Early energy-based models/lecture 8.3.pdf",
-				"type": "pdf"},
-			{"name": "Early energy-based models part 4<br></br>.",
-				"link": "lectures/Advanced Generative & Energy-based Models/Early energy-based models/lecture 8.4.pdf",
-				"type": "pdf"},
-			
-
-			{"name": "Score-matching & Diffusion Generative Models.",
-				"link": "lectures/Advanced Generative & Energy-based Models/modern-based-models/lecture 4 - all slides.pdf",
-				"type": "pdf"},
-			{"name": "Score-matching & Diffusion Generative Models - Part 1.",
-				"link": "lectures/Advanced Generative & Energy-based Models/modern-based-models/lecture 4.1.pdf",
-				"type": "pdf"},
-			{"name": "Score-matching & Diffusion Generative Models - Part 2.",
-				"link": "lectures/Advanced Generative & Energy-based Models/modern-based-models/lecture 4.2.pdf",
-				"type": "pdf"},
-			{"name": "Score-matching & Diffusion Generative Models - Part 3.",
-				"link": "lectures/Advanced Generative & Energy-based Models/modern-based-models/lecture 4.3.pdf",
-				"type": "pdf"},
-			{"name": "Score-matching & Diffusion Generative Models - Part 4.<br></br>",
-				"link": "lectures/Advanced Generative & Energy-based Models/modern-based-models/lecture 4.4.pdf",
-				"type": "pdf"}
-
-		],
-		"recordings": [
-
-			{"name": "Variational autoencoders part 1.",
-				"link": "https://www.youtube.com/watch?v=zGOxAqGeI2A",
-				"type": "video"},
-			{"name": "Variational autoencoders part 2.",
-				"link": "https://www.youtube.com/watch?v=ooRFBU6pDxc",
-				"type": "video"},
-			{"name": "Variational autoencoders part 3.",
-				"link": "https://www.youtube.com/watch?v=LNE98QxUUUw",
-				"type": "video"},
-			{"name": "Variational autoencoders part 4.",
-				"link": "https://www.youtube.com/watch?v=EomjknJiHXE",
-				"type": "video"},
-			{"name": "Variational autoencoders part 5. <br></br>",
-				"link": "https://www.youtube.com/watch?v=mrxLlHs2el0",
-				"type": "video"},
-
-			{"name": "Normilizing flows Part 1",
-				"link": "https://www.youtube.com/watch?v=2z4IIbAlL00&t=16s",
-				"type": "video"},
-			{"name": "Normilizing flows Part 2.",
-				"link": "https://www.youtube.com/watch?v=HyqW9f9ylb4&t=11s",
-				"type": "video"},
-			{"name": "Normilizing flows Part 3.",
-				"link": "https://www.youtube.com/watch?v=5nu3bO04qVQ&t=2s",
-				"type": "video"},
-			{"name": "Normilizing flows Part 4.<br></br>",
-				"link": "https://www.youtube.com/watch?v=X10_deAcqDU&t=8s",
-				"type": "video"},
-		
-
-			{"name": "Early energy based models part 1.",
-				"link": "https://www.youtube.com/watch?v=M86f6E-IVlw",
-				"type": "video"},
-			{"name": "Early energy based models part 2.",
-				"link": "https://www.youtube.com/watch?v=EgMptg_HJn4",
-				"type": "video"},
-			{"name": "Early energy based models part 3.",
-				"link": "https://www.youtube.com/watch?v=a_pAaMXfphw",
-				"type": "video"},
-			{"name": "Early energy based models part 4.<br></br>",
-				"link": "https://www.youtube.com/watch?v=tzFcSeZo9J4",
-				"type": "video"},
-
-			{"name": "score matching and diffusion generative models part 1.",
-				"link": "https://www.youtube.com/watch?v=-xr1DFlqARI",
-				"type": "video"},
-			{"name": "score matching and diffusion generative models part 2.",
-				"link": "https://www.youtube.com/watch?v=yEC-lv1kjcE",
-				"type": "video"},
-			{"name": "score matching and diffusion generative models part 3.",
-				"link": "https://www.youtube.com/watch?v=kJ38rkVETu0",
-				"type": "video"},
-			{"name": "score matching and diffusion generative models part 4.",
-				"link": "https://www.youtube.com/watch?v=PiLN6ZBYreg",
-				"type": "video"}
-
-
-]
-	},
-
-	{
-		"type": "Module",
-		"name": "Module 10: Neural Network Dynamical Systems (Week: 3)",
-		"date": "<b>Efstratios Gavves</b>",
-		"credit": "1 pts",
+		"credit": "2 credit",
 		"desc": "<b>Credits: 1pts </b><br></br> In this module we will study the interface and overlap between neural networks, dynamical systems, ordinary/partial/stochastic differential equations, and physics-based neural networks. We will study how and where dynamical systems be found in neural networks with implicit functions and neural ODEs. We will also see how neural networks can be used to model dynamical systems like Navier-Stokes with physics-informed neural networks, as well as with Fourier-inspired architectures and autoregressive neural networks.",
 		"documents": [
 
-			{"name": "Dynamical systems in neural networks part 1.",
-				"link": "lectures/neural_network_dynamical/part1.pdf",
-				"type": "pdf"},
-			{"name": "Dynamical systems for neural networks part 2.",
-				"link": "lectures/neural_network_dynamical/part2.pdf",
-				"type": "pdf"},
-			{"name": "Dynamical systems for neural networks part 3.",
-				"link": "lectures/neural_network_dynamical/part3.pdf",
-				"type": "pdf"},
-			{"name": "Dynamical systems for neural networks part 4.",
-				"link": "lectures/neural_network_dynamical/part4.pdf",
-				"type": "pdf"},
-			{"name": "Dynamical systems for neural networks part 5.",
-				"link": "lectures/neural_network_dynamical/part5.pdf",
-				"type": "pdf"}
 
 		],
 		"recordings": [
 
-			{"name": "Differential equations in neural networks part 1.",
-				"link": "https://www.youtube.com/watch?v=SfxXj5ABUPs&list=PLJ2Aod97Uj8K331mzvAFjwDhwaGH_pqfq&index=2",
-				"type": "video"},
-			{"name": "Differential equations in neural networks part 2.",
-				"link": "https://www.youtube.com/watch?v=T-EHdDjdW_4&list=PLJ2Aod97Uj8K331mzvAFjwDhwaGH_pqfq&index=1",
-				"type": "video"},
-			{"name": "Differential equations in neural networks part 3.",
-				"link": "https://www.youtube.com/watch?v=_ZGqNzj2zII&list=PLJ2Aod97Uj8K331mzvAFjwDhwaGH_pqfq&index=3",
-				"type": "video"}
 		]
 	},
 
 
 	{
 		"type": "Module",
-		"name": "Module 11: Sampling & Gradient Approximations (Week: 3-4)",
+		"name": "Module 6: Neural Networks Dynamical Systems",
 		"date": "<b>Efstratios Gavves</b>",
-		"credit": "2 pts",
-		"desc": "<b>Credits: 2pts </b><br></br>  The materials for this module will be added soon! <br></br> In this module we will study how one can integrate complex structure into neural networks. We will start with a quick introduction to Monte-Carlo simulation for neural networks. We will discuss Gumbel-Softmax  for differentiable models and the Gumbel-Argmax trick for sampling from categorical distributions, as well as then the Gumbel-Straight-Through variation. We will continue with subset sampling with Gumbel-Topk relaxations, sampling graphs in latent spaces in relational inference with GNN encoder/decode, as well as asampling latent permutations with Gumbel-Sinkhorn. Last, we will discuss about how discrete and continuous sampling connects to analysis of functions from mathematics.",
+		"credit": "2 credits",
+		"desc": "<b>Credits: 2pts </b> <br></br> In this module we will study how one can integrate complex structure into neural networks. We will start with a quick introduction to Monte-Carlo simulation for neural networks. We will discuss Gumbel-Softmax  for differentiable models and the Gumbel-Argmax trick for sampling from categorical distributions, as well as then the Gumbel-Straight-Through variation. We will continue with subset sampling with Gumbel-Topk relaxations, sampling graphs in latent spaces in relational inference with GNN encoder/decode, as well as asampling latent permutations with Gumbel-Sinkhorn. Last, we will discuss about how discrete and continuous sampling connects to analysis of functions from mathematics.",
 		"documents": [
 
-			{"name": "Deep sampling, variance reduction.",
-				"link": "",
-				"type": ""},
-			{"name": "Gumbel, straight-through, Harmonic analysis.",
-				"link": "",
-				"type": ""},
-			{"name": "Sampling structures.",
-				"link": "",
-				"type": ""}
 
 		],
 		"recordings": [
@@ -537,25 +89,15 @@
 
 	{
 		"type": "Module",
-		"name": "Module 12: Neural Information Retrieval (Week: 3)",
-		"date": "<b>Andrew Yates</b>",
-		"credit": "1 pts",
-		"desc": "<b> Credits: 1pts </b><br></br> Neural Information Retrieval is the application of deep learning models to ranking tasks, such as ranking documents by their relevance to a given query. After briefly introducing IR basics, this module will cover the three families of models commonly used for this task and their trade-offs.",
+		"name": "Module 7: Self-supervised and Vision-Language Learning",
+		"date": "<b>Yuki Asano</b>",
+		"credit": "1 credit",
+		"desc": "<b> Credits: 1pts </b><br></br> Refresher on SSL principles and core techniques, deep dive into current directions (dense SSL, MAE), core works in combining vision and language under one umbrella.",
 		"documents": [
-
-			{"name": "Pretrained Transformers for Text Ranking: BERT and Beyond",
-				"link": "https://arxiv.org/abs/2010.06467",
-				"type": "pdf"}
 
 		],
 		"recordings": [
 
-			{"name": "Neural IR part 1.",
-				"link": " https://youtu.be/WAt0GxQDSkc",
-				"type": "video"},
-			{"name": "Neural IR part 2.",
-				"link": " https://www.youtube.com/watch?v=VzTzMYgpyVk",
-				"type": "video"}
 		]
 	}
 
