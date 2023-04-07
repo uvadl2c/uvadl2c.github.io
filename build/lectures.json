@@ -56,11 +56,18 @@
 		"credit": "2 credits",
 		"desc": "<b>Credits: 2pts</b> <br></br> This module covers the topic of causality and its connections to DL, including the emerging field of causal representation learning. In real-world settings, there are many issues that are often neglected in standard machine learning courses. In this module we will focus on the following two aspects: <br></br> (i) many tasks are inherently trying to answer causal questions and gather actionable insights, even when there is not enough data to draw causal conclusions; <br></br> (ii) the distribution of the data can shift across tasks and time. <br></br> We will focus on the first issue in the first two lectures, in which we will first introduce the basic concepts in causality (e.g. d-separation, causal graphs, interventions) and then focus on the task of causal discovery (i.e. learning causal relations from data), starting with classic approaches and then moving to neural causal discovery. We will then turn to the second issue and discuss how ideas from causality help DL and RL, allowing us to reason systematically about distribution shifts and nonstationarity. Finally, we will focus on learning causal representations from high-dimensional data, e.g. sequences of images, which will be intuitively more robust to changes in the environment. This will also be the topic of the tutorial, in which we will focus on an instance of causal representation learning method. To summarise the lectures will be split as follows: <br></br><ul><li>Lecture 1: Introduction to causality, Correlation vs causation, Simpson's paradox</li> <li>Lecture 2: Causal discovery: classic approaches and neural causal discovery</li> <li>Lecture 3: Causality-inspired ML: how can ideas from causality help ML?</li><li>Lecture 4: Causal representation learning: learning causal representations from high-dimensional data</li></ul>",
 		"documents": [
-
-		],
-		"recordings": [
-
-		]
+		
+			{"name": "First lecture",
+				 "link": "https://canvas.uva.nl/courses/36137/files/8505342?module_item_id=1623072",
+				 "type": "pdf"}
+				 
+			],
+			"recordings": [
+			{"name": "First lecture",
+				 "link": "https://canvas.uva.nl/courses/36137/modules/items/1623258",
+				 "type": "video"}
+	
+			]
 	},
 
 
