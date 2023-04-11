@@ -99,8 +99,12 @@
 				 
 			],
 			"recordings": [
-			{"name": "First lecture (TBA)",
-				 "link": "",
+			{"name": "First lecture (TBA) part A",
+				 "link": "https://youtu.be/KQ04vt7f9bw",
+				 "type": "video"},
+			
+				 {"name": "First lecture (TBA) part B",
+				 "link": "https://youtu.be/84ZDpAw6hr0",
 				 "type": "video"}
 	
 			]
