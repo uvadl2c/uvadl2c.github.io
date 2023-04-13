@@ -32,12 +32,15 @@
 				 "link": "lectures/Bayesian Deep Learning/DL2_BNN_module.pdf",
 				 "type": "pdf"},
 
-				 {"name": "Second lecture",
+				 {"name": "Second lecture on Bayesian Deep Learning and Uncertainty Quantification",
 				 "link": "lectures/Bayesian Deep Learning/DL2_BNN_module_part2.pdf",
 				 "type": "pdf"} 
 				 
 			],
 			"recordings": [
+				{"name": "First lecture on Bayesian Deep Learning and Uncertainty Quantification",
+				"link": "https://youtu.be/7iEmKqe7w3A",
+				"type": "video"},
 			{"name": "Second lecture on Bayesian Deep Learning and Uncertainty Quantification",
 				 "link": "https://youtu.be/CSbKS2OsDrQ",
 				 "type": "video"}
