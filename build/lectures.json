@@ -58,11 +58,19 @@
 		
 			{"name": "First lecture",
 				 "link": "https://probabll.github.io/slides/DL2/2023/probdl-1.pdf",
+				 "type": "pdf"},
+
+				 {"name": "Second lecture",
+				 "link": "https://probabll.github.io/slides/DL2/2023/probdl-2.pdf",
 				 "type": "pdf"}
 				 
 			],
 			"recordings": [
 			{"name": "First lecture",
+				 "link": "https://canvas.uva.nl/courses/36137/pages/deep-probabilistic-models?module_item_id=1621171",
+				 "type": "video"},
+
+				 {"name": "Second lecture",
 				 "link": "https://canvas.uva.nl/courses/36137/pages/deep-probabilistic-models?module_item_id=1621171",
 				 "type": "video"}
 	
