@@ -149,13 +149,13 @@
 		"documents": [
 		
 			{"name": "Self-supervised and Vision-Language Learning (First lecture)",
-				 "link": "lectures/SSL/first.pdf",
+				 "link": "lectures/SSL/lecture1.pdf",
 				 "type": "pdf"}
 				 
 			],
 			"recordings": [
 			{"name": "Self-supervised and Vision-Language Learning (First lecture)",
-				 "link": "https://youtu.be/JfSAwuP7ljY",
+				 "link": "https://www.youtube.com/watch?v=6P29b2UvVTg",
 				 "type": "video"}
 	
 			]
