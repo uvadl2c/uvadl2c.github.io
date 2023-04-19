@@ -9,12 +9,54 @@
 		
 			{"name": "First lecture (TBA)",
 				 "link": "https://uvagedl.github.io/lectures_pdf/Lecture_1_1_Motivation.pdf",
+				 "type": "pdf"},
+			{"name": "GDL - Lecture 2.1: Steerable kernels/basis functions",
+				 "link": "lectures/SSL/Lecture_2_1.pdf",
+				 "type": "pdf"},
+			{"name": "GDL - Lecture 2.2: Revisiting Regular G-Convs with Steerable Kernels",
+				 "link": "lectures/SSL/Lecture_2_2.pdf",
+				 "type": "pdf"},
+			{"name": "GDL - Lecture 2.3: Group Theory (Irreducible representations, Fourier)",
+				 "link": "lectures/SSL/Lecture_2_3.pdf",
+				 "type": "pdf"},
+			{"name": "GDL - Lecture 2.4: Group Theory (Induced representation, feature fields)",
+				 "link": "lectures/SSL/Lecture_2_4.pdf",
+				 "type": "pdf"},
+			{"name": "GDL - Lecture 2.5: Steerable group convolutions",
+				 "link": "lectures/SSL/Lecture_2_5.pdf",
+				 "type": "pdf"},
+			{"name": "GDL - Lecture 2.6: Activation Functions for Steerable G-CNNs",
+				 "link": "lectures/SSL/Lecture_2_6.pdf",
+				 "type": "pdf"},
+			{"name": "GDL - Lecture 2.7: Derivation of Harmonic Networks from Regular G-Convs",
+				 "link": "lectures/SSL/Lecture_2_7.pdf",
 				 "type": "pdf"}
 				 
 			],
 			"recordings": [
 			{"name": "First lecture",
 				 "link": "https://www.youtube.com/watch?v=4ejWLiX4sqo",
+				 "type": "video"},
+			{"name": "Lecture 2.1: Steerable kernels/basis functions",
+				 "link": "https://www.youtube.com/watch?v=Lm5vZRtGysc&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=8&t=1s&ab_channel=ErikBekkers",
+				 "type": "video"},
+			{"name": "Lecture 2.2: Revisiting Regular G-Convs with Steerable Kernels",
+				 "link": "https://www.youtube.com/watch?v=OHFwsEglmrE&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=9&ab_channel=ErikBekkers",
+				 "type": "video"},
+			{"name": "Lecture 2.3: Group Theory (Irreducible representations, Fourier)",
+				 "link": "https://www.youtube.com/watch?v=qnqcLumE3vg&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=10&ab_channel=ErikBekkers",
+				 "type": "video"},
+			{"name": "Lecture 2.4: Group Theory (Induced representation, feature fields)",
+				 "link": "https://www.youtube.com/watch?v=lkXO0Zi65Uc&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=11&ab_channel=ErikBekkers",
+				 "type": "video"},
+			{"name": "Lecture 2.5: Steerable group convolutions",
+				 "link": "https://www.youtube.com/watch?v=sDpdtKHgDbE&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=12&ab_channel=ErikBekkers",
+				 "type": "video"},
+			{"name": "Lecture 2.6: Activation Functions for Steerable G-CNNs",
+				 "link": "https://www.youtube.com/watch?v=b8K6adf_zY0&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=13&ab_channel=ErikBekkers",
+				 "type": "video"},
+			{"name": "Lecture 2.7: Derivation of Harmonic Networks from Regular G-Convs",
+				 "link": "https://www.youtube.com/watch?v=EBzqL1OXigM&list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd&index=14&ab_channel=ErikBekkers",
 				 "type": "video"}
 	
 			]
@@ -88,12 +130,18 @@
 		
 			{"name": "First lecture",
 				 "link": "https://canvas.uva.nl/courses/36137/files/8505342?module_item_id=1623072",
+				 "type": "pdf"},
+			{"name": "Second lecture",
+				 "link": "https://canvas.uva.nl/courses/36137/files/8505343?module_item_id=1623073",
 				 "type": "pdf"}
 				 
 			],
 			"recordings": [
 			{"name": "First lecture",
 				 "link": "https://canvas.uva.nl/courses/36137/modules/items/1623258",
+				 "type": "video"},
+				 {"name": "Second lecture",
+				 "link": "https://canvas.uva.nl/courses/36137/modules/items/1623260",
 				 "type": "video"}
 	
 			]
