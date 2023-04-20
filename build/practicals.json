@@ -6,12 +6,19 @@
 		
 			{"name": "GDL - Regular Group Convolutions",
 				 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/",
+				 "type": "ipynb"},
+			{"name": "GDL - Steerable CNNs",
+				 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Geometric_deep_learning/tutorial2_steerable_cnns.html",
 				 "type": "ipynb"}
+
 				 
 			],
 			"recordings": [
-			{"name": "SGDL - Regular Group Convolutions",
+			{"name": "GDL - Regular Group Convolutions",
 				 "link": "https://www.youtube.com/watch?v=7bZB4HtZlk4&t=2764s&ab_channel=DeepLearningII",
+				 "type": "video"},
+			{"name": "GDL - Steerable CNNs",
+				 "link": "https://amsuni-my.sharepoint.com/personal/g_cesa_uva_nl/_layouts/15/stream.aspx?id=%2Fpersonal%2Fg%5Fcesa%5Fuva%5Fnl%2FDocuments%2Fgdl%5Ftutorial2%2Emp4&ga=1",
 				 "type": "video"}
 	
 			]
