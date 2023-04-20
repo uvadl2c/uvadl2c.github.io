@@ -186,6 +186,14 @@
 			
 				 {"name": "First lecture part B",
 				 "link": "https://youtu.be/84ZDpAw6hr0",
+				 "type": "video"},
+			
+				 {"name": "Second lecture part A",
+				 "link": "https://youtu.be/c4Xg1IefKfs",
+				 "type": "video"},
+
+				 {"name": "Second lecture part B",
+				 "link": "https://youtu.be/n1RAlrChleI",
 				 "type": "video"}
 	
 			]
