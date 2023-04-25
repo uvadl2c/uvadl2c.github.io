@@ -34,12 +34,16 @@
 				 "type": "ipynb"},
 				 {"name": "Comparing to Non-Bayesian Methods for Uncertainty",
 				 "link": "https://colab.research.google.com/drive/1n2GAT_oE4kSi2BfJMTMG7yeLsHYoikmJ?usp=share_link",
+				 "type": "ipynb"},
+				 {"name": "Comparing to Non-Bayesian Methods for Uncertainty (solutions)",
+				 "link": "https://colab.research.google.com/drive/1Id9lq9FdMdXNDoxI2MyqjBsWNepG9EhG?usp=share_link",
 				 "type": "ipynb"}
+
 				 
 			],
 			"recordings": [
-			{"name": "TBA",
-				 "link": "...",
+			{"name": "Bayesian Deep Learning and Uncertainty Quantification second tutorial",
+				 "link": "https://youtu.be/HKy_mFhKl3g",
 				 "type": "video"}
 	
 			]
