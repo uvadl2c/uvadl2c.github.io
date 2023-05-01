@@ -65,11 +65,19 @@
 		"name": "Causality and causal representation learning",
 		"desc": "This module will focus on the connections between causality and deep learning. We will start by introducing the basic concepts in causality (e.g. causal graphs, d-separations, interventions). Then we will focus on how can DL help causality, specifically for the task of causal discovery (learning the causal graph from data), which will be also the main topic of the tutorial. Finally we will discuss how can causality (or ideas from causality research) help DL and RL, focusing in particular on dealing with distribution shifts.",
 		"documents": [
+		
+			{"name": " Causality and causal representation learning CITRIS",
+				 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Causality_and_CRL/citris-tutorial.html",
+				 "type": "ipynb"}
 
-		],
-		"recordings": [
-
-		]
+				 
+			],
+			"recordings": [
+			{"name": " Causality and causal representation learning - CITRIS",
+				 "link": "https://canvas.uva.nl/courses/36137/modules/items/1632935",
+				 "type": "video"}
+	
+			]
 	},
 
 
