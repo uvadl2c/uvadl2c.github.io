@@ -101,11 +101,19 @@
 		"name": "Self-supervised and Vision-Language Learning",
 		"desc": " Refresher on SSL principles and core techniques, deep dive into current directions (dense SSL, MAE), core works in combining vision and language under one umbrella.",
 		"documents": [
+		
+			{"name": "Self-supervised and Vision-Language Learning tutorial",
+				 "link": "https://colab.research.google.com/drive/1iU6q5eDsfTwaAO_ZwEID_ZHyEacv-SxE?usp=sharing",
+				 "type": "ipynb"}
 
-		],
-		"recordings": [
-
-		]
+				 
+			],
+			"recordings": [
+			{"name": "Self-supervised and Vision-Language Learning tutorial",
+				 "link": "https://youtu.be/KF0Yg3g4M6A",
+				 "type": "video"}
+	
+			]
 	}
 
 ]
