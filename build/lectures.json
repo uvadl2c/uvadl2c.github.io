@@ -227,7 +227,11 @@
 		
 			{"name": "Self-supervised and Vision-Language Learning (First lecture)",
 				 "link": "lectures/SSL/lecture1.pdf",
-				 "type": "pdf"}
+				 "type": "pdf"},
+			
+			{"name": "Self-supervised and Vision-Language Learning (Second lecture)",
+				"link": "lectures/SSL/lecture2.pdf",
+				"type": "pdf"}
 				 
 			],
 			"recordings": [
