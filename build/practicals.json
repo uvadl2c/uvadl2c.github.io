@@ -76,7 +76,7 @@
 				 
 			],
 			"recordings": [
-			{"name": " Causality and causal representation learning - CITRIS",
+			{"name": "Causality and causal representation learning - CITRIS",
 				 "link": "https://canvas.uva.nl/courses/36137/modules/items/1632935",
 				 "type": "video"}
 	
@@ -89,6 +89,9 @@
 		"desc": "In this module we will study how one can integrate complex structure into neural networks. We will start with a quick introduction to Monte-Carlo simulation for neural networks. We will discuss Gumbel-Softmax  for differentiable models and the Gumbel-Argmax trick for sampling from categorical distributions, as well as then the Gumbel-Straight-Through variation. We will continue with subset sampling with Gumbel-Topk relaxations, sampling graphs in latent spaces in relational inference with GNN encoder/decode, as well as asampling latent permutations with Gumbel-Sinkhorn. Last, we will discuss about how discrete and continuous sampling connects to analysis of functions from mathematics.",
 		"documents": [
 
+			{"name": "Deep Autoencoders",
+				 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial9/AE_CIFAR10.html",
+				 "type": "ipynb"}
 
 		],
 		"recordings": [
