@@ -223,7 +223,16 @@
 				 "type": "pdf"},
 			{"name": "Second-Third lecture",
 				 "link": "lectures/DAGM/dgm-lecture_2-3.pdf",
+				 "type": "pdf"},
+				 {"name": "Fourth lecture",
+				 "link": "lectures/DAGM/dgm_lecture_4.pdf",
+				 "type": "pdf"},
+				 {"name": "Fifth lecture",
+				 "link": "lectures/DAGM/ dgm_lecture_5.pdf",
 				 "type": "pdf"}
+
+
+				
 				 
 			],
 			"recordings": [
@@ -241,6 +250,31 @@
 
 				 {"name": "Second lecture part B",
 				 "link": "https://youtu.be/n1RAlrChleI",
+				 "type": "video"},
+
+
+				 {"name": "Third lecture part A",
+				 "link": "https://youtu.be/6asZ91NjICw",
+				 "type": "video"},
+
+				 {"name": "Third lecture part B",
+				 "link": "https://youtu.be/IzAzRp9wvpI",
+				 "type": "video"},
+
+				 {"name": "Fourth lecture part A",
+				 "link": "https://youtu.be/RatOLgUMuKw",
+				 "type": "video"},
+
+				 {"name": "Fourth lecture part B",
+				 "link": "https://youtu.be/n1RAlrChleI",
+				 "type": "video"},
+
+				 {"name": "Fifth lecture part A",
+				 "link": "https://youtu.be/5Bb-HMPLFkQ",
+				 "type": "video"},
+
+				 {"name": "Fifth lecture part B",
+				 "link": "https://youtu.be/om1L4iHUrYA",
 				 "type": "video"}
 	
 			]
