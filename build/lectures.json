@@ -224,11 +224,14 @@
 			{"name": "Second-Third lecture: Latent Variable Models",
 				 "link": "lectures/DAGM/dgm-lecture_2-3.pdf",
 				 "type": "pdf"},
-				 {"name": "Fourth lecture: Autoregressive and Flow-based Generative Models",
+			{"name": "Fourth lecture: Autoregressive and Flow-based Generative Models",
 				 "link": "lectures/DAGM/dgm_lecture_4.pdf",
 				 "type": "pdf"},
-				 {"name": "Fifth lecture: Energy-Based Models",
+			{"name": "Fifth lecture: Energy-Based Models",
 				 "link": "lectures/DAGM/dgm_lecture_5.pdf",
+				 "type": "pdf"},
+			{"name": "Sixth lecture: Score-Matching Models",
+				 "link": "lectures/DAGM/dgm_lecture_6.pdf",
 				 "type": "pdf"}
 
 
