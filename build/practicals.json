@@ -9,6 +9,10 @@
 				 "type": "ipynb"},
 			{"name": "GDL - Steerable CNNs",
 				 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Geometric_deep_learning/tutorial2_steerable_cnns.html",
+				 "type": "ipynb"},
+
+			{"name": "GDL - Equivariant Graph Neural Networks",
+				 "link": "https://colab.research.google.com/drive/1gJhyeQiK7dh2xN6gwVkpIhiTkBVwO9YV?usp=sharing",
 				 "type": "ipynb"}
 
 				 
