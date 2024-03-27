@@ -58,7 +58,7 @@ def build_practicals(index_file,
 
 	for index, practical in enumerate(practicals_dict):
 		practical_html = practical_template[:]
-		practical["name"] = "Module: " + practical["name"]
+		practical["name"] = "Topic: " + practical["name"]
 		#assert os.path.isfile("../" + practical["image"]), "Given image path \"%s\" does not point to an existing image." % practical["image"]
 		if len(practical['desc']) == 0:
 			practical['desc'] = 'Details will follows soon.'

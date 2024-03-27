@@ -4,57 +4,11 @@
 		"desc": "This module covers the topic of geometric deep learning, touching upon all its five G's (Grids, Groups, Graphs, Geodesics, and Gauges) but with a strong focus on group equivariant deep learning. The impact that CNNs made in fields such as computer vision, computational chemistry and physics, can largely be attributed to the fact that convolutions allow for weight sharing, geometric stability, and a dramatic decrease in learnable parameters by leveraging symmetries in data and architecture design. These enabling properties arise from the equivariance property of convolutions. In this module you will learn how to equip neural networks with equivariance properties.",
 		"documents": [
 		
-			{"name": "GDL - Regular Group Convolutions",
-				 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/",
-				 "type": "ipynb"},
-			{"name": "GDL - Steerable CNNs",
-				 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Geometric_deep_learning/tutorial2_steerable_cnns.html",
-				 "type": "ipynb"},
-
-			{"name": "GDL - Equivariant Graph Neural Networks",
-				 "link": "https://colab.research.google.com/drive/1gJhyeQiK7dh2xN6gwVkpIhiTkBVwO9YV?usp=sharing",
-				 "type": "ipynb"}
-
-				 
-			],
-			"recordings": [
-			{"name": "GDL - Regular Group Convolutions",
-				 "link": "https://www.youtube.com/watch?v=7bZB4HtZlk4&t=2764s&ab_channel=DeepLearningII",
-				 "type": "video"},
-			{"name": "GDL - Steerable CNNs",
-				 "link": "https://youtu.be/Nibsvf1BQsE",
-				 "type": "video"},
-			{"name": "GDL - Steerable CNNs",
-				 "link": "https://youtu.be/1WdiuM33AQw",
-				 "type": "video"}
+			
 	
 			]
 	},
 
-	{
-		"name": "Bayesian Deep Learning",
-		"desc": "Usually we train neural networks (NNs) by way of point estimation.  After running gradient descent, each weight is represented by a particular value.  In this module, we consider giving NNs a Bayesian treatment.  We start by specifying a probability distribution for each weight---p(W)---and the goal of training is to obtain the posterior distribution p(W | D), where D denotes the training data, via Bayes rule.  The Bayesian approach provides natural mechanisms for model selection, complexity control, incorporating prior knowledge, uncertainty quantification, and online learning.  Yet, Bayesian inference is computationally demanding, and much of the module will focus on scalable methods for estimating the posterior distribution.",
-		"documents": [
-		
-			{"name": "Bayesian Neural Networks with Pyro",
-				 "link": "lectures/Bayesian Deep Learning/dl2_bnn_tut1_students.ipynb",
-				 "type": "ipynb"},
-				 {"name": "Comparing to Non-Bayesian Methods for Uncertainty",
-				 "link": "https://colab.research.google.com/drive/1n2GAT_oE4kSi2BfJMTMG7yeLsHYoikmJ?usp=share_link",
-				 "type": "ipynb"},
-				 {"name": "Comparing to Non-Bayesian Methods for Uncertainty (solutions)",
-				 "link": "https://colab.research.google.com/drive/1Id9lq9FdMdXNDoxI2MyqjBsWNepG9EhG?usp=share_link",
-				 "type": "ipynb"}
-
-				 
-			],
-			"recordings": [
-			{"name": "Bayesian Deep Learning and Uncertainty Quantification second tutorial",
-				 "link": "https://youtu.be/HKy_mFhKl3g",
-				 "type": "video"}
-	
-			]
-	},
 
 	{
 		"name": "Deep probabilistic models",
@@ -67,43 +21,6 @@
 		]
 	},
 
-
-	{
-		"name": "Causality and causal representation learning",
-		"desc": "This module will focus on the connections between causality and deep learning. We will start by introducing the basic concepts in causality (e.g. causal graphs, d-separations, interventions). Then we will focus on how can DL help causality, specifically for the task of causal discovery (learning the causal graph from data), which will be also the main topic of the tutorial. Finally we will discuss how can causality (or ideas from causality research) help DL and RL, focusing in particular on dealing with distribution shifts.",
-		"documents": [
-		
-			{"name": " Causality and causal representation learning CITRIS",
-				 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/Causality_and_CRL/citris-tutorial.html",
-				 "type": "ipynb"}
-
-				 
-			],
-			"recordings": [
-			{"name": "Causality and causal representation learning - CITRIS",
-				 "link": "https://canvas.uva.nl/courses/36137/modules/items/1632935",
-				 "type": "video"}
-	
-			]
-	},
-
-
-	{
-		"name": "Deep Generative Models",
-		"desc": "In this module we will study how one can integrate complex structure into neural networks. We will start with a quick introduction to Monte-Carlo simulation for neural networks. We will discuss Gumbel-Softmax  for differentiable models and the Gumbel-Argmax trick for sampling from categorical distributions, as well as then the Gumbel-Straight-Through variation. We will continue with subset sampling with Gumbel-Topk relaxations, sampling graphs in latent spaces in relational inference with GNN encoder/decode, as well as asampling latent permutations with Gumbel-Sinkhorn. Last, we will discuss about how discrete and continuous sampling connects to analysis of functions from mathematics.",
-		"documents": [
-
-			{"name": "Deep Autoencoders",
-				 "link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial9/AE_CIFAR10.html",
-				 "type": "ipynb"}
-
-		],
-		"recordings": [
-
-		]
-	},
-
-
 	{
 		"name": "Neural Networks Dynamical Systems",
 		"desc": "In this module we will study the interface and overlap between neural networks, dynamical systems, ordinary/partial/stochastic differential equations, and physics-based neural networks. We will study how and where dynamical systems be found in neural networks with implicit functions and neural ODEs. We will also see how neural networks can be used to model dynamical systems like Navier-Stokes with physics-informed neural networks, as well as with Fourier-inspired architectures and autoregressive neural networks.",
@@ -113,25 +30,7 @@
 		],
 		"recordings": [
 		]
-	},
-
-	{
-		"name": "Self-supervised and Vision-Language Learning",
-		"desc": " Refresher on SSL principles and core techniques, deep dive into current directions (dense SSL, MAE), core works in combining vision and language under one umbrella.",
-		"documents": [
-		
-			{"name": "Self-supervised and Vision-Language Learning tutorial",
-				 "link": "https://colab.research.google.com/drive/1iU6q5eDsfTwaAO_ZwEID_ZHyEacv-SxE?usp=sharing",
-				 "type": "ipynb"}
-
-				 
-			],
-			"recordings": [
-			{"name": "Self-supervised and Vision-Language Learning tutorial",
-				 "link": "https://youtu.be/KF0Yg3g4M6A",
-				 "type": "video"}
-	
-			]
 	}
 
+	
 ]
