@@ -1,8 +1,48 @@
 [
 	{
-		"name": "Christos Athanasiadis",
+		"name": "Alejandro Garcia",
 		"website": "",
-		"mail": "c.athanasiadis@uva.nl"
+		"mail": "a.garciacastellanos@uva.nl"
+	},
+	{
+		"name": "Andrii Zadaianchuk",
+		"website": "",
+		"mail": "a.zadaianchuk@uva.nl"
+	},
+	{
+		"name": "Cong Liu",
+		"website": "",
+		"mail": "c.liu4@uva.nl"
+	},
+	{
+		"name": "Haochen Wang",
+		"website": "",
+		"mail": "h.wang3@uva.nl"
+	},
+	{
+		"name": "Max Zhdanov",
+		"website": "",
+		"mail": "m.zhdanov@uva.nl"
+	},
+	{
+		"name": "Metod Jazbec",
+		"website": "",
+		"mail": "m.jazbec@uva.nl"
+	},
+	{
+		"name": "Philipp Tremuel",
+		"website": "",
+		"mail": "p.g.tremuel@uva.nl"
+	},
+	{
+		"name": "Stefanos Achlatis",
+		"website": "",
+		"mail": "s.s.achlatis@uva.nl"
+	},
+	{
+		"name": "Yongtuo Liu",
+		"website": "",
+		"mail": "y.liu6@uva.nl"
 	}
 
 ]
